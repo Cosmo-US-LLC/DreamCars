@@ -62,7 +62,7 @@ export const getEth = async () => {
     const refCode = await icoContract.methods.refByAddr(address).call();
     console.log(refCode)
 
-    return String(refCode);
+    return Number(refCode);
   }
 
   

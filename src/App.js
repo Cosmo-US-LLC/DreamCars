@@ -41,6 +41,7 @@ function App() {
   const [provider, setProvider] = useState(null);
   const [walletAddress, setAddress] = useState("");
   const [refCode, setRefCode] = useState(0);
+  const [guestCode, setGuestCode] = useState(0)
 
 
  
@@ -111,7 +112,7 @@ function App() {
         value: "0x0", // For ERC-20 transfers, set value to 0
         gas: 250000,
         data: icoContract.methods
-          .buyTokenswithUSDT(amount, refCode)
+          .buyTokenswithUSDT(amount, guestCode)
           .encodeABI(),
       };
       //@ts-expect-error provider check
@@ -137,7 +138,7 @@ function App() {
         value: total, // For ERC-20 transfers, set value to 0
         gas: 250000,
         data: icoContract.methods
-          .buyTokens(refCode)
+          .buyTokens(guestCode)
           .encodeABI(),
       };
       //@ts-expect-error provider check
@@ -209,6 +210,8 @@ function App() {
         refCode={refCode}
         setRefCode={setRefCode}
         generateRefCode={generateRefCode}
+        guestCode={guestCode}
+        setGuestCode={setGuestCode}
         handelClick={handelClick}
       />
     </div>

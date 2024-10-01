@@ -13,7 +13,9 @@ const Layout = ({
   buyWithBNB,
   refCode,
   setRefCode,
-  generateRefCode
+  generateRefCode,
+  guestCode,
+  setGuestCode
 }) => {
   return (
     <>
@@ -38,6 +40,8 @@ const Layout = ({
             refCode={refCode}
             setRefCode={setRefCode}
             generateRefCode={generateRefCode}
+            guestCode={guestCode}
+            setGuestCode={setGuestCode}
             className=""
           />
         </div>

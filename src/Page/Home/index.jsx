@@ -52,7 +52,9 @@ const Home = ({
   buyWithBNB,
   refCode,
   setRefCode,
-  generateRefCode
+  generateRefCode,
+  guestCode,
+  setGuestCode
 }) => {
   return (
     <div className=" bg-[#111010]  overflow-hidden">
@@ -67,6 +69,8 @@ const Home = ({
           refCode={refCode}
           setRefCode={setRefCode}
           generateRefCode={generateRefCode}
+          guestCode={guestCode}
+          setGuestCode={setGuestCode}
         />
       </div>
       <div>

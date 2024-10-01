@@ -32,7 +32,7 @@ import {
 
 import { useTranslation } from 'react-i18next';
 
-const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWithUSDT, buyWithETH, buyWithBNB, refCode, setRefCode, generateRefCode}) => {
+const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWithUSDT, buyWithETH, buyWithBNB, refCode, setRefCode, generateRefCode, guestCode, setGuestCode}) => {
     const [isOPen, setIsOPen] = useState(false)
     const [isOPenSpin, setIsOPenSpin] = useState(false)
     const [pop2, setPop2] = useState(false);
@@ -356,7 +356,7 @@ const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWit
                                     {
                                         show &&
                                         <div className="flex ">
-                                            <input onChange={(e)=> {setRefCode(e.target.value)}} type="text" className="h-[40px] w-[100%] px-2 outline-none rounded-l "  placeholder="Bonus code" />
+                                            <input onChange={(e)=> {setGuestCode(e.target.value)}} type="text" className="h-[40px] w-[100%] px-2 outline-none rounded-l "  placeholder="Bonus code" />
                                             <button className="flex h-[40px] items-center text-white rounded-r space-y-3 px-5  border-l bg-black">
                                                 <p className="text-[12px] text-whites font-[700]">{t('ProductDetails.card-body-Bonus-code-apply')}</p>
                                             </button>
