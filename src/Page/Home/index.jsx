@@ -43,11 +43,31 @@ import DreamcarsbusinessSec from "./DreamcarsbusinessSec";
 import OwnershipSection from "./OwnershipSection";
 import WhatTheySaySec from "./WhatTheySaySec";
 
-const Home = () => {
+const Home = ({
+  connectWallet,
+  setAddress,
+  walletAddress,
+  buyWithUSDT,
+  buyWithETH,
+  buyWithBNB,
+  refCode,
+  setRefCode,
+  generateRefCode
+}) => {
   return (
     <div className=" bg-[#111010]  overflow-hidden">
       <div id="home" className="">
-        <ProductDetaliSection />
+        <ProductDetaliSection
+          connectWallet={connectWallet}
+          setAddress={setAddress}
+          walletAddress={walletAddress}
+          buyWithBNB={buyWithBNB}
+          buyWithETH={buyWithETH}
+          buyWithUSDT={buyWithUSDT}
+          refCode={refCode}
+          setRefCode={setRefCode}
+          generateRefCode={generateRefCode}
+        />
       </div>
       <div>
         <OwnShares />
@@ -103,17 +123,17 @@ const Home = () => {
       <div>
         <FeaturesSection />
       </div>
-          <div>
+      <div>
         <AboutSection />
       </div>
       <div>
         <DreamcarsFeaturesSec />
       </div>
-     
-         <div>
+
+      <div>
         <MostFunSection />
       </div>
-  
+
       <div>
         <OwnersSection />
       </div>
@@ -151,24 +171,24 @@ const Home = () => {
         <NftSection />
       </div> */}
       <div>
-         <Roadmap />
-        </div>
-        <div>
-         <AcquiredSection />
-        </div>
-        {/* <div>
+        <Roadmap />
+      </div>
+      <div>
+        <AcquiredSection />
+      </div>
+      {/* <div>
             <AmbassadorsSection />
           </div> */}
-          {/* <div>
+      {/* <div>
             <Media />
           </div> */}
-          <div>
-            <WhatTheySaySec />
-          </div>
-          <div className="">
-          <PoweredBy />
-          <FaqList />
-          </div>
+      <div>
+        <WhatTheySaySec />
+      </div>
+      <div className="">
+        <PoweredBy />
+        <FaqList />
+      </div>
     </div>
   );
 };

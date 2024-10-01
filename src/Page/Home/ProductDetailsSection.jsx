@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 
 import Iicon from "../../assects/images/i.png";
@@ -16,6 +16,8 @@ import que from "../../assects/svgs/questionIcon.svg"
 import refe from "../../assects/svgs/referralIcon.svg"
 import imgclose from "../../assects/images/close.png"
 
+import { getICOPrice, getEth, getBnb, getTotalAmountRaised, getParticipants, getRefCode} from "../utils/interact";
+
 
 import {
     FacebookShareButton,
@@ -30,13 +32,39 @@ import {
 
 import { useTranslation } from 'react-i18next';
 
-const ProductDetailsSection = () => {
+const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWithUSDT, buyWithETH, buyWithBNB, refCode, setRefCode, generateRefCode}) => {
     const [isOPen, setIsOPen] = useState(false)
     const [isOPenSpin, setIsOPenSpin] = useState(false)
     const [pop2, setPop2] = useState(false);
     const [pop1, setPop1] = useState(false);
     const [show, setShow] = useState(false);
     const { t } = useTranslation();
+
+    const [price, setPrice] = useState(0)
+    const [totalRaised, setTotalRaised] = useState(0)
+    const [participants, setParticipants] = useState(0);
+    const [currency, setCurrency] = useState('USDT')
+    const [amount, setAmount] = useState(0);
+    const [rate, setRate] = useState(0)
+
+    console.log(refCode)
+
+
+    useEffect(() => {
+
+        const setup = async () => {
+        setPrice(await getICOPrice());
+        setTotalRaised(await getTotalAmountRaised())
+        setParticipants(await getParticipants())
+        
+        
+        }
+    
+        setup();
+    
+      }, []);
+    
+   
 
 
 
@@ -58,6 +86,32 @@ const ProductDetailsSection = () => {
         setShow(!show)
     }
 
+    const getExchangeRate = async (amount) => {
+        if(currency == 'ETH'){
+            const ethprice = await getEth();
+            setAmount(amount)
+            setRate((amount * ethprice) / price )
+        } else if (currency == 'BNB'){
+            const bnbprice = await getBnb();
+            setAmount(amount)
+            setRate((amount * bnbprice) / price)
+        } else {
+            setAmount(amount)
+            setRate(amount / price)
+        }
+    }
+
+    const buy = async () => {
+        if(currency == 'ETH'){
+            buyWithETH(amount);
+        } else if (currency == 'BNB'){
+            buyWithBNB(amount)
+        } else if (currency == 'USDT'){
+            buyWithUSDT(amount)
+        }
+    }
+
+    
     return (
        <div id="hero" className="backgroundgr pt-[4rem] xs:pt-[4rem]">
          <div className=' space-y-4 py-[4rem] xs:py-[2.2rem] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[90%] max-w-[1276px] mx-auto ' >
@@ -93,17 +147,29 @@ const ProductDetailsSection = () => {
                                             </div>
                                             <div className="flex flex-col gap-[24px]">
                                                 <input
-                                                    type="email"
-                                                    name="email"
-                                                    id="email"
+                                                    type="text"
+                                                    name="referral"
+                                                    id="referral"
+                                                    value={refCode ? refCode : ""}
                                                     className="text-[#1c1d23] text-[18px] font-[500] h-[54px] rounded-[17px] border-[1px] border-solid border-[#443567] pl-[20px] pr-[10px] bg-[#fff] opacity-[0.35] focus:ring-blue-500 focus:border-blue-500 block w-full dark:placeholder-gray-400 outline-none"
                                                     required
                                                 />
 
 
+                                               {!refCode && (
                                                 <div className="text-center">
-                                                    <Button text={"Connect Wallet"} classes={"h-[50px] w-[200px] bgcolor text-[black] text-[18px] text-center font-[700] rounded-[30px]"} />
-                                                </div>
+                                                <Button onClick={(e)=> {
+                                                    e.preventDefault();
+                                                   if(!walletAddress){
+                                                    connectWallet()
+                                                   } else {
+                                                    generateRefCode();
+                                                   }
+                                                    
+                                                }} text={!walletAddress ? "Connect Wallet" : "Get Code"} classes={"h-[50px] w-[200px] bgcolor text-[black] text-[18px] text-center font-[700] rounded-[30px]"} />
+                                            </div>
+
+                                               )} 
                                                 <p className="text-[16px] text-white text-center font-[400] opacity-[0.9] ">
                                                     Share it directly on your social media!
                                                 </p>
@@ -181,9 +247,9 @@ const ProductDetailsSection = () => {
                         <div className='bgposter '>
 
                             <div className="bg-[#212121] max-w-[703px] rounded-t-[13px] px-8 xs:px-[15px]  sm:px-16 md:px-16 py-6 xs:pt-5 sm:pt-5 md:pt-8 ">
-                                <h3 className='2xl:text-[50px] xl:text-[44px] lg:text-[34px] md:text-[32px] sm:text-[36px] xs:text-[36px] font-[Poppins] font-[700] text-center text-[#fff]'>{t('ProductDetails.card-main-amount')}</h3>
+                                <h3 className='2xl:text-[50px] xl:text-[44px] lg:text-[34px] md:text-[32px] sm:text-[36px] xs:text-[36px] font-[Poppins] font-[700] text-center text-[#fff]'>${Number(totalRaised).toFixed(2)}</h3>
                                 <div className='flex items-center justify-between space-x-2 '>
-                                    <h5 className=' text-center font-[Lato] 2xl:text-[16px] xl:text-[14px] lg:text-[13px] md:text-[13px] sm:text-[13px] xs:text-[9px]  text-[#929292]'>{t('ProductDetails.card-goal-raised')}</h5>
+                                    <h5 className=' text-center font-[Lato] 2xl:text-[16px] xl:text-[14px] lg:text-[13px] md:text-[13px] sm:text-[13px] xs:text-[9px]  text-[#929292]'>{`${Number((totalRaised/3000000) * 100).toFixed(4) }%`} {t('ProductDetails.card-goal-raised')}</h5>
                                     <span className="relative">
                                         <button onMouseEnter={() => setPop1(true)} onMouseOut={() => setPop1(false)} type="button" className={`cursor-pointer `}>
                                             <img src={Iicon} alt="" style={{ marginBottom: "-8px", width: "20px" }} />
@@ -198,16 +264,16 @@ const ProductDetailsSection = () => {
                                 </div>
                                 <div>
                                     <div className="z-1 w-full bg-gray-200 rounded-full h-2.5 ">
-                                        <div className="bgcolor h-2.5 rounded-full w-[98%]" ></div>
+                                        <div style={{width: `${(totalRaised/3000000) * 100 }%`}} className={`bgcolor h-2.5 rounded-full`} ></div>
                                     </div>
                                     <p className='text-end text-[12px]  text-[#929292]'>{t('ProductDetails.card-small-amount')}</p>
                                 </div>
                                 <div>
-                                    <h5 className='font-[Lato] text-center text-[18px] xs:text-[18px] font-[500] text-white'>{t('ProductDetails.card-participants')}</h5>
+                                    <h5 className='font-[Lato] text-center text-[18px] xs:text-[18px] font-[500] text-white'>{participants} {t('ProductDetails.card-participants')}</h5>
                                     <div>
 
                                     </div>
-                                    <h5 className='font-[Lato] text-center text-[14px] xs:text-[14px]  font-[500] space-x-1 text-[#929292]'>{t('ProductDetails.card-listingPrice')}</h5>
+                                    <h5 className='font-[Lato] text-center text-[14px] xs:text-[14px]  font-[500] space-x-1 text-[#929292]'>{t('ProductDetails.card-listingPrice')} ${price}</h5>
 
 
                                 </div>
@@ -222,19 +288,19 @@ const ProductDetailsSection = () => {
                                         <hr className="text-white w-[20%]" />
                                     </div>
                                     <div className="2xl:flex justify-between xl:flex lg:flex md:flex flex sm:flex  2xl:space-y-2 xl:space-y-2 lg:space-y-2 md:space-y-2 sm:space-y-0 space-y-0 2xl:space-x-0 xl:space-x-0 lg:space-x-0 md:space-x-0 sm:space-x-0 space-x-1">
-                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] flex justify-center text-white xs:text-[14px] rounded-[14px] bg-[#ffffff17] space-y-3 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-10 px-0  xs:py-1  py-[10px] backdrop-blur">
+                                        <button onClick={()=> {connectWallet(true); setCurrency('ETH')}} className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] flex justify-center text-white xs:text-[14px] rounded-[14px] bg-[#ffffff17] space-y-3 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-10 px-0  xs:py-1  py-[10px] backdrop-blur">
                                             <div className="flex w-[60px]">
                                                 <img src={eth} className="h-[22px] mr-2" alt="" />
                                                 <span className="mt-0 contents font-[Lato] w-[30px] "> ETH</span>
                                             </div>
                                         </button>
-                                        <button className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-[14px] bg-[#ffffff17] space-y-3 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-10 px-0  xs:py-1 py-[10px] backdrop-blur">
+                                        <button onClick={()=> {setCurrency('USDT')}} className="flex items-center xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-[14px] bg-[#ffffff17] space-y-3 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-10 px-0  xs:py-1 py-[10px] backdrop-blur">
                                             <div className="flex w-[60px]">
                                                 <img src={USDT} className="h-[22px] xs:h-[20px] mr-2" alt="" />
                                                 <span className="mt-0 contents font-[Lato] w-[30px] "> USDT</span>
                                             </div>
                                         </button>
-                                        <button className="flex items-center  xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-[14px] bg-[#ffffff17] space-y-3 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-10 px-0  xs:py-1 py-[10px] backdrop-blur">
+                                        <button onClick={()=> {setCurrency('BNB')}} className="flex items-center  xs:h-[40px] sm:h-[40px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%]  flex justify-center text-white xs:text-[14px] rounded-[14px] bg-[#ffffff17] space-y-3 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-10 px-0  xs:py-1 py-[10px] backdrop-blur">
                                             <div className="flex w-[60px]">
                                                 <img src={BNB} className="h-[25px] mr-2" alt="" />
                                                 <span className="mt-0 contents font-[Lato] w-[30px] ">BNB</span>
@@ -246,10 +312,10 @@ const ProductDetailsSection = () => {
                                        
                                         <div className="flex">
                                             <div className="w-[70%]">
-                                            <label htmlFor="" className="text-[#D0D0D0] font-[Lato] xs:text-[9px]">{t('ProductDetails.card-body-amount-pay')}</label>
-                                            <input type="text" className="text-[#fff] text-[20px] bg-[transparent] font-[Lato] w-[100%] outline-none rounded-l " placeholder="100" />
+                                            <label htmlFor="" className="text-[#D0D0D0] font-[Lato] xs:text-[9px]">{currency}</label>
+                                            <input onChange={(e)=> {getExchangeRate(e.target.value)}} type="text" className="text-[#fff] text-[20px] bg-[transparent] font-[Lato] w-[100%] outline-none rounded-l " placeholder="0" />
                                             </div>
-                                            <button className="flex text-[#fff] text-[12px] font-[400] items-center justify-between p-[7px] !pr-[10px] w-[130px] h-[54px] border rounded-[40px] bg-[transparent]">
+                                            {/* <button className="flex text-[#fff] text-[12px] font-[400] items-center justify-between p-[7px] !pr-[10px] w-[130px] h-[54px] border rounded-[40px] bg-[transparent]">
                                                <div className="flex items-center space-x-[8px]">
                                                <img src={downeth} className="" alt="" />
                                                 <span className="leading-[100%] pt-1">
@@ -259,28 +325,38 @@ const ProductDetailsSection = () => {
                                                </div>
                                                 <img src={downarw} className="" alt="" />
 
-                                            </button>
+                                            </button> */}
                                         </div>
                                     </div>
                                     <div className="space-y-1 bg-[#ffffff17] backdrop-blur rounded-[5px] p-3">
                                         <div className="flex">
                                             <div className="w-[70%]">
                                         <label htmlFor="" className="text-[#D0D0D0] font-[Lato] xs:text-[9px]">{t('ProductDetails.card-body-amount-receive')} <span className="text-[#FFD02F] font-[800]">{t('ProductDetails.card-body-amount-receivespan')}</span></label>
-                                            <input type="text" className="text-[#fff] text-[20px] bg-[transparent] font-[Lato] w-[100%] outline-none rounded-l " placeholder="100" />
+                                            <input type="text" className="text-[#fff] text-[20px] bg-[transparent] font-[Lato] w-[100%] outline-none rounded-l " value={rate} placeholder="0" />
                                             </div>
-                                            <button className="flex text-[#fff] text-[12px] font-[400] items-center p-2 space-x-[8px] w-[130px] h-[54px]  border rounded-[40px] bg-[transparent]">
+                                            <button  onClick={buy} className="flex text-[#fff] text-[12px] font-[400] items-center p-2 space-x-[8px] w-[130px] h-[54px]  border rounded-[40px] bg-[transparent]">
                                                 <img src={Loinp} className=" w-[32px] xs:w-[35px] mr-2" alt="" />
                                                 $DCARS
                                             </button>
                                         </div>
                                     </div>
                                     <div className="w-[100%]">
-                                        <Button classes="bgcolor font-[600] font-[Lato] w-[100%] h-[54px] rounded-[5px] text-[18px]" text={`${t('ProductDetails.card-body-walletBtn')}`} />
+                                        <Button  onClick={(e)=> {
+                                            e.preventDefault();
+                                            if(walletAddress.length > 0){
+                                                setAddress("")
+                                            } else {
+                                                connectWallet();
+                                                console.log(walletAddress)
+                                            }
+                                        }}classes="bgcolor font-[600] font-[Lato] w-[100%] h-[54px] rounded-[5px] text-[18px]" text={ walletAddress.length > 0 ? 
+                                            `${walletAddress}`
+                                            : `${t('ProductDetails.card-body-walletBtn')}`} />
                                     </div>
                                     {
                                         show &&
                                         <div className="flex ">
-                                            <input type="text" className="h-[40px] w-[100%] px-2 outline-none rounded-l " placeholder="Bonus code" />
+                                            <input onChange={(e)=> {setRefCode(e.target.value)}} type="text" className="h-[40px] w-[100%] px-2 outline-none rounded-l "  placeholder="Bonus code" />
                                             <button className="flex h-[40px] items-center text-white rounded-r space-y-3 px-5  border-l bg-black">
                                                 <p className="text-[12px] text-whites font-[700]">{t('ProductDetails.card-body-Bonus-code-apply')}</p>
                                             </button>
