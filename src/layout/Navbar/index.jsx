@@ -28,7 +28,7 @@ import { useMoralis } from "react-moralis";
 import { useTranslation } from "react-i18next";
 import HoverDropDn from "../../components/HoverDropDn";
 
-const Navbar = ({ handelClick }) => {
+const Navbar = ({ handelClick, connectWallet, walletAddress, setAddress }) => {
   const [lang, setLang] = useState("Eng");
   const [selectedLang, setSelectedLang] = useState({
     img: fg13,
@@ -188,9 +188,21 @@ const Navbar = ({ handelClick }) => {
                   )}
                 </div>
               </li>
-              <button className="border border-[#fff] relative rounded-[30px] text-[#fff] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[10px] font-[700] rounded-full 2xl:pr-[50px] xl:pr-[50px] lg:pr-[50px] md:pr-[50px] sm:pr-[40px] pr-[40px] pl-[20px] w-[auto] xs:h-[31px] h-[40px]">
+              <button onClick={() => {
+                if(walletAddress.length > 0){
+                  setAddress("")
+                } else {
+                  connectWallet()
+                }
+              }} className="border border-[#fff] relative rounded-[30px] text-[#fff] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[10px] font-[700] rounded-full 2xl:pr-[50px] xl:pr-[50px] lg:pr-[50px] md:pr-[50px] sm:pr-[40px] pr-[40px] pl-[20px] w-[auto] xs:h-[31px] h-[40px]">
                 {" "}
-                {t("main.navBtn")}{" "}
+               {walletAddress.length > 0 ? (
+                <p> {String(walletAddress).substring(0, 6)}
+                 {"....."}
+                 {String(walletAddress).substring(39)}</p>
+               ) : (
+                <p>{t("main.navBtn")}{" "}</p>
+               )} 
                 <span className="absolute top-[0%] flex justify-center items-center right-[0%] w-[39px] xs:w-[30px] xs:h-[30px] inline-block h-[39px] bg-[#fff] rounded-[30px]">
                   <img src={walletblack} alt="" />
                 </span>{" "}
