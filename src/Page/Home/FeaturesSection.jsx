@@ -17,16 +17,15 @@ const FeaturesSection = () => {
 
   return (
     <div className="Featuresbggr">
-      <div className="w-[100%] max-w-[1250px] space-y-[3rem] py-[4rem] xs:py-[2rem] mx-auto ">
+      <div className="2xl:w-[100%] xl:w-[94%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] max-w-[1250px] 2xl:space-y-[3rem] xl:space-y-[3rem] lg:space-y-[3rem] md:space-y-[3rem] sm:space-y-[2rem] space-y-[2rem] pb-[75px] xs:py-[1rem] mx-auto ">
         <div className="text-center space-y-[20px] ">
-          <h3 className="text-[40px] xs:text-[24px] font-[700] leading-[130%] text-[#fff]">
-          {t("FeaturesSection.title")}
+          <h3 className="text-[40px] xs:text-[24px] font-[700] leading-[130%] text-[#fff]" dangerouslySetInnerHTML={{ __html: `${t("FeaturesSection.title")}` }}>
           </h3>
-          <p className="text-[18px] text-[#fff] max-w-[802px] mx-auto w-[100%]">
+          <p className="2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[16px] text-[#fff] max-w-[802px] mx-auto w-[100%]">
           {t("FeaturesSection.para")}
           </p>
         </div>
-        <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center 2xl:space-y-0 xl:space-y-0 lg:space-y-0  md:space-y-5 sm:space-y-5 space-y-5 justify-between gap-[25px] ">
+        <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center 2xl:space-y-0 xl:space-y-0 lg:space-y-0  md:space-y-5 sm:space-y-5 space-y-2 justify-between gap-[25px] ">
           <div className="min-h-[221px] max-w-[360px] h-[auto] w-[100%]">
             <div className=" rounded-[18px] max-w-[350px] w-[100%]">
               <div className="bgcardfet1 h-[221px] rounded-t-[18px]">
@@ -39,9 +38,9 @@ const FeaturesSection = () => {
                   </div>
                   <div>
                     <div className="bgprice px-[10px] py-[15px] max-w-[220px] w-[100%]">
-                      <h4 className="text-[16px] text-[#fff] font-[600] font-[Poppins]">
-                        $450 USD*
-                        <span className="text-[12px] font-[500]">
+                      <h4 className="text-[16px] text-[#fff] font-[600]">
+                      
+                        <span className="text-[16px] font-[500]">
                         {t("FeaturesSection.cardcarparaprice1")}
                         </span>
                       </h4>
@@ -56,7 +55,7 @@ const FeaturesSection = () => {
                     <div className="flex justify-center items-center">
                       <img className="h-[17px]" src={cardft3} alt="" />
                     </div>
-                    <p className="text-[12px] text-center font-[Poppins] text-[#2E71F1] font-[400]">
+                    <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
                       32%
                     </p>
                     <p className="text-[10px] font-[400]  text-center">
@@ -67,7 +66,7 @@ const FeaturesSection = () => {
                     <div className="flex justify-center items-center">
                       <img className="h-[17px]" src={cardft2} alt="" />
                     </div>
-                    <p className="text-[12px] text-center text-[#2E71F1] font-[Poppins] font-[400]">
+                    <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
                       5.20%
                     </p>
                     <p className="text-[10px] font-[400] text-center">
@@ -89,7 +88,7 @@ const FeaturesSection = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="text-[12px] font-[500]">{t("FeaturesSection.cardfull")}</p>
-                    <h5 className="text-[20px] font-[600] font-[Poppins]">$450,000</h5>
+                    <h5 className="text-[20px] font-[600]">$500,000</h5>
                   </div>
                   <div className="space-x-1">
                     <button className="hover:bg-[transparent] hover:border hover:border-[#FFD02F] hover:text-[black] border-[#FFD02F] border text-[14px] font-[500] px-[15px] py-[12px] bg-[#FFD02F] rounded-[10px]">
@@ -114,10 +113,8 @@ const FeaturesSection = () => {
                   </div>
                   <div>
                     <div className="bgprice px-[10px] py-[15px] max-w-[220px] w-[100%]">
-                      <h4 className="text-[16px] text-[#fff] font-[600] font-[Poppins]">
-                        $350 USD*{" "}
-                        <span className="text-[12px] font-[500]">
-                        {t("FeaturesSection.cardcarparaprice1")}
+                      <h4 className="text-[16px] text-[#fff] font-[600]">
+                        <span className="text-[16px] font-[500]">{t("FeaturesSection.cardcarparaprice2")}
                         </span>
                       </h4>
                     </div>
@@ -131,7 +128,7 @@ const FeaturesSection = () => {
                     <div className="flex justify-center items-center">
                       <img className="h-[17px]" src={cardft3} alt="" />
                     </div>
-                    <p className="text-[12px] text-center text-[#2E71F1] font-[Poppins] font-[400]">
+                    <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
                       32%
                     </p>
                     <p className="text-[10px] font-[400]  text-center">
@@ -142,7 +139,7 @@ const FeaturesSection = () => {
                     <div className="flex justify-center items-center">
                       <img className="h-[17px]" src={cardft2} alt="" />
                     </div>
-                    <p className="text-[12px] text-center font-[Poppins] text-[#2E71F1] font-[400]">
+                    <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
                       19%
                     </p>
                     <p className="text-[10px] font-[400] text-center">
@@ -164,7 +161,7 @@ const FeaturesSection = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="text-[12px] font-[500]">{t("FeaturesSection.cardfull")}</p>
-                    <h5 className="text-[20px] font-[600] font-[Poppins]">$370,000</h5>
+                    <h5 className="text-[20px] font-[600]">$260,000</h5>
                   </div>
                   <div className="space-x-1">
                     <button className="hover:bg-[transparent] hover:border hover:border-[#FFD02F] hover:text-[black] border-[#FFD02F] border text-[14px] font-[500] px-[15px] py-[12px] bg-[#FFD02F] rounded-[10px]">
@@ -189,10 +186,8 @@ const FeaturesSection = () => {
                   </div>
                   <div>
                     <div className="bgprice px-[10px] py-[15px] max-w-[220px] w-[100%]">
-                      <h4 className="text-[16px] text-[#fff] font-[600] font-[Poppins]">
-                        $290 USD*{" "}
-                        <span className="text-[12px] font-[500]">
-                        {t("FeaturesSection.cardcarparaprice1")}
+                      <h4 className="text-[16px] text-[#fff] font-[600]">
+                        <span className="text-[16px] font-[500]">{t("FeaturesSection.cardcarparaprice3")}
                         </span>
                       </h4>
                     </div>
@@ -206,7 +201,7 @@ const FeaturesSection = () => {
                     <div className="flex justify-center items-center">
                       <img className="h-[17px]" src={cardft3} alt="" />
                     </div>
-                    <p className="text-[12px] text-center text-[#2E71F1] font-[Poppins] font-[400]">
+                    <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
                       27%
                     </p>
                     <p className="text-[10px] font-[400]  text-center">
@@ -217,7 +212,7 @@ const FeaturesSection = () => {
                     <div className="flex justify-center items-center">
                       <img className="h-[17px]" src={cardft2} alt="" />
                     </div>
-                    <p className="text-[12px] text-center font-[Poppins] text-[#2E71F1] font-[400]">
+                    <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
                       3.80%
                     </p>
                     <p className="text-[10px] font-[400] text-center">
@@ -239,7 +234,7 @@ const FeaturesSection = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="text-[12px] font-[500]">{t("FeaturesSection.cardfull")}</p>
-                    <h5 className="text-[20px] font-[600] font-[Poppins]">$290,000</h5>
+                    <h5 className="text-[20px] font-[600]">$290,000</h5>
                   </div>
                   <div className="space-x-1">
                     <button className="hover:bg-[transparent] hover:border hover:border-[#FFD02F] hover:text-[black] border-[#FFD02F] border text-[14px] font-[500] px-[15px] py-[12px] bg-[#FFD02F] rounded-[10px]">
@@ -281,12 +276,11 @@ const FeaturesSection = () => {
               },
             }}
             pagination={true}
-            mousewheel={true}
             keyboard={true}
             spaceBetween={14}
-            className="mySwiper"
+            className="mySwiper xs:h-[500px]"
             navigation={true}
-            modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+            modules={[Navigation, Pagination, Keyboard]}
           >
             <SwiperSlide>
               <div className="min-h-[221px]  max-w-[360px] mx-auto h-[auto] w-[100%]">
@@ -302,9 +296,8 @@ const FeaturesSection = () => {
                       <div>
                         <div className="bgprice px-[10px] py-[15px] max-w-[220px] w-[100%]">
                           <h4 className="text-[16px] text-[#fff] font-[700]">
-                            $450 USD*{" "}
-                            <span className="text-[12px] font-[500]">
-                              starting price
+                            <span className="text-[16px] font-[500]">
+                            {t("FeaturesSection.cardcarparaprice1")}
                             </span>
                           </h4>
                         </div>
@@ -313,7 +306,7 @@ const FeaturesSection = () => {
                   </div>
                   <div className="py-4 space-y-[17px] rounded-b-[18px] px-3 bg-[#fff]">
                     <h3 className="text-[24px] font-[700]">
-                      Rolls Royce Wraith
+                    Rolls Royce Cullinan
                     </h3>
                     <div className="shadowcard bg-[#fff] flex px-3 py-3 rounded-[8px] justify-between">
                       <div className="space-y-[5px]">
@@ -353,7 +346,7 @@ const FeaturesSection = () => {
                     <div className="flex justify-between items-center">
                       <div>
                         <p className="text-[12px] font-[500]">Full Price</p>
-                        <h5 className="text-[20px] font-[700]">$450,000</h5>
+                        <h5 className="text-[20px] font-[700]">$500,000</h5>
                       </div>
                       <div className="space-x-1">
                         <button className="hover:bg-[transparent] hover:border hover:border-[#FFD02F] hover:text-[black] border-[#FFD02F] border text-[14px] font-[500] px-[15px] py-[12px] bg-[#FFD02F] rounded-[10px]">
@@ -381,9 +374,8 @@ const FeaturesSection = () => {
                       <div>
                         <div className="bgprice px-[10px] py-[15px] max-w-[220px] w-[100%]">
                           <h4 className="text-[16px] text-[#fff] font-[700]">
-                            $450 USD*{" "}
-                            <span className="text-[12px] font-[500]">
-                              starting price
+                            <span className="text-[16px] font-[500]">
+                            {t("FeaturesSection.cardcarparaprice2")}
                             </span>
                           </h4>
                         </div>
@@ -432,7 +424,7 @@ const FeaturesSection = () => {
                     <div className="flex justify-between items-center">
                       <div>
                         <p className="text-[12px] font-[500]">Full Price</p>
-                        <h5 className="text-[20px] font-[700]">$450,000</h5>
+                        <h5 className="text-[20px] font-[700]">$260,000</h5>
                       </div>
                       <div className="space-x-1">
                         <button className="hover:bg-[transparent] hover:border hover:border-[#FFD02F] hover:text-[black] border-[#FFD02F] border text-[14px] font-[500] px-[15px] py-[12px] bg-[#FFD02F] rounded-[10px]">
@@ -460,9 +452,8 @@ const FeaturesSection = () => {
                       <div>
                         <div className="bgprice px-[10px] py-[15px] max-w-[220px] w-[100%]">
                           <h4 className="text-[16px] text-[#fff] font-[700]">
-                            $450 USD*{" "}
                             <span className="text-[12px] font-[500]">
-                              starting price
+                            {t("FeaturesSection.cardcarparaprice3")}
                             </span>
                           </h4>
                         </div>
@@ -511,7 +502,7 @@ const FeaturesSection = () => {
                     <div className="flex justify-between items-center">
                       <div>
                         <p className="text-[12px] font-[500]">Full Price</p>
-                        <h5 className="text-[20px] font-[700]">$450,000</h5>
+                        <h5 className="text-[20px] font-[700]">$290,000</h5>
                       </div>
                       <div className="space-x-1">
                         <button className="hover:bg-[transparent] hover:border hover:border-[#FFD02F] hover:text-[black] border-[#FFD02F] border text-[14px] font-[500] px-[15px] py-[12px] bg-[#FFD02F] rounded-[10px]">
@@ -530,11 +521,11 @@ const FeaturesSection = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className="pt-[25px] xs:py-[25px] flex justify-center xs:pt-[0px]  ">
+        <div className="pt-[25px] 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block xs:!mt-[10px] xs:py-[0px] flex justify-center xs:pt-[0px] w-[100%] ">
           <Button
             link="#hero"
             text={`${t("BetaSection.btn")}`}
-            classes="font-[700] bgcolor flex justify-center items-center w-[169px] py-[12px] xs:text-[14px] rounded-[10px]"
+            classes="font-[700] bgcolor flex justify-center items-center max-w-[169px] xs:max-w-[358px] w-[100%] mx-auto py-[12px] xs:text-[14px] rounded-[10px]"
           />
         </div>
       </div>

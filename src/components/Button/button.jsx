@@ -4,8 +4,8 @@ import React from "react"
 
 const Button = ({ text, link, wallet, onClick,target, classes, imageClass, }) => {
     return (
-        <div className="" >
-            <a href={`${link}` } target={target}>
+        <div className="w-[100%]" >
+            <a href={`${link}` } target={target} className="w-[100%]">
             <button onClick={onClick} type="button" className={`flex justify-center items-center border border-[#FFD02F] hover:border hover:border-[#FFD02F] hover:text-[#fff] hover:bg-[transparent] ${classes}`}>
                 {wallet &&
                     <img className={imageClass} src={wallet} alt="" />

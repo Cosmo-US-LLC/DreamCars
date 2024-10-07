@@ -27,13 +27,13 @@ const HoverDropDn = ({onLanguageChange, locales }) => {
         onLanguageChange(locale); 
     };
     return (
-       <div className="p-8 xs:p-3 navpopbggr rounded-[20px]">
+       <div className="p-8 xs:p-3 navpopbggr rounded-[20px] !font-[Lato]">
          <div className="relative navpopbggr hovdrobr rounded-[20px] h-[500px] xs:h-[370px]  xs:overflow-scroll xs:py-3 pt-12 flex flex-col justify-between" >
             {/* <img className="xs:hidden w-[40px] absolute -top-[3.5%] right-[19%]" src={ret} alt="" /> */}
             <div className=" px-12 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-between ">
                 <div className="space-y-[35px]">
                     <div>
-                        <h3 className="text-[20px]  uppercase font-[700] text-[#fff]">{t('main.hoverDropDn-title1')}</h3>
+                        <h3 className="text-[20px] font-[Lato]  uppercase font-[700] text-[#fff]">{t('main.hoverDropDn-title1')}</h3>
                     </div>
                     <div className="flex space-x-4 items-center">
                         <img className="w-[42px] h-[42px]" src={HDicon} alt="" />

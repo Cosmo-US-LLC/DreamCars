@@ -58,20 +58,19 @@ const MustKnowSection = () => {
 
   return (
     <div className="Thingsbggr ">
-      <div className="2xl:w-[100%] xl:w-[94%] lg:w-[94%] md:w-[94%] sm:w-[94%] w-[94%] max-w-[1346px] ml-auto 2xl:mr-auto xl:mr-0 lg:mr-auto md:mr-auto sm:mr-auto mr-auto mt-0 mb-0 xs:mr-auto py-[4rem] xs:py-[2rem] space-y-[60px] xs:space-y-[15px]">
-        <div className="space-y-[6px] xs:space-y-4 ">
-          <h3 className="text-center  text-[46px] xs:text-[24px] font-[700] text-[white] ">
-          {t('MustKnowSection.title')}
+      <div className="2xl:w-[100%] 2xl:max-w-[1250px] xl:max-w-[1346px] lg:max-w-[1346px] md:max-w-[1346px] sm:max-w-[1346px] xl:w-[94%] lg:w-[94%] md:w-[90%] sm:w-[90%] w-[90%] max-w-[1346px] ml-auto 2xl:mr-auto xl:mr-0 lg:mr-auto md:mr-auto sm:mr-auto mr-auto mt-0 mb-0 xs:mr-auto py-[4rem] xs:py-[2rem] space-y-[60px] xs:space-y-[15px]">
+        <div className="space-y-[6px] xs:space-y-4 pr-[3rem] xs:pr-0">
+          <h3 className="text-center  text-[46px] xs:text-[24px] font-[700] text-[white] " dangerouslySetInnerHTML={{ __html: t('MustKnowSection.title') }}>
           </h3>
-          <p className="text-[22px] font-[400] text-[#fff] xs:text-[18px] text-center" dangerouslySetInnerHTML={{ __html: t('MustKnowSection.Para') }}>
+          <p className="text-[22px] font-[400] text-[#fff] leading-[130%] xs:text-[18px] text-center" dangerouslySetInnerHTML={{ __html: t('MustKnowSection.Para') }}>
           </p>
         </div>
-        <div className="flex xs:block justify-between relative xs:space-y-[30px]">
-          <div className="w-[53%] xs:hidden sm:hidden">
-            <div className="grid grid-cols-2 gap-[20px]">
+        <div className="2xl:flex xl:flex lg:flex md:flex sm:block block justify-between relative xs:space-y-[30px]">
+          <div className="2xl:w-[53%] xl:w-[53%] lg:w-[53%] md:w-[53%] sm:w-[100%] w-[100%]">
+            <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-[20px]">
               {muchKnoeData.map((item) => (
                 <>
-                  <div className="backdrop-blur-md border-t border-r rounded-[24px] bg-[#d1d5db1f] px-8 py-[14px] space-y-[7px] min-h-[181px]">
+                  <div className="backdrop-blur-md gradient-border-mask rounded-[34px] bg-[#d1d5db1f] px-8 py-[14px] space-y-[7px] min-h-[181px]">
                     <div className="flex space-x-2 items-center">
                       <img
                         className="w-[32px] h-[32px]"
@@ -90,7 +89,7 @@ const MustKnowSection = () => {
               ))}
             </div>
           </div>
-          <div className="2xl:hidden xl:hidden lg:hidden mdLhidden sm:block block">
+          {/* <div className="2xl:hidden xl:hidden lg:hidden mdLhidden sm:block block">
             <Swiper
               breakpoints={{
                 360: {
@@ -148,8 +147,8 @@ const MustKnowSection = () => {
              </div>
             
             </Swiper>
-          </div>
-          <div className="w-[44%] xs:w-[90%] mx-auto !mr-0 xs:!mr-auto">
+          </div> */}
+          <div className="w-[44%] xs:w-[90%] xs:hidden sm:hidden mx-auto !mr-0 xs:!mr-auto">
             <div className="mustimgbg relative w-[100%] py-6 min-h-[500px] xs:min-h-[300px] h-[100%] max-h-[680px] flex items-center">
               <div>
                 <div className="">
@@ -158,11 +157,11 @@ const MustKnowSection = () => {
                     src={youmust}
                     alt=""
                   />
-                  <div className="flex justify-center ">
+                  <div className="flex justify-center w-[100%] xs:pt-[15px]">
                     <Button
                       link="#hero"
                       text={`${t("BetaSection.btn")}`}
-                      classes="font-[700] bgcolor w-[519px] xs:w-[130px] xs:h-[34px] h-[50px] xs:text-[18px] rounded-[10px]"
+                      classes="font-[700] bgcolor max-w-[519px] mx-auto w-[100%] xs:h-[40px] h-[50px] xs:text-[18px] rounded-[10px]"
                     />
                   </div>
                 </div>

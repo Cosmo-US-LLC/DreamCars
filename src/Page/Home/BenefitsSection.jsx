@@ -82,7 +82,7 @@ const BenefitSection = () => {
                   />
                 </div>
                 <div className="space-y-[15px] ">
-                  <h3 className=" font-[700] 2xl:text-[28px]  xl:text-[28px] lg:text-[28px] md:text-[28px] sm:text-[28px] text-[24px]  ">
+                  <h3 className=" font-[700] 2xl:text-[28px]  xl:text-[28px] lg:text-[28px] md:text-[28px] sm:text-[28px] text-[24px] tracking-[-0.5px] ">
                     {t(item.titlekey)}
                   </h3>
                   <p

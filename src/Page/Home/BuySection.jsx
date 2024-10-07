@@ -1,15 +1,15 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import Buyimg from "../../assects/images/buysec.png";
-import Buyimgmob from "../../assects/images/buymobimg.png";
+import Buyimg from "../../assects/images/buysec.webp";
+import Buyimgmob from "../../assects/images/buymobimg.webp";
 
 const BuySection = () => {
   const { t } = useTranslation();
 
   return (
     <div className="howbuygrbg">
-      <div className="max-w-[1255px] 2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] mx-auto space-y-[2rem] xs:space-y-[1rem] py-[4rem] xs:py-[2rem] xs:py-[2rem] mx-auto">
+      <div className="max-w-[1255px] 2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] mx-auto space-y-[2rem] xs:space-y-[1rem] pt-[3rem] pb-[65px] xs:py-[2rem] xs:py-[2rem] mx-auto">
         {/* <p style={{ top: "-100px", position: "relative" }} id="howItWork"></p> */}
         <h2 className="text-[46px] xs:text-[24px]   text-center font-[700] text-[#fff]  leading-[40px]">
           {t("BuySection.title")}
@@ -35,7 +35,7 @@ const BuySection = () => {
           </div>
           <div className="xs:pt-[35px]">
             <div className="2xl:flex xl:flex lg:flex md:flex  sm:block block 2xl:space-y-0 xl:space-y-0 lg:space-y-0 md:space-y-0 sm:space-y-0 space-y-5 justify-between mx-auto">
-              <div className="backdrop-blur-md bg-[#dcdcdc0f] border-r border-t space-y-[20px] rounded-[19px] xs:py-6  py-[43px] 2xl:space-y-1 xs:space-y-2 px-[40px] ">
+              <div className="backdrop-blur-md bg-[#dcdcdc0f] gradient-border-mask rounded-[34px] space-y-[20px] xs:py-6  py-[43px] xs:space-y-2 px-[40px] ">
                 <h3 className="uppercase text-[#fff] text-[18px] xs:text-[18px]  font-[700] leading-[18px]  ">
                   {t("BuySection.cardTitle1")}
                 </h3>
@@ -46,12 +46,12 @@ const BuySection = () => {
                   {t("BuySection.cardPara1")}
                 </p>
               </div>
-              <div className="backdrop-blur-md bg-[#dcdcdc0f] border-r border-t space-y-[20px] rounded-[19px] xs:py-6  py-[43px] 2xl:space-y-1 px-[40px] xs:space-y-2 ">
+              <div className="backdrop-blur-md bg-[#dcdcdc0f] gradient-border-mask rounded-[34px] space-y-[20px] xs:py-6  py-[43px] px-[40px] xs:space-y-2 ">
                 <h3 className="uppercase text-[#fff] text-[18px] xs:text-[18px]  font-[700] leading-[18px]  ">
                   {t("BuySection.cardTitle2")}
                 </h3>
 
-                <h4 className="text-[21px] xs:text-[24px]  font-[700]  text-[#EDC22C]  leading-[29px] ">
+                <h4 className="text-[26px] xs:text-[24px]  font-[700]  text-[#EDC22C]  leading-[29px] ">
                   {t("BuySection.cardSubtitle2")}
                 </h4>
                
@@ -59,7 +59,7 @@ const BuySection = () => {
                   {t("BuySection.cardPara2")}
                 </p>
               </div>
-              <div className="backdrop-blur-md bg-[#dcdcdc0f] border-r border-t space-y-[20px] rounded-[19px] xs:py-6  py-[43px] 2xl:space-y-1 px-[40px] xs:space-y-2 ">
+              <div className="backdrop-blur-md bg-[#dcdcdc0f] gradient-border-mask rounded-[34px] space-y-[20px] xs:py-6  py-[43px] px-[40px] xs:space-y-2 ">
                 <h3 className="uppercase text-[#fff] text-[18px] xs:text-[18px]  font-[700] leading-[18px]  ">
                   {t("BuySection.cardTitle3")}
                 </h3>

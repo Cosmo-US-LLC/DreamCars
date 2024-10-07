@@ -8,10 +8,10 @@ import { ToastContainer, toast } from "react-toastify";
 import Tick1 from "../../assects/images/tick1 (1).png";
 import cross from "../../assects/images/xcs.svg";
 import Crown from "../../assects/images/rng (5).png";
-import R1 from "../../assects/images/rng (2).png";
+import R1 from "../../assects/images/rng (2).webp";
 import R2 from "../../assects/images/rng (3).png";
 import R3 from "../../assects/images/rng (1).png";
-import R4 from "../../assects/images/rng (4).png";
+import R4 from "../../assects/images/rng (4).webp";
 
 import RewardCard from "./RewardsCard";
 
@@ -50,39 +50,47 @@ const RewardSection = () => {
           id: 1,
           icon: Tick1,
           text: "RewardSection.packageText11",
+          info: "RewardSection.packageinfo11",
+          infotitle: "RewardSection.packageinfotitle11",
+
         },
         {
           id: 2,
           icon: Tick1,
           text: "RewardSection.packageText12",
+          infotitle: "RewardSection.packageinfotitle12",
+          info: "RewardSection.packageinfo12",
+
         },
         {
           id: 3,
           icon: Tick1,
           text: "RewardSection.packageText13",
-          message:
-            "You will earn additional Daily Staking Rewards. For example, with the Gold Membership NFT, you’ll receive an additional 5% on the current daily staking rewards rate. So, if the daily rate is hypothetically 1%, you would get 1.05% staking rewards based on the total SCORP tokens you purchased.",
+          infotitle: "RewardSection.packageinfotitle13",
+          info: "RewardSection.packageinfo13",
+         
         },
         {
           id: 4,
           icon: cross,
+          infotitle: "RewardSection.packageinfotitle14",
           text: "RewardSection.packageText14",
-          message:
-            "You can withdraw a portion of your SCORP staking rewards in USDT. For example, with Gold Membership, you can get 10% of your total staking rewards paid out in USDT.",
+          info: "RewardSection.packageinfo14",
+
         },
         {
           id: 5,
           icon: cross,
           text: "RewardSection.packageText15",
-          message:
-            "You will have priority access to E-Mail and Chat Support. Additionally, you’ll receive dedicated VIP support and invitations to Special VIP Events.",
+          infotitle: "RewardSection.packageinfotitle15",
+          info: "RewardSection.packageinfo15",
+
         },
         {
           id: 6,
           icon: cross,
           text: "RewardSection.packageText16",
-          message:
-            "You will have priority access to E-Mail and Chat Support. Additionally, you’ll receive dedicated VIP support and invitations to Special VIP Events.",
+
         },
       ],
     },
@@ -96,26 +104,36 @@ const RewardSection = () => {
           id: 1,
           icon: Tick1,
           text: "RewardSection.packageText21",
+          info: "RewardSection.packageinfo12",
+          infotitle: "RewardSection.packageinfotitle11",
         },
         {
           id: 2,
           icon: Tick1,
           text: "RewardSection.packageText22",
+          info: "RewardSection.packageinfo12",
+          infotitle: "RewardSection.packageinfotitle12",
         },
         {
           id: 3,
           icon: Tick1,
           text: "RewardSection.packageText23",
+          info: "RewardSection.packageinfo13",
+          infotitle: "RewardSection.packageinfotitle13",
         },
         {
           id: 4,
           icon: Tick1,
           text: "RewardSection.packageText24",
+          info: "RewardSection.packageinfo14",
+          infotitle: "RewardSection.packageinfotitle14",
         },
         {
           id: 5,
           icon: cross,
           text: "RewardSection.packageText25",
+          info: "RewardSection.packageinfo15",
+          infotitle: "RewardSection.packageinfotitle15",
         },
         {
           id: 6,
@@ -134,26 +152,36 @@ const RewardSection = () => {
           id: 1,
           icon: Tick1,
           text: "RewardSection.packageText31",
+          info: "RewardSection.packageinfo13",
+          infotitle: "RewardSection.packageinfotitle11",
         },
         {
           id: 2,
           icon: Tick1,
           text: "RewardSection.packageText32",
+          info: "RewardSection.packageinfo12",
+          infotitle: "RewardSection.packageinfotitle12",
         },
         {
           id: 3,
           icon: Tick1,
           text: "RewardSection.packageText33",
+          info: "RewardSection.packageinfo13",
+          infotitle: "RewardSection.packageinfotitle13",
         },
         {
           id: 4,
           icon: Tick1,
           text: "RewardSection.packageText34",
+          info: "RewardSection.packageinfo14",
+          infotitle: "RewardSection.packageinfotitle14",
         },
         {
           id: 5,
           icon: Tick1,
           text: "RewardSection.packageText35",
+          info: "RewardSection.packageinfo15",
+          infotitle: "RewardSection.packageinfotitle15",
         },
         {
           id: 6,
@@ -172,26 +200,36 @@ const RewardSection = () => {
           id: 1,
           icon: Tick1,
           text: "RewardSection.packageText41",
+          info: "RewardSection.packageinfo14",
+          infotitle: "RewardSection.packageinfotitle11",
         },
         {
           id: 2,
           icon: Tick1,
           text: "RewardSection.packageText42",
+          info: "RewardSection.packageinfo12",
+          infotitle: "RewardSection.packageinfotitle12",
         },
         {
           id: 3,
           icon: Tick1,
           text: "RewardSection.packageText43",
+          info: "RewardSection.packageinfo13",
+          infotitle: "RewardSection.packageinfotitle13",
         },
         {
           id: 4,
           icon: Tick1,
           text: "RewardSection.packageText44",
+          info: "RewardSection.packageinfo14",
+          infotitle: "RewardSection.packageinfotitle14",
         },
         {
           id: 5,
           icon: Tick1,
           text: "RewardSection.packageText45",
+          info: "RewardSection.packageinfo45",
+          infotitle: "RewardSection.packageinfotitle15",
         },
         {
           id: 6,
@@ -210,26 +248,36 @@ const RewardSection = () => {
           id: 1,
           icon: Tick1,
           text: "RewardSection.packageText51",
+          info: "RewardSection.packageinfo15",
+          infotitle: "RewardSection.packageinfotitle11",
         },
         {
           id: 2,
           icon: Tick1,
           text: "RewardSection.packageText52",
+          info: "RewardSection.packageinfo12",
+          infotitle: "RewardSection.packageinfotitle12",
         },
         {
           id: 3,
           icon: Tick1,
           text: "RewardSection.packageText53",
+          info: "RewardSection.packageinfo13",
+          infotitle: "RewardSection.packageinfotitle13",
         },
         {
           id: 4,
           icon: Tick1,
           text: "RewardSection.packageText54",
+          info: "RewardSection.packageinfo14",
+          infotitle: "RewardSection.packageinfotitle14",
         },
         {
           id: 5,
           icon: Tick1,
           text: "RewardSection.packageText55",
+          info: "RewardSection.packageinfo55",
+          infotitle: "RewardSection.packageinfotitle15",
         },
         {
           id: 6,
@@ -242,24 +290,24 @@ const RewardSection = () => {
   return (
     <div className="backgroundgrRewrd relative">
       <div className="bgshade absolute left-[33%]"></div>
-      <div className="max-w-[1221px] 2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] mx-auto space-y-[2rem] py-[4rem] xs:py-[2rem]">
-        <div className="backdrop-blur-md bg-[#d1d5db1f] border-r border-t rounded-[56px] px-10 xs:px-4 py-6 xs:py-6">
+      <div className="max-w-[1221px] 2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] mx-auto space-y-[2rem] py-[3rem] xs:py-[2rem]">
+        <div className="backdrop-blur-md bg-[#d1d5db1f] gradient-border-mask rounded-[34px] px-10 xs:px-4 py-6 xs:py-6">
           <div className=" relative z-[2] flex justify-between items-center md:block sm:block xs:block">
-            <div className=" xs:text-center sm:text-center w-[48%] space-y-10 pr-2 md:w-[100%] md:py-4  sm:w-[100%] sm:py-4  xs:w-[100%] xs:py-4">
+            <div className=" xs:text-center sm:text-center w-[46%] space-y-7 pr-2 md:w-[100%] md:py-4  sm:w-[100%] sm:py-4  xs:w-[100%] xs:py-4">
               <div className="">
                 <h3 className="2xl:text-[32px] xl:text-[32px] lg:text-[32px] md:text-[32px] sm:text-[24px] text-[24px] max-w-[400px] w-[100%] xs:text-[30px] xs:leading-[33px] font-[700]  leading-[40px] pb-6 text-[#fff]">
                   {t("RewardSection.title")}<span className="font-[Poppins] font-[600]">$1000</span>
                 </h3>
-                <p className="text-[18px] xs:text-[16px] sm:text-[16px] font-[400]  text-white" dangerouslySetInnerHTML={{ __html: t('RewardSection.para') }}>
+                <p className="text-[18px] xs:text-[16px] 2xl:max-w-[445px] xl:max-w-[445px] lg:max-w-[445px] md:max-w-[445px] sm:max-w-[100%] max-w-[100%]  sm:text-[16px] font-[400]  text-white" dangerouslySetInnerHTML={{ __html: t('RewardSection.para') }}>
                 </p>
               </div>
               <div className="space-y-4 ">
                 <div className="flex justify-between items-center">
-                  <h5 className="text-[18px] xs:text-[14px] sm:text-[14px] font-[400]  leading-[25px] text-white">
+                  <h5 className="text-[18px] xs:text-[14px] sm:text-[14px] font-[700]  leading-[25px] text-[#fff]">
                     {" "}
                     {t("RewardSection.spendText")}
                   </h5>
-                  <h3 className="text-[20px] text-white xs:text-[18px] sm:text-[18px] font-[600] font-[Poppins]">
+                  <h3 className="text-[20px] text-[#FFD02F] xs:text-[18px] sm:text-[18px] font-[600] ">
                     $ {Number(rewardAmount).toLocaleString("en-US")}
                   </h3>
                 </div>
@@ -283,14 +331,15 @@ const RewardSection = () => {
                 </div>
               </div>
             </div>
-            <div className=" 2xl:w-[52%] xl:w-[52%] lg:w-[52%] md:w-[100%] sm:w-[100%] w-[100%]  ">
-              {listData.map((item, id) =>
+            <div className=" 2xl:w-[50%] xl:w-[50%] lg:w-[50%] md:w-[100%] sm:w-[100%] w-[100%]  ">
+              {listData.map((item, id, index) =>
                 amountRange >= 1000 && amountRange <= 2499 && item.id === 1 ? (
                   // eslint-disable-next-line no-sequences
                   <RewardCard
                     handleImageClick={handleImageClick}
                     item={item}
-                    key={id}
+                    key={item.id}
+                    index={index}
                     amountRange={amountRange}
                   />
                 ) : "" ||
@@ -300,7 +349,8 @@ const RewardSection = () => {
                   <RewardCard
                     handleImageClick={handleImageClick}
                     item={item}
-                    key={id}
+                    index={index}
+                    key={item.id}
                   />
                 ) : "" ||
                   (amountRange >= 10000 &&
@@ -309,7 +359,8 @@ const RewardSection = () => {
                   <RewardCard
                     handleImageClick={handleImageClick}
                     item={item}
-                    key={id}
+                    index={index}
+                    key={item.id}
                   />
                 ) : "" ||
                   (amountRange >= 25000 &&
@@ -318,7 +369,8 @@ const RewardSection = () => {
                   <RewardCard
                     handleImageClick={handleImageClick}
                     item={item}
-                    key={id}
+                    index={index}
+                    key={item.id}
                   />
                 ) : "" ||
                   (amountRange >= 100000 &&
@@ -327,7 +379,8 @@ const RewardSection = () => {
                   <RewardCard
                     handleImageClick={handleImageClick}
                     item={item}
-                    key={id}
+                    index={index}
+                    key={item.id}
                   />
                 ) : (
                   ""

@@ -1,7 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import licimg1 from "../../assects/images/licimg (1).png";
+import ownimgbg from "../../assects/images/owncarimgbg.png";
+import ownimgbgmob from "../../assects/images/owncarimgbgmob.png";
+
 import licimg2 from "../../assects/images/licimg (2).png";
 import licimg3 from "../../assects/images/licimg (3).png";
 import Button from "../../components/Button/button";
@@ -10,8 +12,9 @@ const OWnCarSection = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="Carbgimg ">
-      <div className="max-w-[1240px] 2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%]  mx-auto space-y-[2rem] xs:space-y-[1rem] py-[4.5rem] xs:py-[2rem] ">
+    <div className="relative  ">
+      <div className="bg-[#000000a1]  relative z-[4] xs:py-[1rem]">
+      <div className="max-w-[1240px] 2xl:w-[100%]  xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%]  mx-auto space-y-[2rem] xs:space-y-[1rem] pt-[3rem] pb-[4rem] xs:py-[2rem]  xs:bg-[#d1d5db1f] gradient-border-mask-own xs:rounded-[34px] xs:pb-0 xs:px-4 ">
         <div>
           <h3 className="text-[46px] xs:text-[24px] xs:text-center font-[700] leading-[130%] text-[#fff]">{t('OwnCarSection.mainTitle')}<br /> {t('OwnCarSection.mainTitle2')}</h3>
         </div>
@@ -19,11 +22,18 @@ const OWnCarSection = () => {
             {/* <p > </p> */}
             <p className="text-[20px] xs:text-[16px] xs:text-center font-[400] leading-[130%] text-white paraOwn" dangerouslySetInnerHTML={{ __html: t('OwnCarSection.para1') }}></p>
             <p className="text-[20px] xs:text-[16px] xs:text-center font-[400] leading-[130%] text-white paraOwn" dangerouslySetInnerHTML={{ __html: t('OwnCarSection.para2') }}></p>
-            <p className="text-[20px] xs:text-[16px] xs:text-center font-[400] leading-[130%] text-white" >{t('OwnCarSection.para3')} </p>
+            <p className="text-[20px] xs:text-[16px] xs:text-center font-[400] leading-[130%] text-white" dangerouslySetInnerHTML={{ __html: t('OwnCarSection.para3') }}></p>
         </div>
-        <div className=" w-[100%] pt-[15px] ">
+        <div className=" w-[100%] pt-[15px] relative z-[4]">
                         <Button link="#hero" text={`${t('BetaSection.btn')}`} classes="font-[700] bgcolor max-w-[534px] !w-[100%] xs:w-[100%]  py-[12px] xs:text-[14px] rounded-[10px]" />
                     </div>
+                    <div className="hidden xs:flex xs:h-[295px]  justify-center">
+      <img className="absolute top-[72%] h-[270px] z-[-1] " src={ownimgbgmob} alt="" />
+      </div>
+      </div>
+      </div>
+      <div className="xs:hidden">
+      <img className="absolute top-[20%] z-[1] right-[0%]" src={ownimgbg} alt="" />
       </div>
     </div>
   );

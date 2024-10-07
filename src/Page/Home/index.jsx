@@ -42,6 +42,8 @@ import WhatIsDocSec from "./WhatIsDocSec";
 import DreamcarsbusinessSec from "./DreamcarsbusinessSec";
 import OwnershipSection from "./OwnershipSection";
 import WhatTheySaySec from "./WhatTheySaySec";
+import TopTenSec from "./TopTenSec";
+import SpotForCryptoSec from "./SpotForCryptoSec";
 
 const Home = () => {
   return (
@@ -56,10 +58,10 @@ const Home = () => {
         <Loader />
       </div> */}
       <div>
-        <FeaturedSection />
+        <BetaSection />
       </div>
       <div>
-        <BetaSection />
+        <FeaturedSection />
       </div>
       {/* <div>
         <LicensedCardSection />
@@ -109,11 +111,12 @@ const Home = () => {
       <div>
         <DreamcarsFeaturesSec />
       </div>
-     
          <div>
         <MostFunSection />
       </div>
-  
+      <div>
+        <TopTenSec />
+      </div>
       <div>
         <OwnersSection />
       </div>
@@ -137,6 +140,9 @@ const Home = () => {
       </div>
       <div>
         <OwnershipSection />
+      </div>
+      <div>
+        <SpotForCryptoSec />
       </div>
       <div>
         <DreamcarsOpenSec />

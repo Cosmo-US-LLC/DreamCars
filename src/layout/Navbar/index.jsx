@@ -27,6 +27,7 @@ import i18n from "i18next";
 import { useMoralis } from "react-moralis";
 import { useTranslation } from "react-i18next";
 import HoverDropDn from "../../components/HoverDropDn";
+import PersonalDashboard from "../../components/PersonalDashboard";
 
 const Navbar = ({ handelClick }) => {
   const [lang, setLang] = useState("Eng");
@@ -54,6 +55,15 @@ const Navbar = ({ handelClick }) => {
     ch: { img: fg2, title: "Chinese" },
     pr: { img: fg1, title: "Portugese" },
     vt: { img: fg14, title: "Vietnamese" },
+  };
+  const [isDashboardVisible, setIsDashboardVisible] = useState(false);
+  const dashboardRef = useRef(null);
+
+  const handleButtonClick = () => {
+    setIsDashboardVisible(true);
+  };
+  const handleButtonClickClose = () => {
+    setIsDashboardVisible(!isDashboardVisible);
   };
 
   const handleLangDropdown = () => {
@@ -89,9 +99,23 @@ const Navbar = ({ handelClick }) => {
     };
   }, []);
 
+  const handleLinkClick = (event) => {
+    event.preventDefault();
+
+    const targetId = event.target.getAttribute("href").substring(1);
+    const offset = parseInt(event.target.getAttribute("data-offset"), 10);
+    
+    const targetElement = document.getElementById(targetId);
+
+    window.scrollTo({
+      top: targetElement.offsetTop - offset,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="relative bg-[#0D0904]">
-      <nav className="2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[90%] max-w-[1300px] mx-auto py-1 xs:py-1">
+      <nav className="relative 2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] max-w-[1300px] mx-auto py-1 xs:py-1">
         <header className="flex justify-between items-center">
           <div className="flex items-center space-x-10 h-16 max-w-screen-2xl sm:px-0 xs:px-0 lg:px- ">
             <div className="flex items-center">
@@ -106,28 +130,50 @@ const Navbar = ({ handelClick }) => {
               </div>
             </div>
           </div>
-          <div className="flex items-center space-x-[22px] xs:space-x-[8px]">
-            <div className="flex items-center justify-between xs:justify-start space-x-5 xs:space-x-0 ">
-              <div className="flex justify-between  items-center space-x-6 xs:hidden sm:hidden md:hidden ">
-                <h4 className="text-white  text-[18px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]">
+          <div className="flex items-center space-x-[3.5rem] xs:space-x-[8px]">
+            <div className="flex items-center justify-between xs:justify-start space-x-[3.5rem] xs:space-x-0 ">
+              <div className="flex justify-between  items-center space-x-[3.5rem]  xs:hidden sm:hidden md:hidden ">
+                <h4 className="text-white  text-[16px] lg:text-[10px] xl:text-[14px] font-[500] hover:text-[#a0a0a0]">
                   {" "}
-                  <a href="#dreamcar">{t("main.navlink1")}</a>{" "}
+                  <a
+                    href="#what-is-dreamcars"
+                    data-offset="80"
+                    onClick={handleLinkClick}
+                  >
+                    {t("main.navlink1")}
+                  </a>{" "}
                 </h4>
-                <h4 className="text-white  text-[18px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]">
+                <h4 className="text-white  text-[16px] lg:text-[10px] xl:text-[14px] font-[500] hover:text-[#a0a0a0]">
                   {" "}
-                  <a href="#whitepaper">{t("main.navlink2")}</a>
+                  <a
+                    href="#whitepaper"
+                    data-offset="0"
+                    onClick={handleLinkClick}
+                  >
+                    {t("main.navlink2")}
+                  </a>
                 </h4>
-                <h4 className="text-white  text-[18px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]">
+                <h4 className="text-white  text-[16px] lg:text-[10px] xl:text-[14px] font-[500] hover:text-[#a0a0a0]">
                   {" "}
-                  <a href="#roadmap">{t("main.navlink4")}</a>{" "}
+                  <a href="#token" data-offset="70" onClick={handleLinkClick}>
+                    {t("main.navlink5")}
+                  </a>{" "}
                 </h4>
-                <h4 className="text-white  text-[18px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]">
+                <h4 className="text-white  text-[16px] lg:text-[10px] xl:text-[14px] font-[500] hover:text-[#a0a0a0]">
                   {" "}
-                  <a href="#token">{t("main.navlink5")}</a>{" "}
+                  <a
+                    href="#roadmap"
+                    data-offset="100"
+                    onClick={handleLinkClick}
+                  >
+                    {t("main.navlink4")}
+                  </a>{" "}
                 </h4>
-                <h4 className="text-white  text-[18px] lg:text-[10px] xl:text-[14px] font-[400] hover:text-[#a0a0a0]">
+                <h4 className="text-white  text-[16px] lg:text-[10px] xl:text-[14px] font-[500] hover:text-[#a0a0a0]">
                   {" "}
-                  <a href="#faqs">{t("main.navlink6")}</a>{" "}
+                  <a href="#faqs" data-offset="130" onClick={handleLinkClick}>
+                    {t("main.navlink6")}
+                  </a>{" "}
                 </h4>
               </div>
             </div>
@@ -188,13 +234,23 @@ const Navbar = ({ handelClick }) => {
                   )}
                 </div>
               </li>
-              <button className="border border-[#fff] relative rounded-[30px] text-[#fff] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[10px] font-[700] rounded-full 2xl:pr-[50px] xl:pr-[50px] lg:pr-[50px] md:pr-[50px] sm:pr-[40px] pr-[40px] pl-[20px] w-[auto] xs:h-[31px] h-[40px]">
+              <div className="">
+              <button
+                onClick={handleButtonClick}
+                className="border border-[#fff] relative rounded-[30px] text-[#fff] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[10px] font-[700] rounded-full 2xl:pr-[50px] xl:pr-[50px] lg:pr-[50px] md:pr-[50px] sm:pr-[40px] pr-[40px] pl-[20px] w-[auto] xs:h-[31px] h-[40px]"
+              >
                 {" "}
                 {t("main.navBtn")}{" "}
                 <span className="absolute top-[0%] flex justify-center items-center right-[0%] w-[39px] xs:w-[30px] xs:h-[30px] inline-block h-[39px] bg-[#fff] rounded-[30px]">
                   <img src={walletblack} alt="" />
-                </span>{" "}
+                </span>
               </button>
+              {isDashboardVisible && (
+                <div className="!max-w-[603px] overflow-y-scroll h-[100vh] scrolldc bggrdashbord w-[100%] top-[100%] right-[0%] absolute">
+                  <PersonalDashboard handleButtonClickClose={handleButtonClickClose} />
+                </div>
+              )}
+              </div>
               <button
                 type="button"
                 onClick={handleNavbarMenu}
@@ -226,33 +282,47 @@ const Navbar = ({ handelClick }) => {
                 className="text-white  text-[16px] font-[400] hover:text-[#a0a0a0]"
                 onClick={handleNavbarMenuClose}
               >
-                <a href="#dreamcar">{t("main.navlink1")}</a>
+                <a
+                  href="#what-is-dreamcars"
+                  data-offset="60"
+                  onClick={handleLinkClick}
+                >
+                 {t("main.navlink1")}
+                </a>
               </button>
               <h4
                 className="text-white  text-[16px] font-[400] hover:text-[#a0a0a0]"
                 onClick={handleNavbarMenuClose}
               >
-                <a href="#whitepapertag">{t("main.navlink2")}</a>
+                <a href="#whitepaper" data-offset="60" onClick={handleLinkClick}>
+                  {t("main.navlink2")}
+                </a>
               </h4>
               <h4
                 className="text-white  text-[16px] font-[400] hover:text-[#a0a0a0]"
                 onClick={handleNavbarMenuClose}
               >
                 {" "}
-                <a href="#roadmap">{t("main.navlink4")}</a>
+                <a href="#token" data-offset="60" onClick={handleLinkClick}>
+                  {t("main.navlink5")}
+                </a>
+              </h4>
+              <h4
+                className="text-white  text-[16px] font-[400] hover:text-[#a0a0a0]"
+                onClick={handleNavbarMenuClose}
+              >
+                {" "}
+                <a href="#roadmap" data-offset="60" onClick={handleLinkClick}>
+                  {t("main.navlink4")}
+                </a>
               </h4>{" "}
               <h4
                 className="text-white  text-[16px] font-[400] hover:text-[#a0a0a0]"
                 onClick={handleNavbarMenuClose}
               >
-                {" "}
-                <a href="#token">{t("main.navlink5")}</a>
-              </h4>
-              <h4
-                className="text-white  text-[16px] font-[400] hover:text-[#a0a0a0]"
-                onClick={handleNavbarMenuClose}
-              >
-                <a href="#faqs">{t("main.navlink6")}</a>
+                <a href="#faqs" data-offset="60" onClick={handleLinkClick}>
+                  {t("main.navlink6")}
+                </a>
               </h4>
               <li className="flex items-center ">
                 <div className="relative ">

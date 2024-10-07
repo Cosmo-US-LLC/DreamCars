@@ -1,65 +1,89 @@
 import React from "react";
-import Tierimg from "../../assects/images/Tierimg.png"
+import Tierimg from "../../assects/images/Tierimg.png";
 
 import Button from "../../components/Button/button";
 // import { useNavigate } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
-import info from "../../assects/svgs/info.svg"
+import info from "../../assects/svgs/info.svg";
 
+const RewardCard = ({ item, index, amountRange, handleRange, handleImageClick }) => {
+  const { t } = useTranslation();
 
+  const handleClick = (message) => {
+    handleImageClick(message);
+  };
+  return (
+    <div className="py-6 xs:py-3 2xl:px-5 xl:px-5 lg:px-5 md:px-5 sm:px-2 px-2 backdrop-blur-md gradient-border-mask rounded-[34px] bg-[#d1d5db1f]">
+      <div className=" flex justify-between w-[100%] sm:w-[100%] xs:w-[100%]  ">
+        {
+          <>
+            <div className="space-y-4 w-[74%] xs:w-[58%] md:w-[100%] sm:w-full xs:w-full pr-2 xs:pr-0">
+              <div className="flex items-center space-x-[1rem] xs:space-x-2">
+                <img className="h-[60px] xs:h-[40px]" src={Tierimg} alt="" />
 
-
-
-const RewardCard = ({ item, amountRange, handleRange, handleImageClick }) => {
-    const { t } = useTranslation()
-
-    const handleClick = (message) => {
-        handleImageClick(message);
-      };
-    return (
-
-        <div className="rounded-md py-4 xs:py-3 2xl:px-5 xl:px-5 lg:px-5 md:px-5 sm:px-2 px-2 bggrrd">
-            <div className=" flex justify-between w-[100%] sm:w-[100%] xs:w-[100%] ">
-                {
-                    <>
-                        <div className="space-y-4 w-[56%] xs:w-[58%] md:w-[100%] sm:w-full xs:w-full pr-2 xs:pr-0">
-                            <div className="flex items-center space-x-[1rem] xs:space-x-2">
-                                <img className="h-[70px] xs:h-[40px]" src={Tierimg} alt="" />
-
-                                <h3 className="text-[36px] text-white  sm:text-[18px] xs:text-[16px] font-[700] pt-2 ">{t(item.packageType)}</h3>
-                            </div>
-                            <div className="space-y-2 px-5 xs:px-1 ">
-                                {item.packageList.map((j, id) => (
-                                    <div key={id} className="flex space-x-2 items-center ">
-                                        <img className="w-[14px] h-[14px]" src={j.icon} alt="" />
-                                        <p className="text-[13px] text-white sm:text-[10px] xs:text-[10px] text-[#222222] font-[400] ">{t(j.text)}</p>
-                                        <img src={info} className="cursor-pointer" alt="" />
-                                    </div>
-                                ))}
-                            </div>
+                <h3 className="text-[36px] text-white  sm:text-[18px] xs:text-[16px] font-[700] pt-2 ">
+                  {t(item.packageType)}
+                </h3>
+              </div>
+              <div className="space-y-2 px-5 xs:px-1 xs:relative z-[10]">
+                {item.packageList.map((j, id) => (
+                  <div key={id} className="flex space-x-2 items-center ">
+                    <img className="w-[14px] h-[14px]" src={j.icon} alt="" />
+                    <p className="text-[13px] text-white sm:text-[16px] xs:text-[16px] text-[#222222] font-[400] ">
+                      {t(j.text)}
+                    </p>
+                    <div className="relative group">
+                      <img src={info} className="cursor-pointer" alt="" />
+                       {
+                        j.infotitle &&
+                        <div className=" z-[99] absolute bottom-0 left-5   rounded-[18px]  group-hover:flex transition-opacity duration-300 w-[260px] hidden  space-x-3">
+                        <div className="flex-col justify-center items-center flex gradient-border-mask rounded-[34px] backdrop-blur-xl  bg-[#56688494] px-3 py-6 space-y-[8px]">
+                    <img src={info} className="cursor-pointer" alt="" />
+                    <p className="text-[#FFD02F] m-0 text-center text-[20px] font-[600]">{t(j.infotitle)}
+                    </p>
+                    <p className="text-[#fff] m-0 text-center text-[16px] font-[400] leading-[115%]">{t(j.info)}
+                    </p>
                         </div>
-                        <div className="space-y-2 xs:space-y-0 flex justify-center relative  w-[50%] xs:w-[80%]">
-                            <div className="absolute top-[-33%]  xs:top-[-1%]  min-w-[415px] max-w-[420px] w-[100%] pb-3">
-                                <img className="h-[auto] m-auto xs:w-[170px]" src={item.spendImage} alt="" />
-                            </div>
-                            <div className="absolute spendbg px-[30px] xs:px-[16px] py-[20px] xs:py-[16px] bottom-[5%] tracking-wide xs:bottom-[12%] xs:pt-3 text-center text-[#292A36] font-bold">
-                                <h5 className="text-[14px] xs:text-[9px] text-white ">{t("When you spend")}</h5>
-                                <h3 className="text-[16px] sm:text-[10px] text-white xs:text-[10px] font-[Poppins] ">{`$${Number(item.spendPrice).toLocaleString('en-US')} ${t("RewardSection.more")}`}</h3>
-                            </div>
-
-
-
-                        </div>
-                    </>
-
-                }
+                      </div>
+                       }
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="pt-3 px-5 xs:px-1">
-                <a href="#" className=""><Button link="#hero" classes="bgcolor rounded-full w-[100%] h-[46px]  sm:h-[30px]  xs:h-[30px] text-[16px] sm:text-[14px] xs:text-[14px] font-Poppins font-[700]  m-auto " text="BUY $DCARS" /> </a>
-                <p id='groth'></p>
+            <div className="space-y-2 xs:space-y-0 flex justify-center relative  xs:z-[4] xs:absolute xs:top-[-3%] xs:right-[-6%] xs:max-w-[200px]  xs:h-[200px]  w-[40%] xs:w-[80%]">
+              <div  key={item.id} 
+                 className={`absolute top-[-20%] left-[-40%] xs:left-[-20%] xs:top-[-1%] min-w-[315px] max-w-[370px] w-[100%] pb-3`}
+                >
+                <img
+                  className="h-[auto] max-w-[400px] w-[100%] m-auto xs:w-[190px]"
+                  src={item.spendImage}
+                  alt=""
+                />
+              </div>
+              <div className="absolute spendbg px-[30px] xs:px-[8px] py-[20px] xs:py-[8px] bottom-[5%] tracking-wide xs:bottom-[25%] xs:pt-3 text-center text-[#292A36] font-bold">
+                <h5 className="text-[14px] xs:text-[16px] xs:leading-[100%] text-white ">
+                  {t("When you spend")}
+                </h5>
+                <h3 className="text-[16px] sm:text-[16px] text-white xs:text-[16px]  ">{`$${Number(
+                  item.spendPrice
+                ).toLocaleString("en-US")} ${t("RewardSection.more")}`}</h3>
+              </div>
             </div>
-        </div>
-
-    )
-}
+          </>
+        }
+      </div>
+      <div className="pt-3 px-5 xs:px-1">
+        <a href="#" className="">
+          <Button
+            link="#hero"
+            classes="bgcolor relative z-[1] rounded-full w-[100%] h-[46px]  sm:h-[30px]  xs:h-[30px] text-[16px] sm:text-[14px] xs:text-[14px] font-Poppins font-[700]  m-auto "
+            text="BUY $DCARS"
+          />{" "}
+        </a>
+        <p id="groth"></p>
+      </div>
+    </div>
+  );
+};
 export default RewardCard;
