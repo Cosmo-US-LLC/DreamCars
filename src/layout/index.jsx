@@ -8,15 +8,15 @@ const Layout = ({handelClick}) => {
 
     return (
        <>
-          <div className=''>       
+          <div className=''>
             <div className='mb-[4rem] z-[99] w-[100%] fixed xs:mb-[3rem] sm:mb-[3rem] md:mb-[3rem]'>
-            <Navbar handelClick={handelClick} className="" />   
+            <Navbar handelClick={handelClick} className="" />
             </div>
             <div className=''>
             <Home className="" />
             </div>       
             <div>
-            <Footer className="bg-[#111010]" />   
+            <Footer className="bg-[#111010]" />
             </div>
         </div>
        </>
