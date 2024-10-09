@@ -299,7 +299,7 @@ const RoadMap = () => {
                                     onClick={() => handleSlideClick(id)} >
                                     <div className=" space-y-4  ">
                                         <div className=" relative" >
-                                            <h4 className="text-[#fff] text-[18px] xs:text-[16px] font-[800] font-[Poppins]">{t(item.qa)}</h4>
+                                            <h4 className="text-[#fff] text-[18px] xs:text-[16px] font-[800] ">{t(item.qa)}</h4>
                                             {
                                                 item.badge &&
                                                 <div className="absolute px-3 py-1 rounded-full right-[-1%] top-[-8%] bg-[#FFD02F]">
