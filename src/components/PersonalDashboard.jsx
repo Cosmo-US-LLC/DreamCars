@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{ useState, useEffect, useRef } from 'react'
 import RangeSlider from "react-range-slider-input";
 import "react-range-slider-input/dist/style.css";
 // import Button from "../../components/Button/button";
@@ -49,6 +49,21 @@ function PersonalDashboard({handleButtonClickClose}) {
   const [rewardAmount, setRewardAmount] = useState(1000);
   const [amountRange, setAmountRange] = useState(1000);
   const [range, setRange] = useState(1000);
+
+  const dashboardRef = useRef(null);
+
+  const handleClickOutside = (event) => {
+    if (dashboardRef.current && !dashboardRef.current.contains(event.target)) {
+      handleButtonClickClose(); // Close the dashboard
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const handleRange = (range) => {
     setRange(range);
@@ -121,7 +136,7 @@ function PersonalDashboard({handleButtonClickClose}) {
   ];
   return (
     <>
-    <div className='pb-[2rem] space-y-[15px] !w-[100%] px-[2rem] pt-[10px] relative'>
+    <div className='pb-[2rem] space-y-[15px] !w-[100%] px-[2rem] pt-[10px] relative' ref={dashboardRef}>
         <img onClick={handleButtonClickClose} className='right-[6%] absolute cursor-pointer top-[0.9%]' src={Dicnclose} alt="" />
         <h3 className='text-[22px] font-[900] !m-0 leading-[130%] text-center text-[#fff]'>Personal Dashboard</h3>
         <div className=' mx-[3px] backdrop-blur-md bg-[#d1d5db1f] gradient-border-mask-per-hed rounded-[12px] py-[8px]'>

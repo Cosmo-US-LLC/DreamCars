@@ -246,7 +246,7 @@ const Navbar = ({ handelClick }) => {
                 </span>
               </button>
               {isDashboardVisible && (
-                <div className="!max-w-[603px] overflow-y-scroll h-[100vh] scrolldc bggrdashbord w-[100%] top-[100%] right-[0%] absolute">
+                <div className="!max-w-[603px] 2xl:min-h-[870px] rounded-b-[18px] xl:min-h-[600px] 2xl:max-h-[800px] xl:max-h-[600px] lg:max-h-[800px] md:max-h-[800px] sm:max-h-[100%] max-h-[100%] lg:min-h-[700px] md:min-h-[900px] sm:min-h-[900px] min-h-[900px] overflow-y-scroll scrolldc bggrdashbord w-[100%] top-[100%] right-[0%] absolute">
                   <PersonalDashboard handleButtonClickClose={handleButtonClickClose} />
                 </div>
               )}

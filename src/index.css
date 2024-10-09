@@ -989,11 +989,23 @@ background: var(--billionair-com-1920-x-1080-default-shark, #1C1D22);
   animation: border-dance 0.3s infinite linear;
    height:3px;
 }
+.rotate-infinite {
+  animation: rotation 0.3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 
 @keyframes border-dance {
   0% {
-    left: 55px;
+    left: 175px;
   }
   
   100% {

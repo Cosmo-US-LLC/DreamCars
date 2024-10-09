@@ -38,7 +38,7 @@ const OwnershipSection = () => {
           <div className="">
           </div>
         </div>
-            <img src={ownimg} className="block xs:hidden w-[auto] xs:z-[1] absolute top-[2%] xs:top-[30%] right-[0%] w-[100%] xs:w-[50%]" alt="" />
+            <img src={ownimg} className="block xs:hidden  3xl:max-w-[820px] 2xl:max-w-[820px] xl:max-w-[700px] lg:max-w-[43%] md:max-w-[43%] sm:max-w-[43%] max-w-[50%] w-[auto] xs:z-[1] absolute top-[2%] xs:top-[30%] right-[0%] xs:w-[50%]" alt="" />
       </div>
     <div className="ownbottmbggr h-[35px] w-[100%]">
     </div>

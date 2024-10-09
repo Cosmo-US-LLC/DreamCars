@@ -8,7 +8,7 @@ const BuySection = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="howbuygrbg">
+    <div className="howbuygrbg" id="how-to-buy">
       <div className="max-w-[1255px] 2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] mx-auto space-y-[2rem] xs:space-y-[1rem] pt-[3rem] pb-[65px] xs:py-[2rem] xs:py-[2rem] mx-auto">
         {/* <p style={{ top: "-100px", position: "relative" }} id="howItWork"></p> */}
         <h2 className="text-[46px] xs:text-[24px]   text-center font-[700] text-[#fff]  leading-[40px]">

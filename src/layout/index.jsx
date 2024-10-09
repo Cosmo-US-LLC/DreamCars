@@ -9,14 +9,13 @@ const Layout = ({handelClick}) => {
     return (
        <>
           <div className=''>
-        {/* check */}
             <div className='mb-[4rem] z-[99] w-[100%] fixed xs:mb-[3rem] sm:mb-[3rem] md:mb-[3rem]'>
             <Navbar handelClick={handelClick} className="" />
             </div>
             <div className=''>
-            <Home className="" />   
+            <Home className="" />
             </div>       
-            <div> 
+            <div>
             <Footer className="bg-[#111010]" />
             </div>
         </div>

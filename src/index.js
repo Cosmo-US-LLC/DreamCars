@@ -1,19 +1,40 @@
-import React, {Suspense} from 'react';
+import React, {Suspense, useState, useEffect} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { MoralisProvider } from "react-moralis";
 import "./i18n";
+import Loader from './components/Loader';
 
+
+const DelayedSuspense = ({ children, delay = 5000 }) => {
+  const [delayPassed, setDelayPassed] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDelayPassed(true);
+    }, delay); 
+
+    return () => clearTimeout(timer); 
+  }, [delay]);
+
+  return delayPassed ? (
+    <Suspense fallback={<Loader />}>
+      {children} 
+    </Suspense>
+  ) : (
+    <Loader /> 
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <Suspense  fallback={(<div>loading......</div>)}>
+  <DelayedSuspense>
     <App />
-   </Suspense >
-  </React.StrictMode>
+  </DelayedSuspense>
+</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

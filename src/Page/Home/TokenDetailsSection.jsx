@@ -31,7 +31,7 @@ const TokenDetailsSection = () => {
                     </center>
                     <div className="space-y-[20px]">
                         <div className=" backdrop-blur-md gradient-border-mask rounded-[34px] xs:rounded-[26px] bg-[#d1d5db1f] px-[60px] xs:px-[30px] xs:py-[30px] py-[40px] flex justify-between xs:block xs:space-y-[30px]">
-                            <div className="w-[40%] xs:w-[100%] space-y-[30px] relative z-[1] xs:space-y-[20px]">
+                            <div className="w-[40%] xs:w-[100%] space-y-[30px] relative z-[9] xs:space-y-[20px]">
                                 <div className="space-y-[5px]">
                                     <p className="text-[#6399FF] text-[16px] xs:text-[14px] font-[400]">{t('TokenDetailsSection.tokenTitle1')}</p>
                                     <h4 className="text-[23px] xs:text-[18px] font-[700] text-[#fff]">{t('TokenDetailsSection.tokenPara1')}</h4>
@@ -48,7 +48,7 @@ const TokenDetailsSection = () => {
                                    </div>
                                 </div>
                             </div>
-                            <div className="w-[30%] xs:w-[100%] relative z-[1] space-y-[30px]">
+                            <div className="w-[30%] xs:w-[100%] relative z-[3] space-y-[30px]">
                                 <div className="space-y-[5px] ">
                                     <p className="text-[#6399FF] text-[16px] xs:text-[14px] font-[400]">{t('TokenDetailsSection.tokenTitle4')}</p>
                                     <h4 className="text-[23px] xs:text-[18px] font-[700] text-[#fff]" dangerouslySetInnerHTML={{ __html: t('TokenDetailsSection.tokenPara4') }}></h4>
@@ -58,7 +58,7 @@ const TokenDetailsSection = () => {
                                     <h4 className="text-[23px] xs:text-[18px]  font-[700] text-[#fff]">18</h4>
                                 </div>
                             </div>
-                            <div className="w-[25%] xs:w-[100%] relative z-[1] space-y-[30px]">
+                            <div className="w-[25%] xs:w-[100%] relative z-[3] space-y-[30px]">
                                 <div className="space-y-[5px]">
                                     <p className="text-[#6399FF] text-[16px] xs:text-[14px] font-[400]">{t('TokenDetailsSection.tokenTitle3')}</p>
                                     <h4 className="text-[23px] xs:text-[18px]  font-[700] text-[#fff]">{t('TokenDetailsSection.tokenPara3')}</h4>

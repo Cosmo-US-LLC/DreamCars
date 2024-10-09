@@ -75,15 +75,27 @@ const ProductDetailsSection = () => {
   const handleClick = () => {
     setIsOPen(!isOPen);
   };
-  const handleClickSpin = () => {
-    setIsOPenSpin(!isOPenSpin);
-  };
+  
   const handleClose = () => {
     setIsOPen(false);
   };
 
   const handelBonus = () => {
     setShow(!show);
+  };
+
+  const handleLinkClick = (event) => {
+    event.preventDefault();
+
+    const targetId = event.target.getAttribute("href").substring(1);
+    const offset = parseInt(event.target.getAttribute("data-offset"), 10);
+    
+    const targetElement = document.getElementById(targetId);
+
+    window.scrollTo({
+      top: targetElement.offsetTop - offset,
+      behavior: "smooth",
+    });
   };
   
   function copyUrlToClipboard() {
@@ -269,11 +281,13 @@ const ProductDetailsSection = () => {
                                   onClick={() => handleOptionClick(option)}
                                   className="cursor-pointer flex  items-center p-[7px] space-x-[8px] hover:bg-[#737373] rounded-[5px]"
                                 >
+                                  <div className="flex items-center justify-center min-w-[32px]">
                                   <img
                                     src={option.image}
                                     alt={option.label}
                                     className="max-h-[30px] min-h-[29px]"
                                   />
+                                  </div>
                                   <span className="text-[#fff]">{option.label}</span>
                                 </div>
                               ))}
@@ -338,7 +352,9 @@ const ProductDetailsSection = () => {
                 <div>
                   <div className=" flex justify-between relative z-[1] space-x-[15px] xs:pt-[0.5rem]">
                     <a
-                      onClick={handleClickSpin}
+                     href="#how-to-buy"
+                     onClick={handleLinkClick}
+                     data-offset="100"
                       className="flex cursor-pointer border border-[#fff] text-[14px] xs:text-[11px] font-[500]  leading-[21px] flex w-[278px] h-[30px] items-center justify-center text-white font-[Lato] rounded-[10px] bg-[#3F3F3F]"
                     >
                       {" "}
@@ -363,8 +379,12 @@ const ProductDetailsSection = () => {
                     </button>
                   </div>
 
+                </div>
+                <div className="relative z-[1] pt-[10px] ">
+                  <p className="text-[15px] text-center font-[400] text-[#fff] ">Share Dreamcars with your Friends</p>
+                </div>
                   {!show && (
-                    <div className="pt-[1rem] relative z-[1]">
+                    <div className="pb-[0.5rem] relative z-[1]">
                       <p
                         onClick={handelBonus}
                         className="cursor-pointer text-[#DDD] underline text-center  text-[13px] font-[500] leading-[7px]"
@@ -373,10 +393,6 @@ const ProductDetailsSection = () => {
                       </p>
                     </div>
                   )}
-                </div>
-                <div className="relative z-[1] pt-[10px] pb-[4px]">
-                  <p className="text-[15px] text-center font-[400] text-[#fff] ">Share Dreamcars with your Friends</p>
-                </div>
                 <div className="flex relative z-[1] space-x-3 justify-center">
           <a href="" target="" rel="noopener noreferrer"  onClick={(e) => {
         e.preventDefault(); 
