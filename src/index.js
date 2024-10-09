@@ -8,7 +8,7 @@ import "./i18n";
 import Loader from './components/Loader';
 
 
-const DelayedSuspense = ({ children, delay = 5000 }) => {
+const DelayedSuspense = ({ children, delay = 100 }) => {
   const [delayPassed, setDelayPassed] = useState(false);
 
   useEffect(() => {
