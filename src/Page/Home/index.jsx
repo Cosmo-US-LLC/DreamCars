@@ -48,6 +48,7 @@ const Home = ({
   setAddress,
   walletAddress,
   buyWithUSDT,
+  buyWithBUSDT,
   buyWithETH,
   buyWithBNB,
   refCode,
@@ -66,6 +67,7 @@ const Home = ({
           buyWithBNB={buyWithBNB}
           buyWithETH={buyWithETH}
           buyWithUSDT={buyWithUSDT}
+          buyWithBUSDT={buyWithBUSDT}
           refCode={refCode}
           setRefCode={setRefCode}
           generateRefCode={generateRefCode}

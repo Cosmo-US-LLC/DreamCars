@@ -32,7 +32,7 @@ import {
 
 import { useTranslation } from 'react-i18next';
 
-const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWithUSDT, buyWithETH, buyWithBNB, refCode, setRefCode, generateRefCode, guestCode, setGuestCode}) => {
+const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWithUSDT, buyWithBUSDT, buyWithETH, buyWithBNB, refCode, setRefCode, generateRefCode, guestCode, setGuestCode}) => {
     const [isOPen, setIsOPen] = useState(false)
     const [isOPenSpin, setIsOPenSpin] = useState(false)
     const [pop2, setPop2] = useState(false);
@@ -46,6 +46,7 @@ const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWit
     const [currency, setCurrency] = useState('USDT')
     const [amount, setAmount] = useState(0);
     const [rate, setRate] = useState(0)
+    const [usdt, setUsdt] = useState(false);
 
     console.log(refCode)
 
@@ -86,6 +87,10 @@ const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWit
         setShow(!show)
     }
 
+    const toggleUSDT = () => {
+        setUsdt(!usdt);
+    }
+
     const getExchangeRate = async (amount) => {
         if(currency == 'ETH'){
             const ethprice = await getEth();
@@ -107,7 +112,11 @@ const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWit
         } else if (currency == 'BNB'){
             buyWithBNB(amount)
         } else if (currency == 'USDT'){
+            if(usdt){
             buyWithUSDT(amount)
+            } else {
+                buyWithBUSDT(amount);
+            }
         }
     }
 
@@ -315,17 +324,27 @@ const ProductDetailsSection = ({walletAddress, connectWallet, setAddress, buyWit
                                             <label htmlFor="" className="text-[#D0D0D0] font-[Lato] xs:text-[9px]">{currency}</label>
                                             <input onChange={(e)=> {getExchangeRate(e.target.value)}} type="text" className="text-[#fff] text-[20px] bg-[transparent] font-[Lato] w-[100%] outline-none rounded-l " placeholder="0" />
                                             </div>
-                                            {/* <button className="flex text-[#fff] text-[12px] font-[400] items-center justify-between p-[7px] !pr-[10px] w-[130px] h-[54px] border rounded-[40px] bg-[transparent]">
-                                               <div className="flex items-center space-x-[8px]">
-                                               <img src={downeth} className="" alt="" />
-                                                <span className="leading-[100%] pt-1">
-                                                <span>USDT</span> <br />
-                                                <span className="text-[8px] font-[400] text-[#7A7A7A]">ERC-20</span>
-                                                </span>
-                                               </div>
-                                                <img src={downarw} className="" alt="" />
+                                           {currency == 'USDT' && (
+                                            <button onClick={() => {
+                                                toggleUSDT();
+                                                if(usdt){
+                                                    connectWallet(false);
+                                                } else {
+                                                    connectWallet(true);
+                                                }
+                                                }} className="flex text-[#fff] text-[12px] font-[400] items-center justify-between p-[7px] !pr-[10px] w-[130px] h-[54px] border rounded-[40px] bg-[transparent]">
+                                            <div className="flex items-center space-x-[8px]">
+                                            <img src={downeth} className="" alt="" />
+                                             <span className="leading-[100%] pt-1">
+                                             <span>USDT</span> <br />
+                                             <span className="text-[8px] font-[400] text-[#7A7A7A]">{usdt ? "ERC-20" : "BEP-20"}</span>
+                                             </span>
+                                            </div>
+                                            {/*  <img src={downarw} className="" alt="" /> */}
 
-                                            </button> */}
+                                         </button> 
+
+                                           )} 
                                         </div>
                                     </div>
                                     <div className="space-y-1 bg-[#ffffff17] backdrop-blur rounded-[5px] p-3">
