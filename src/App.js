@@ -12,6 +12,8 @@ const contractABI = require("./config/ico-abi.json");
 const contractAddress = require("./config/contracts.json").icoAddress;
 const usdtABI = require("./config/usdt-abi.json");
 const usdtAddress = require("./config/contracts.json").usdtAddress;
+const busdtABI = require("./config/busdt-abi.json");
+const busdtAddress = require("./config/contracts.json").busdtAddress;
 const receiverABI = require("./config/receiver-abi.json");
 const receiverAddress =
   require("./config/contracts.json").ethReceiverAddress;
@@ -22,7 +24,7 @@ const providerOptions = {
   walletconnect: {
     package: WalletConnectProvider, // required
     options: {
-      rpc: "https://bsc-testnet-rpc.publicnode.com", // required
+      rpc: "https://binance.llamarpc.com", // required
     },
   },
 };
@@ -31,7 +33,7 @@ const ethProviderOptions = {
   walletconnect: {
     package: WalletConnectProvider, // required
     options: {
-      rpc: "https://eth-sepolia.g.alchemy.com/v2/tZgBg81RgxE0pkpnQ6pjNpddJBd6nR_b", // required
+      rpc: "https://eth.meowrpc.com	", // required
     },
   },
 };
@@ -64,6 +66,13 @@ function App() {
       const provider = new Web3(web3ModalInstance);
       if (web3ModalInstance) {
         setProvider(provider);
+        provider.eth.getChainId().then(chainId => {
+          if(Number(chainId) != 11155111 && eth == true ){
+            alert("Please switch to Ethereum Mainnet to mint with this option")
+          }
+        
+          console.log("Current chain ID:", chainId);
+        });
         const accounts = await provider.eth.getAccounts();
         const address = accounts[0];
         setAddress(address);
@@ -85,9 +94,9 @@ function App() {
     let total = amount * 10 ** 6
     console.log(total)
 
-    const icoContract = new provider.eth.Contract(
-      contractABI,
-      contractAddress
+    const receiverContract = new provider.eth.Contract(
+      receiverABI,
+      receiverAddress
     )
 
     const usdtContract = new provider.eth.Contract(
@@ -99,6 +108,46 @@ function App() {
     const approvalObject = {
       from: walletAddress,
       to: usdtAddress,
+      value: "0x0", // For ERC-20 transfers, set value to 0
+      gas: 250000,
+      data: usdtContract.methods.approve(receiverAddress, total).encodeABI(),
+    };
+    //@ts-expect-error provider check
+    await provider.eth.sendTransaction(approvalObject).then(async () => {
+      // Build the transaction object
+      const transactionObject = {
+        from: walletAddress,
+        to: receiverAddress,
+        value: "0x0", // For ERC-20 transfers, set value to 0
+        gas: 250000,
+        data: receiverContract.methods
+          .payWithUSDT(amount, guestCode)
+          .encodeABI(),
+      };
+      //@ts-expect-error provider check
+      await provider.eth.sendTransaction(transactionObject);
+
+       window.location.href = "/"
+    });
+  };
+  const buyWithBUSDT = async (amount) => {
+    let total = amount * 10 ** 18
+    console.log(total)
+
+    const icoContract = new provider.eth.Contract(
+      contractABI,
+      contractAddress
+    )
+
+    const usdtContract = new provider.eth.Contract(
+      busdtABI,
+     busdtAddress
+    )
+
+    // Build the transaction object
+    const approvalObject = {
+      from: walletAddress,
+      to: busdtAddress,
       value: "0x0", // For ERC-20 transfers, set value to 0
       gas: 250000,
       data: usdtContract.methods.approve(contractAddress, total).encodeABI(),
@@ -163,7 +212,7 @@ function App() {
         value: total, // For ERC-20 transfers, set value to 0
         gas: 250000,
         data: receiverContract.methods
-          .payWithETH()
+          .payWithETH(guestCode)
           .encodeABI(),
       };
       //@ts-expect-error provider check
@@ -205,6 +254,7 @@ function App() {
         setAddress={setAddress}
         connectWallet={connectWallet}
         buyWithUSDT={buyWithUSDT}
+        buyWithBUSDT={buyWithBUSDT}
         buyWithBNB={buyWithBNB}
         buyWithETH={buyWithETH}
         refCode={refCode}

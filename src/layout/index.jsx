@@ -9,6 +9,7 @@ const Layout = ({
   walletAddress,
   setAddress,
   buyWithUSDT,
+  buyWithBUSDT,
   buyWithETH,
   buyWithBNB,
   refCode,
@@ -37,6 +38,7 @@ const Layout = ({
             buyWithBNB={buyWithBNB}
             buyWithETH={buyWithETH}
             buyWithUSDT={buyWithUSDT}
+            buyWithBUSDT={buyWithBUSDT}
             refCode={refCode}
             setRefCode={setRefCode}
             generateRefCode={generateRefCode}

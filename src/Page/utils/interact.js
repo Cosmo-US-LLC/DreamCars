@@ -1,12 +1,14 @@
 const {Web3} = require('web3');
-const web3 = new Web3("https://bsc-testnet-rpc.publicnode.com");
-const ethweb3 = new Web3("https://ethereum-sepolia-rpc.publicnode.com")
+const web3 = new Web3("https://binance.llamarpc.com");
+const ethweb3 = new Web3("https://eth.meowrpc.com	")
 
 
 const contractABI = require("../../config/ico-abi.json");
 const contractAddress = require("../../config/contracts.json").icoAddress
 const usdtABI = require("../../config/usdt-abi.json");
 const usdtAddress = require("../../config/contracts.json").usdtAddress
+const busdtABI = require("../../config/busdt-abi.json");
+const busdtAddress = require("../../config/contracts.json").busdtAddress
 const receiverABI = require("../../config/receiver-abi.json");
 const receiverAddress = require("../../config/contracts.json").ethReceiverAddress
 
@@ -15,9 +17,13 @@ const icoContract = new web3.eth.Contract(
     contractABI,
     contractAddress
 );
-const usdtContract = new web3.eth.Contract(
+const usdtContract = new ethweb3.eth.Contract(
     usdtABI,
     usdtAddress
+);
+const busdtContract = new web3.eth.Contract(
+    busdtABI,
+    busdtAddress
 );
 const receiverContract = new ethweb3.eth.Contract(
     receiverABI,
@@ -80,13 +86,15 @@ export const getICOPrice = async () => {
 }
 
 export const getReceiverBalance = async () => {
-    const balance = await ethweb3.eth.getBalance(receiverAddress);
-    const raweth = Number(ethweb3.utils.fromWei(balance, "ether"));
-    console.log(raweth)
-    const ethPrice = await getEth();
-    console.log(ethPrice)
+    //const balance = await ethweb3.eth.getBalance(receiverAddress);
+    //const raweth = Number(ethweb3.utils.fromWei(balance, "ether"));
+    //console.log(raweth)
+    //const ethPrice = await getEth();
+    //console.log(ethPrice)
 
-    return Number(raweth * ethPrice)
+    //return Number((raweth * ethPrice) )
+    const balanceInUSD = await receiverContract.methods.getTotalETH().call();
+    return Number(balanceInUSD);
 }
 
 export const getTotalAmountRaised = async () => {
@@ -97,8 +105,8 @@ export const getTotalAmountRaised = async () => {
     const bnbUsd = pricebnb * bnbconv;
     console.log(bnbUsd)
 
-    const usdtBalance = await usdtContract.methods.balanceOf(contractAddress).call();
-    const rawusdt = Number(Number(usdtBalance)/ 10 ** 6);
+    const usdtBalance = await busdtContract.methods.balanceOf(contractAddress).call();
+    const rawusdt = Number(Number(usdtBalance)/ 10 ** 18);
     console.log(rawusdt)
 
     const ethBalance = await getReceiverBalance();
