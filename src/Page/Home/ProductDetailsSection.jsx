@@ -236,7 +236,7 @@ const ProductDetailsSection = () => {
         >
           <div className="flex flex-col items-center justify-center w-[60px]">
             <img src={button.imgSrc} className="h-[17px]" alt={button.label} />
-            <span className="mt-0 text-[9px] font-[Lato] w-[30px]">{button.label}</span>
+            <span className="mt-0 text-[10px] font-[Lato] font-[800] mt-[6px] w-[30px]">{button.label}</span>
           </div>
         </button>
       ))}
