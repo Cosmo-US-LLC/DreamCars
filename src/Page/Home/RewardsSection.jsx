@@ -90,6 +90,8 @@ const RewardSection = () => {
           id: 6,
           icon: cross,
           text: "RewardSection.packageText16",
+          infotitle: "RewardSection.packageinfotitle16",
+          info: "RewardSection.packageinfo66",
 
         },
       ],
@@ -139,6 +141,8 @@ const RewardSection = () => {
           id: 6,
           icon: cross,
           text: "RewardSection.packageText16",
+          infotitle: "RewardSection.packageinfotitle16",
+          info: "RewardSection.packageinfo66",
         },
       ],
     },
@@ -187,6 +191,8 @@ const RewardSection = () => {
           id: 6,
           icon: cross,
           text: "RewardSection.packageText16",
+          infotitle: "RewardSection.packageinfotitle16",
+          info: "RewardSection.packageinfo66",
         },
       ],
     },
@@ -235,6 +241,8 @@ const RewardSection = () => {
           id: 6,
           icon: Tick1,
           text: "RewardSection.packageText16",
+          infotitle: "RewardSection.packageinfotitle16",
+          info: "RewardSection.packageinfo66",
         },
       ],
     },
@@ -283,6 +291,8 @@ const RewardSection = () => {
           id: 6,
           icon: Tick1,
           text: "RewardSection.packageText16",
+          infotitle: "RewardSection.packageinfotitle16",
+          info: "RewardSection.packageinfo66",
         },
       ],
     },
@@ -296,7 +306,7 @@ const RewardSection = () => {
             <div className=" xs:text-center sm:text-center w-[46%] space-y-7 pr-2 md:w-[100%] md:py-4  sm:w-[100%] sm:py-4  xs:w-[100%] xs:py-4">
               <div className="">
                 <h3 className="2xl:text-[32px] xl:text-[32px] lg:text-[32px] md:text-[32px] sm:text-[24px] text-[24px] max-w-[400px] w-[100%] xs:text-[30px] xs:leading-[33px] font-[700]  leading-[40px] pb-6 text-[#fff]">
-                  {t("RewardSection.title")}<span className="font-[Poppins] font-[600]">$1000</span>
+                  {t("RewardSection.title")}<span className="font-[600]">$1000</span>
                 </h3>
                 <p className="text-[18px] xs:text-[16px] 2xl:max-w-[445px] xl:max-w-[445px] lg:max-w-[445px] md:max-w-[445px] sm:max-w-[100%] max-w-[100%]  sm:text-[16px] font-[400]  text-white" dangerouslySetInnerHTML={{ __html: t('RewardSection.para') }}>
                 </p>
