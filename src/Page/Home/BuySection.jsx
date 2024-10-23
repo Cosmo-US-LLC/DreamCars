@@ -27,7 +27,7 @@ const BuySection = () => {
                 </a>
               </div>
         <div className="xs:pt-[10px] space-y-[4rem] w-full block xs:space-y-3 sm:space-y-3 md:space-y-3">
-        <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-center">
+        <div className="2xl:flex xl:flex w-[92%] m-auto lg:flex md:flex sm:hidden hidden justify-center">
             <img className="" src={Buyimg} alt="" />
           </div>
           <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:flex flex justify-center">

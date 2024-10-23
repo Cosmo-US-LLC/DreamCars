@@ -41,7 +41,7 @@ const DistributionSection = () => {
                 </div>
                 <div className="w-[50%] py-[35px] px-[50px] xs:py-[15px] xs:px-[18px] border-l border-[#374151] space-y-[5px]">
                   <p className="text-[#FFF] xs:text-[22px] font-[Lato] text-[40px] font-[600]">
-                  86%
+                  99.51%
                   </p>
                   <h4 className="text-[16px] xs:text-[16px] font-[Lato] font-[400] text-[#fff]">
                   {t('DistributionSection.Soldpara3')} <br /> {t('DistributionSection.Soldpara4')}
