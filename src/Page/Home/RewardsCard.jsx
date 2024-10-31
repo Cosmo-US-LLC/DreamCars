@@ -27,17 +27,17 @@ const RewardCard = ({ item, index, amountRange, handleRange, handleImageClick })
               </div>
               <div className="space-y-2 px-5 xs:px-1 xs:relative z-[10]">
                 {item.packageList.map((j, id) => (
-                  <div key={id} className="flex space-x-2 items-center ">
+                  <div key={id} className="relative flex space-x-2 items-center ">
                     <img className="w-[14px] h-[14px]" src={j.icon} alt="" />
                     <p className="text-[13px] text-white sm:text-[16px] xs:text-[16px] text-[#222222] font-[400] ">
                       {t(j.text)}
                     </p>
-                    <div className="relative group">
+                    <div className=" group">
                       <img src={info} className="cursor-pointer" alt="" />
                        {
                         j.infotitle &&
-                        <div className=" z-[99] absolute bottom-0 left-5   rounded-[18px]  group-hover:flex transition-opacity duration-300 w-[260px] hidden  space-x-3">
-                        <div className="flex-col justify-center items-center flex gradient-border-mask rounded-[34px] backdrop-blur-xl  bg-[#56688494] px-3 py-6 space-y-[8px]">
+                        <div className=" absolute bottom-[18px] xs:bottom-[18px] left-5 xs:left-10   rounded-[18px]  group-hover:flex transition-opacity duration-300 w-[260px] hidden  space-x-3">
+                        <div className="flex-col justify-center items-center flex  rounded-[34px] backdrop-blur-xl bg-popup-red !z-[99] px-3 py-6 space-y-[8px]">
                     <img src={info} className="cursor-pointer" alt="" />
                     <p className="text-[#FFD02F] m-0 text-center text-[20px] font-[600]">{t(j.infotitle)}
                     </p>

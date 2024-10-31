@@ -29,7 +29,7 @@ const SimpleandReliableSec = () => {
                 </div>
                 <div className=" xs:h-[320px] 2xl:w-[75%] xl:w-[75%] lg:w-[75%] md:w-[75%] sm:w-[100%] w-[100%] flex justify-end xs:justify-center">
                 <img src={Simgimg} className="2xl:block xl:block lg:block md:block sm:hidden hidden w-[100%] simpiumgbg opacity-[0.6]" alt="" />
-                <img src={Simgimgmob} className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block w-[100%] simpiumgbg opacity-[0.4] xs:absolute xs:bottom-[-8%] xs:right-[-0%]" alt="" />
+                <img src={Simgimgmob} className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block w-[100%] simpiumgbg xs:absolute xs:bottom-[-8%] xs:right-[-0%]" alt="" />
                 <img src={Simgimgicn} className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block w-[100%] simpiumgbg max-w-[70px] xs:absolute xs:bottom-[2%] z-[9] xs:right-[64%]" alt="" />
 </div>
             </div>

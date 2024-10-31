@@ -341,7 +341,7 @@ const RewardSection = () => {
                 </div>
               </div>
             </div>
-            <div className=" 2xl:w-[50%] xl:w-[50%] lg:w-[50%] md:w-[100%] sm:w-[100%] w-[100%]  ">
+            <div className=" 2xl:w-[50%] xl:w-[50%] xs:relative xs:!z-[99] lg:w-[50%] md:w-[100%] sm:w-[100%] w-[100%]  ">
               {listData.map((item, id, index) =>
                 amountRange >= 1000 && amountRange <= 2499 && item.id === 1 ? (
                   // eslint-disable-next-line no-sequences
