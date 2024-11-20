@@ -44,12 +44,24 @@ import OwnershipSection from "./OwnershipSection";
 import WhatTheySaySec from "./WhatTheySaySec";
 import TopTenSec from "./TopTenSec";
 import SpotForCryptoSec from "./SpotForCryptoSec";
+import OnlyAvaibel from "./OnlyAvaibel";
+import SpecialSection from "./SpecialSection";
+import MultipleSec from "./MultipleSec";
 
 const Home = () => {
   return (
     <div className=" bg-[#111010]  overflow-hidden">
       <div id="home" className="">
         <ProductDetaliSection />
+      </div>
+      <div>
+        <MultipleSec />
+      </div>
+      {/* <div>
+      <SpecialSection />
+      </div> */}
+      <div>
+        <OnlyAvaibel />
       </div>
       <div>
         <OwnShares />

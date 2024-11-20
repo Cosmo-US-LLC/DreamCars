@@ -124,7 +124,7 @@ function OwnShares() {
   const { t } = useTranslation();
   return (
     <>
-      <div className="onsharebggr">
+      <div className="ownbggr2">
         <div className="2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] max-w-[1186px] mx-auto">
           <h3 className="text-[46px] xs:text-[24px] text-center leading-[130%] font-[700] text-[#fff]">
             {t('SharesSection.mainTitle')} <br /> {t('SharesSection.mainTitle2')}
