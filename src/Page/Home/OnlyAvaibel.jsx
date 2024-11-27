@@ -23,7 +23,6 @@ import Link4 from "../../assects/svgs/linkss (1).svg";
 import cardsvg1 from "../../assects/svgs/cardsvg (1).svg";
 import cardsvg2 from "../../assects/svgs/cardsvg (2).svg";
 
-
 import { useTranslation } from "react-i18next";
 
 const options = [
@@ -37,27 +36,25 @@ const cardData = [
     id: 1,
     title: "Best New Crypto",
     titleWidth: "max-w-[155px] min-w-[155px]",
-    para:"By Coinrise, 2024"
+    para: "By Coinrise, 2024",
   },
   {
     id: 2,
     title: "Best Crypto  Pre-Sale ",
     titleWidth: "max-w-[183px] min-w-[140px]",
-    para:"By Coinrise, 2024"
+    para: "By Coinrise, 2024",
   },
   {
     id: 3,
     title: "Best Crypto Innovation",
     titleWidth: "max-w-[155px] min-w-[150px]",
-    para:"Altcoin Daily 2024"
-
+    para: "Altcoin Daily 2024",
   },
   {
     id: 4,
     title: "Best Crypto Growth Potential",
     titleWidth: "max-w-[223px] min-w-[145px]",
-    para:"Altcoin Daily 2024"
-
+    para: "Altcoin Daily 2024",
   },
 ];
 
@@ -103,7 +100,6 @@ const OnlyAvaibel = () => {
   const handelBonus = () => {
     setShow(!show);
   };
-  
 
   const handleLinkClick = (event) => {
     event.preventDefault();
@@ -118,7 +114,6 @@ const OnlyAvaibel = () => {
       behavior: "smooth",
     });
   };
-
 
   function copyUrlToClipboard() {
     const url = "https://dreamcars.co/";
@@ -146,9 +141,24 @@ const OnlyAvaibel = () => {
       fbq("track", "Lead");
       console.log("Facebook Pixel 'Lead' event triggered");
     } else {
-      console.warn("fbq is not defined. Ensure FB Pixel is correctly initialized.");
+      console.warn(
+        "fbq is not defined. Ensure FB Pixel is correctly initialized."
+      );
     }
   };
+
+  useEffect(() => {
+    gtag("event", "purchase", {
+      value: 0.0, 
+      currency: "USD", 
+    });
+
+    fbq("track", "Purchase", {
+      value: 0.0,
+      currency: "USD", 
+    });
+  }, []);
+
   return (
     <div
       id="dashboard"
@@ -156,7 +166,6 @@ const OnlyAvaibel = () => {
     >
       <div className=" space-y-4  2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[90%] max-w-[1276px] mx-auto ">
         <div className="2xl:space-y-[45px]  xl:space-y-[45px] lg:space-y-4 xs:space-y-3 sm:space-y-3 md:space-y-3 lg:block xs:block md:block sm:block">
-         
           <div className="w-[100%] xl:w-[100%] mt-[50px] lg:w-[100%] lg:mx-auto flex flex-col justify-end  xs:w-[100%] sm:w-[100%] md:w-[100%] z-[2]">
             <div className="backdrop-blur-md max-w-[950px] w-[100%] bg-[#d1d5db1f] mx-auto gradient-border-mask rounded-[34px] space-y-[10px]">
               <div className=" pt-[30px] xs:pt-[20px] pb-[14px] xs:pb-[20px] relative  2xl:px-[52px] xl:px-[45px] lg:px-[32px] md:px-[52px] sm:px-[52px] px-[10px]  space-y-4">
@@ -349,8 +358,8 @@ const OnlyAvaibel = () => {
                       </div>
                       <div className="w-[100%] relative z-[1] pt-[15px] xs:pt-[20px]">
                         <Button
-                        onClick={handleWalletClick}
-                        id="wallet"
+                          onClick={handleWalletClick}
+                          id="wallet"
                           classes="bgcolor ftbutton2 font-[700] font-[Lato] w-[100%] h-[44px] rounded-[13px] text-[18px]"
                           text={`${t("ProductDetails.card-body-walletBtn")}`}
                         />
@@ -402,7 +411,7 @@ const OnlyAvaibel = () => {
                     </button>
                   </div>
                 </div>
-                
+
                 {!show && (
                   <div className="pb-[18px] relative z-[1]">
                     <p
@@ -429,78 +438,76 @@ const OnlyAvaibel = () => {
                 <img className="max-h-[40px] xs:h-[28px]" src={Solid} alt="" />
               </div>
             </div>
-            
           </div>
         </div>
         <div className="px-[23px]  py-[10px] !mt-[15px] relative z-[9] gradient-border-mask-own-hero-cent backdrop-blur-md bg-[#ffffff08] flex justify-between max-w-[894px] mx-auto items-center">
-                  <h4 className="text-[18px] xs:text-[13px] font-[700] w-[378px] mx-auto text-[#fff]">
-                  {t("ProductDetails.sharetext")}
-                  </h4>
-                  <div className="flex justify-center space-x-[10px] xs:space-x-[5px] !mr-[35px]">
-                    <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] relative z-[9] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
-                      <a
-                        href=""
-                        target=""
-                        rel="noopener noreferrer"
-                        className="relative z-[20]"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          copyUrlToClipboard();
-                        }}
-                      >
-                        <img
-                          className="h-[22px] xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
-                          src={Link1}
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
-                      <a
-                        href="https://twitter.com/dreamcars_bsc"
-                        target="_blank"
-                        className="cursor-pointer relative z-[20] "
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          className="h-[22px]  xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
-                          src={Link2}
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
-                      <a
-                        href="https://t.me/Dreamcars_bsc"
-                        target="_blank"
-                        className="relative z-[20]  cursor-pointer"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          className="h-[22px]  xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
-                          src={Link3}
-                          alt=""
-                        />
-                      </a>
-                    </div>
+          <h4 className="text-[18px] xs:text-[13px] font-[700] w-[378px] mx-auto text-[#fff]">
+            {t("ProductDetails.sharetext")}
+          </h4>
+          <div className="flex justify-center space-x-[10px] xs:space-x-[5px] !mr-[35px]">
+            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] relative z-[9] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+              <a
+                href=""
+                target=""
+                rel="noopener noreferrer"
+                className="relative z-[20]"
+                onClick={(e) => {
+                  e.preventDefault();
+                  copyUrlToClipboard();
+                }}
+              >
+                <img
+                  className="h-[22px] xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
+                  src={Link1}
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+              <a
+                href="https://twitter.com/dreamcars_bsc"
+                target="_blank"
+                className="cursor-pointer relative z-[20] "
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="h-[22px]  xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
+                  src={Link2}
+                  alt=""
+                />
+              </a>
+            </div>
+            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+              <a
+                href="https://t.me/Dreamcars_bsc"
+                target="_blank"
+                className="relative z-[20]  cursor-pointer"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="h-[22px]  xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
+                  src={Link3}
+                  alt=""
+                />
+              </a>
+            </div>
 
-                    <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
-                      <a
-                        href="https://www.instagram.com/dreamcars_bsc/"
-                        className="relative z-[20]  cursor-pointer"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          className="h-[22px]  xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
-                          src={Link4}
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
+            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+              <a
+                href="https://www.instagram.com/dreamcars_bsc/"
+                className="relative z-[20]  cursor-pointer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="h-[22px]  xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
+                  src={Link4}
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
