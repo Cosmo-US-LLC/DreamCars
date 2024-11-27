@@ -159,7 +159,7 @@ const HowdoesDreamcarsSec = () => {
             </div>
           </div>
               <div>
-                <p className="max-w-[589px] w-[100%] mx-auto text-center text-[16px] font-[400] text-[#fff]" >*If all shares are not sold within the requested time frame, buyers will be refunded, and they can choose to purchase another car if they wish.</p>
+                <p className="max-w-[589px] w-[100%] mx-auto text-center text-[16px] font-[400] text-[#fff]" >{t('HowdoesDreamcarsSec.bottompara')}</p>
               </div>
         </div>
       </div>

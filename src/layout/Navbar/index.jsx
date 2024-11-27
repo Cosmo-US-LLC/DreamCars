@@ -91,6 +91,17 @@ const Navbar = ({ handelClick }) => {
       setLangStatus(false);
     }
   };
+  useEffect(() => {
+    const savedLang = localStorage.getItem("selectedLang");
+    if (savedLang && locales[savedLang]) {
+      setSelectedLang(locales[savedLang]);
+      i18n.changeLanguage(savedLang);
+    } else {
+      setSelectedLang(locales.en);
+      i18n.changeLanguage("en");
+    }
+  }, [i18n]);
+  
 
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);

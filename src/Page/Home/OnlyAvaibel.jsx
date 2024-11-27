@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -103,6 +103,7 @@ const OnlyAvaibel = () => {
   const handelBonus = () => {
     setShow(!show);
   };
+  
 
   const handleLinkClick = (event) => {
     event.preventDefault();
@@ -118,6 +119,7 @@ const OnlyAvaibel = () => {
     });
   };
 
+
   function copyUrlToClipboard() {
     const url = "https://dreamcars.co/";
 
@@ -132,6 +134,21 @@ const OnlyAvaibel = () => {
       });
   }
 
+  const handleWalletClick = () => {
+    if (typeof gtag === "function") {
+      gtag("event", "wallet");
+      console.log("Google Analytics 'wallet' event triggered");
+    } else {
+      console.warn("gtag is not defined. Ensure GA is correctly initialized.");
+    }
+
+    if (typeof fbq === "function") {
+      fbq("track", "Lead");
+      console.log("Facebook Pixel 'Lead' event triggered");
+    } else {
+      console.warn("fbq is not defined. Ensure FB Pixel is correctly initialized.");
+    }
+  };
   return (
     <div
       id="dashboard"
@@ -332,6 +349,8 @@ const OnlyAvaibel = () => {
                       </div>
                       <div className="w-[100%] relative z-[1] pt-[15px] xs:pt-[20px]">
                         <Button
+                        onClick={handleWalletClick}
+                        id="wallet"
                           classes="bgcolor ftbutton2 font-[700] font-[Lato] w-[100%] h-[44px] rounded-[13px] text-[18px]"
                           text={`${t("ProductDetails.card-body-walletBtn")}`}
                         />
@@ -413,11 +432,11 @@ const OnlyAvaibel = () => {
             
           </div>
         </div>
-        <div className="px-[23px] !pr-[18px] py-[10px] !mt-[15px] relative z-[9] gradient-border-mask-own-hero-cent backdrop-blur-md bg-[#ffffff08] flex justify-between max-w-[894px] mx-auto items-center">
+        <div className="px-[23px]  py-[10px] !mt-[15px] relative z-[9] gradient-border-mask-own-hero-cent backdrop-blur-md bg-[#ffffff08] flex justify-between max-w-[894px] mx-auto items-center">
                   <h4 className="text-[18px] xs:text-[13px] font-[700] w-[378px] mx-auto text-[#fff]">
-                    Share Dreamcars with your Friends
+                  {t("ProductDetails.sharetext")}
                   </h4>
-                  <div className="flex justify-center space-x-[10px] xs:space-x-[5px]">
+                  <div className="flex justify-center space-x-[10px] xs:space-x-[5px] !mr-[35px]">
                     <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] relative z-[9] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
                       <a
                         href=""

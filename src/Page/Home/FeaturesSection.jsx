@@ -317,7 +317,7 @@ const FeaturesSection = () => {
                           32%
                         </p>
                         <p className="text-[10px] font-[400]  text-center">
-                          Expected APY
+                        {t("FeaturesSection.carditems1")}
                         </p>
                       </div>
                       <div className="space-y-[5px]">
@@ -325,10 +325,11 @@ const FeaturesSection = () => {
                           <img className="h-[17px]" src={cardft2} alt="" />
                         </div>
                         <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
-                          32%
+                        5.20%
+
                         </p>
                         <p className="text-[10px] font-[400] text-center">
-                          Expected APY
+                        {t("FeaturesSection.carditems2")}
                         </p>
                       </div>
                       <div className="space-y-[5px]">
@@ -336,10 +337,10 @@ const FeaturesSection = () => {
                           <img className="h-[17px]" src={cardft1} alt="" />
                         </div>
                         <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
-                          32%
-                        </p>
+                        Monthly
+</p>
                         <p className="text-[10px] font-[400] text-center">
-                          Expected APY
+                        {t("FeaturesSection.carditems3")}
                         </p>
                       </div>
                     </div>
@@ -395,7 +396,7 @@ const FeaturesSection = () => {
                           32%
                         </p>
                         <p className="text-[10px] font-[400]  text-center">
-                          Expected APY
+                        {t("FeaturesSection.carditems1")}
                         </p>
                       </div>
                       <div className="space-y-[5px]">
@@ -403,10 +404,10 @@ const FeaturesSection = () => {
                           <img className="h-[17px]" src={cardft2} alt="" />
                         </div>
                         <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
-                          32%
+                        19%
                         </p>
                         <p className="text-[10px] font-[400] text-center">
-                          Expected APY
+                        {t("FeaturesSection.carditems2")}
                         </p>
                       </div>
                       <div className="space-y-[5px]">
@@ -414,10 +415,10 @@ const FeaturesSection = () => {
                           <img className="h-[17px]" src={cardft1} alt="" />
                         </div>
                         <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
-                          32%
+                        Monthly
                         </p>
                         <p className="text-[10px] font-[400] text-center">
-                          Expected APY
+                        {t("FeaturesSection.carditems3")}
                         </p>
                       </div>
                     </div>
@@ -470,10 +471,10 @@ const FeaturesSection = () => {
                           <img className="h-[17px]" src={cardft3} alt="" />
                         </div>
                         <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
-                          32%
+                          27%
                         </p>
                         <p className="text-[10px] font-[400]  text-center">
-                          Expected APY
+                        {t("FeaturesSection.carditems1")}
                         </p>
                       </div>
                       <div className="space-y-[5px]">
@@ -481,10 +482,10 @@ const FeaturesSection = () => {
                           <img className="h-[17px]" src={cardft2} alt="" />
                         </div>
                         <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
-                          32%
+                        3.80%
                         </p>
                         <p className="text-[10px] font-[400] text-center">
-                          Expected APY
+                        {t("FeaturesSection.carditems2")}
                         </p>
                       </div>
                       <div className="space-y-[5px]">
@@ -492,10 +493,10 @@ const FeaturesSection = () => {
                           <img className="h-[17px]" src={cardft1} alt="" />
                         </div>
                         <p className="text-[12px] text-center text-[#2E71F1] font-[400]">
-                          32%
+                        Monthly
                         </p>
                         <p className="text-[10px] font-[400] text-center">
-                          Expected APY
+                        {t("FeaturesSection.carditems3")}
                         </p>
                       </div>
                     </div>

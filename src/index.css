@@ -1202,7 +1202,7 @@ background: var(--billionair-com-1920-x-1080-default-shark, #1C1D22);
     width: 20px !important;
     height: 20px !important;
   }
-  .gradient-border-mask-build-mobpara{
+  /* .gradient-border-mask-build-mobpara{
     position: relative;
     backdrop-filter: blur(0px);
     border-radius: 8px;
@@ -1218,7 +1218,7 @@ background: var(--billionair-com-1920-x-1080-default-shark, #1C1D22);
     mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     overflow: hidden;
-  }
+  } */
   .bg-filterved {
     border-radius: 8px;
     border: none;

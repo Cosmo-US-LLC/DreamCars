@@ -11,19 +11,19 @@ const items = [
     {
       id: 1,
       city: "Dubai",
-      status: "Preparations on-going",
+      status: "OpensSec.para1",
       bgClass: "bgimg", 
     },
     {
       id: 2,
       city: "Miami",
-      status: "Coming Soon",
+      status: "OpensSec.para2",
       bgClass: "bgimg2",
     },
     {
       id: 3,
       city: "Marbella (Spain)",
-      status: "Coming Soon",
+      status: "OpensSec.para3",
       bgClass: "bgimg3",
     },
   ];
@@ -37,7 +37,7 @@ const DreamcarsOpenSec = () => {
      <div className="w-[100%] h-[100%]">
      <div className="py-[3rem] xs:py-[0rem] 2xl:space-y-[50px] xl:space-y-[50px] lg:space-y-[50px] md:space-y-[50px] sm:space-y-[50px] space-y-[25px]">
         <div>
-          <h3 className="text-[46px] text-center xs:text-[24px] xs:text-center font-[700] leading-[130%] text-[#fff]"> Dreamcars Opens in </h3>
+          <h3 className="text-[46px] text-center xs:text-[24px] xs:text-center font-[700] leading-[130%] text-[#fff]"> {t("OpensSec.title")}</h3>
         </div>
         <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-between max-w-[1160px] mx-auto">
       {items.map((item) => (
@@ -48,7 +48,7 @@ const DreamcarsOpenSec = () => {
           <h4 className="text-[36px] font-[700] text-[#fff] textshad max-w-[200px] w-[100%] leading-[130%]">{item.city}</h4>
         <div className="flex justify-center">
         <div className="px-[13px] backdrop-blur-md rounded-[7px] bg-[#d1d5db1f] py-[14px] mx-auto ">
-            <p className="text-[18px] text-[#fff] font-[500]">{item.status}</p>
+            <p className="text-[18px] text-[#fff] font-[500]">{t(item.status)}</p>
           </div>
         </div>
         </div>

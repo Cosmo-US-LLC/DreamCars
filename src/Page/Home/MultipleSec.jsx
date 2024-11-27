@@ -14,36 +14,35 @@ import cardsvg2 from "../../assects/svgs/cardsvg (2).svg";
 const cardData = [
   {
     id: 1,
-    title: "Best New Crypto",
+    title: "MultipleSection.cardtitle1",
     titleWidth: "max-w-[155px] min-w-[155px]",
-    para:"By Coinrise, 2024"
+    para:"MultipleSection.para1"
   },
   {
     id: 2,
-    title: "Best Crypto  Pre-Sale ",
+    title: "MultipleSection.cardtitle2",
     titleWidth: "max-w-[183px] min-w-[140px]",
-    para:"By Coinrise, 2024"
+    para:"MultipleSection.para2"
   },
   {
     id: 3,
-    title: "Best Crypto Innovation",
+    title: "MultipleSection.cardtitle3",
     titleWidth: "max-w-[155px] min-w-[150px]",
-    para:"Altcoin Daily, 2024"
+    para:"MultipleSection.para3"
 
   },
   {
     id: 4,
-    title: "Best Crypto Growth Potential",
+    title: "MultipleSection.cardtitle4",
     titleWidth: "max-w-[223px] min-w-[145px]",
-    para:"Altcoin Daily, 2024"
+    para:"MultipleSection.para4"
 
   },
 ];
 
 const MultipleSec = () => {
- 
+  const { t } = useTranslation();
 
- 
   return (
     <div
       id="hero"
@@ -53,7 +52,7 @@ const MultipleSec = () => {
         <div className="2xl:space-y-[45px]  xl:space-y-[45px] lg:space-y-4 xs:space-y-8 sm:space-y-3 md:space-y-3 lg:block xs:block md:block sm:block">
           <div className="">
             <h3 className="text-[46px] xs:text-[28px] xs:leading-[117%] text-center font-[700] text-[#fff]">
-              Multiple Times Awarded
+            {t("MultipleSection.mainTitle")}
             </h3>
           </div>
           <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden flex-wrap gap-x-[24px] pb-[50px]">
@@ -72,7 +71,7 @@ const MultipleSec = () => {
                   <h3
                     className={`text-[26px] ${item.titleWidth} w-[100%] font-[900] pt-[3px] pb-[8px] text-center text-[#fff] leading-[23.29px]`}
                   >
-                    {item.title}
+                    {t(item.title)}
                   </h3>
                   <div className="flex justify-center items-center space-x-2">
                     <hr className="w-[30px] h-[0px] border-[#FFD02F] border-t" />
@@ -82,7 +81,7 @@ const MultipleSec = () => {
                     <hr className="w-[30px] h-[0px] border-[#FFD02F] border-t" />
                   </div>
                   <p className="text-[10px] text-[#FFD02F] font-[700] text-center">
-                   {item.para}
+                   {t(item.para)}
                   </p>
                 </div>
                 <img
@@ -140,7 +139,7 @@ const MultipleSec = () => {
                   <h3
                     className={`text-[26px] ${item.titleWidth} w-[100%] font-[900] pt-[3px] pb-[8px] text-center text-[#fff] leading-[23.29px]`}
                   >
-                    {item.title}
+                    {t(item.title)}
                   </h3>
                   <div className="flex justify-center items-center space-x-2">
                     <hr className="w-[30px] h-[0px] border-[#FFD02F] border-t" />
@@ -150,7 +149,7 @@ const MultipleSec = () => {
                     <hr className="w-[30px] h-[0px] border-[#FFD02F] border-t" />
                   </div>
                   <p className="text-[10px] text-[#FFD02F] font-[700] text-center">
-                   {item.para}
+                   {t(item.para)}
                   </p>
                 </div>
                 <img

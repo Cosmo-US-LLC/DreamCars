@@ -33,12 +33,12 @@ function Footer() {
       <div className="2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] space-y-[30px] max-w-[1010px] mx-auto py-12">
         <div className="flex flex-col items-center space-y-[25px]">
           <img src={logo} className="max-w-[280px] w-[100%]" alt="" />
-          <p className="text-[39px] xs:text-[24px] text-[#fff] font-[400] text-center leading-[130%]">Dreamcars is the first and only platform worldwide where you can buy shares of luxury rental cars using crypto and start earning monthly income from rentals.</p>
+          <p className="text-[39px] xs:text-[24px] text-[#fff] font-[400] text-center leading-[130%]"> {t('Footer.title')}</p>
         </div>
         <div className="flex justify-center">
         <a href="#hero" className="w-[100%] flex justify-center">
         <button className="ftbutton hover:bg-[transparent] bg-[#FFD02F] border border-[#FBDA19] rounded-[8px] px-[40px] py-[8px] text-[18px] font-[700] hover:text-[#fff]">
-        BUY $DCARS
+        {t('Footer.btnfooetr')}
               </button>
         </a>
         </div>
@@ -60,11 +60,9 @@ function Footer() {
               </div>
           </div>
           <div>
-            <p className="text-[14px] xs:text-[16px] font-[300] text-[#fff] text-center">Dreamcars is a web3 project, and cryptocurrency may not be regulated in your jurisdiction. The value of cryptocurrencies can fluctuate, which means you may experience both gains and losses. Any profits could be subject to capital gains or other taxes based on your local laws. The information on this website does not represent an offer, recommendation, or financial advice to buy or sell any cryptocurrency. You are responsible for determining whether any transaction is suitable for you, taking into account your personal objectives, financial situation, and risk tolerance. We strongly recommend consulting licensed legal, tax, or financial professionals. Trading cryptocurrencies involves significant risks, including the potential loss of your capital. Thorough research is essential. Dreamcars does not guarantee the performance, outcome, or returns of any cryptocurrency mentioned on this platform. Purchasing cryptocurrencies involves risk and may result in partial or total loss. The information provided is not intended for use in any jurisdiction where its distribution or use would contravene local laws or regulations.</p>
+            <p className="text-[14px] xs:text-[16px] font-[300] text-[#fff] text-center">{t('Footer.subpara')}</p>
           </div>
-          <p className="text-[12px] xs:text-[14px] font-[400] text-[#fff] text-center">Copyright 2024 Dreamcars | All rights reserved.</p>
-
-         
+          <p className="text-[12px] xs:text-[14px] font-[400] text-[#fff] text-center"> {t('Footer.Copyright')}</p>
         </div>
       </div>
     </>

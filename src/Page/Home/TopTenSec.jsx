@@ -26,61 +26,61 @@ import Button from "../../components/Button/button";
 const topTenData = [
     {
         id:1,
-        para:"They want to create an extra income stream that could earn them tens of thousands of USDT each month, all done remotely, to build a strong financial foundation for their future.",
+        para:"TopTenSec.cardpara1",
         number:"#1",
         img:toptemimg1,
     },
     {
         id:2,
-        para:"They want the ability to use a relatively small amount, less than $100,000, and want a way to earn significant returns, which is almost impossible outside of Dreamcars, especially when it comes to real assets",
+        para:"TopTenSec.cardpara2",
         number:"#2",
         img:toptemimg2,
     },
     {
         id:3,
-        para:"They’re looking to add a high-profit, real-world asset to their crypto portfolio to protect their wealth from market volatility, rising inflation, hacks, and to mitigate risks overall.",
+        para:"TopTenSec.cardpara3",
         number:"#3",
         img:toptemimg3,
     },
     {
         id:4,
-        para:"They’re crypto traders and they want to park their funds and earn income while waiting for new opportunities, without cashing out to fiat.",
+        para:"TopTenSec.cardpara4",
         number:"#4",
         img:toptemimg4,
     },
     {
         id:5,
-        para:"They want to earn income while also having the ability to rent luxury cars in popular Dreamcars locations like Dubai, Miami, Marbella, or other prime spots, at discounted prices.",
+        para:"TopTenSec.cardpara5",
         number:"#5",
         img:toptemimg5,
     },
     {
         id:6,
-        para:"They want to earn monthly rental income with the flexibility to access their funds quickly, whenever needed.",
+        para:"TopTenSec.cardpara6",
         number:"#6",
         img:toptemimg6,
     },
     {
         id:7,
-        para:"They are interested in owning luxury cars, earning income from them, and trading them without having to spend hundreds of thousands of dollars.",
+        para:"TopTenSec.cardpara7",
         number:"#7",
         img:toptemimg7,
     },
     {
         id:8,
-        para:"They They want to participate in the growing luxury car rental market without the hassle of running the business.",
+        para:"TopTenSec.cardpara8",
         number:"#8",
         img:toptemimg8,
     },
     {
         id:9,
-        para:"They’re seeking high-return alternatives to negative or low bank interest rates.",
+        para:"TopTenSec.cardpara9",
         number:"#9",
         img:toptemimg9,
     },
     {
         id:10,
-        para:"They want to be among the first to join an innovative, future-forward business model that combines the luxury car rental market with blockchain technology.",
+        para:"TopTenSec.cardpara10",
         number:"#10",
         img:toptemimg10,
     },
@@ -132,7 +132,7 @@ const TopTenSec = () => {
                 <div className="min-h-[621px] xs:min-h-[400px] xs:max-h-[520px] pt-[15px] px-[2rem] xs:px-[1rem] backdrop-blur-md xs:!backdrop-blur-none bg-[#d1d5db1f] xs:!bg-[transparent] rounded-[38px] max-w-[1102px] mx-auto h-[auto] w-[100%]">
                   <div className="relative backdrop-blur-md flex judtigy-between items-center border rounded-[38px] py-[4rem] xs:px-[2rem]">
                        <img className="absolute top-[5%] left-[1%] h-[100px] xs:h-[40px]" src={topcrdicn1} alt="" />
-                       <p className="text-[36px] xs:text-[22px] text-[#fff] font-[400] text-center max-w-[792px] w-[100%] mx-auto leading-[118%]">{item.para}</p>
+                       <p className="text-[36px] xs:text-[22px] text-[#fff] font-[400] text-center max-w-[792px] w-[100%] mx-auto leading-[118%]">{t(item.para)}</p>
                        <img className="absolute bottom-[5%] right-[2%] h-[57.643px] xs:h-[30px]" src={topcrdicn2} alt="" />
                        <div className="hidden xs:block">
                        <p className="text-[#043798] mt-[3rem] bg-[#fff] leading-[124.914px] px-[32px] rounded-[100px] text-[95px] font-[300] xs:absolute xs:bottom-[0%] left-[0%] xs:px-[20px] xs:rounded-[50px] xs:text-[26px] xs:leading-[150%]">{item.number}</p>

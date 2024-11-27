@@ -32,22 +32,22 @@ const WhatTheySaySec = () => {
              <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden hidden justify-between ">
                <div className="w-[28%] space-y-[35px]">
                    <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] border-r border-t space-y-[10px] rounded-[23px]">
-                       <h4 className="text-[#fff] text-[26px]  text-center w-[100%]  font-[700] leading-[119.994%] ">The Rolls Royce of Crypto! </h4>
+                       <h4 className="text-[#fff] text-[26px]  text-center w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle1")}</h4>
                        <img className="opacity-[0.5]" src={icns1} alt="" />
                    </div>
                    <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[26px]  w-[100%]  font-[700] leading-[119.994%] text-center ">Revolutionizing <br /> Luxury Car </h4>
+                       <h4 className="text-[#fff] text-[26px]  w-[100%]  font-[700] leading-[119.994%] text-center " dangerouslySetInnerHTML={{ __html: `${t('WhattheySec.cardtitle2')}` }}/>
                    <img className="opacity-[0.5]" src={icns2} alt="" />
                    </div>
                    <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[26px]  text-center w-[100%]  font-[700] leading-[119.994%] ">Alternative to <br /> Stock Market! </h4>
+                       <h4 className="text-[#fff] text-[26px]  text-center w-[100%]  font-[700] leading-[119.994%] " dangerouslySetInnerHTML={{ __html: `${t('WhattheySec.cardtitle3')}` }} />
                    <img className="opacity-[0.5]" src={icns3} alt="" />
                    </div>
                </div>
                <div className="w-[35%] space-y-[4rem] pt-[5.3rem] w-[100%] flex flex-col items-center ">
-                <h3 className=" text-[#fff] uppercase text-[46px] font-[700] text-center leading-[130%]">What they SAY  About <span className="text-[#FFD02F]">Dreamcars</span></h3>
+                <h3 className=" text-[#fff] uppercase text-[46px] font-[700] text-center leading-[130%]" dangerouslySetInnerHTML={{ __html: `${t('WhattheySec.title')}` }}/>
                 <div className="max-w-[368px] h-[266px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[26px] text-center max-w-[220px] w-[100%]  font-[700] leading-[119.994%] ">A New Era Of Cryptocurrency!</h4>
+                       <h4 className="text-[#fff] text-[26px] text-center max-w-[220px] w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle4")}</h4>
                    <img className="opacity-[0.5]" src={icns4} alt="" />
                    </div>
                    <img className="absolute bottom-[-10%] max-w-[732px] z-[1] w-[100%]" src={whatimg} alt="" />
@@ -55,15 +55,15 @@ const WhatTheySaySec = () => {
 
                <div className=" w-[28%] flex flex-col justify-cenetr space-y-[35px]">
                    <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[26px] text-center max-w-[220px] w-[100%]  font-[700] leading-[119.994%] ">Potential for High ROI!</h4>
+                       <h4 className="text-[#fff] text-[26px] text-center max-w-[220px] w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle5")}</h4>
                    <img className="opacity-[0.5]" src={icns5} alt="" />
                    </div>
                    <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[26px] text-center max-w-[220px] text-center w-[100%]  font-[700] leading-[119.994%] ">Own A Piece Of Your Dream Car!</h4>
+                       <h4 className="text-[#fff] text-[26px] text-center max-w-[220px] text-center w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle6")}</h4>
                    <img className="opacity-[0.5]" src={icns6} alt="" />
                    </div>
                    <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[26px] text-center max-w-[220px] text-center w-[100%]  font-[700] leading-[119.994%] ">Unique Concept! </h4>
+                       <h4 className="text-[#fff] text-[26px] text-center max-w-[220px] text-center w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle7")}</h4>
                    <img className="opacity-[0.5]" src={icns7} alt="" />
                    </div>
                </div>
@@ -71,7 +71,7 @@ const WhatTheySaySec = () => {
             
            </div>
            <div className="2xl:hidden xl:hidden relative lg:hidden md:hidden sm:block block whysec 2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] mx-auto" >
-           <h3 className="text-[#fff] text-[24px] pb-[30px] font-[700] text-center leading-[130%]">What they Say <br />  About <span className="text-[#FFD02F]">Dreamcars</span></h3>
+           <h3 className="text-[#fff] text-[24px] pb-[30px] font-[700] text-center leading-[130%]" dangerouslySetInnerHTML={{ __html: `${t('WhattheySec.title')}` }}/>
                     <Swiper
                      breakpoints={{
                         360: {
@@ -108,43 +108,43 @@ const WhatTheySaySec = () => {
                     >
                         <SwiperSlide>
                         <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] border-r border-t space-y-[10px] rounded-[23px]">
-                       <h4 className="text-[#fff] text-[22px]  text-center w-[100%]  font-[700] leading-[119.994%] ">The Rolls Royce of Crypto! </h4>
+                       <h4 className="text-[#fff] text-[22px]  text-center w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle1")}</h4>
                        <img className="opacity-[0.5]" src={icns1} alt="" />
                    </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[22px]  w-[100%]  font-[700] leading-[119.994%] text-center ">Revolutionizing Luxury Car </h4>
+                       <h4 className="text-[#fff] text-[22px]  w-[100%]  font-[700] leading-[119.994%] text-center ">{t("WhattheySec.cardtitle2")}</h4>
                    <img className="opacity-[0.5]" src={icns2} alt="" />
                    </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[22px]  text-center w-[100%]  font-[700] leading-[119.994%] ">Alternative to Stock Market! </h4>
+                       <h4 className="text-[#fff] text-[22px]  text-center w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle3")}</h4>
                    <img className="opacity-[0.5]" src={icns3} alt="" />
                    </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="max-w-[368px] h-[266px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[22px] text-center  w-[100%]  font-[700] leading-[119.994%] ">A New Era Of Cryptocurrency!</h4>
+                       <h4 className="text-[#fff] text-[22px] text-center  w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle4")}</h4>
                    <img className="opacity-[0.5]" src={icns4} alt="" />
                    </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[22px] text-center  w-[100%]  font-[700] leading-[119.994%] ">Potential for High ROI!</h4>
+                       <h4 className="text-[#fff] text-[22px] text-center  w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle5")}</h4>
                    <img className="opacity-[0.5]" src={icns5} alt="" />
                    </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[22px] text-center  text-center w-[100%]  font-[700] leading-[119.994%] ">Own a piece of your dream car!</h4>
+                       <h4 className="text-[#fff] text-[22px] text-center  text-center w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle6")}</h4>
                    <img className="opacity-[0.5]" src={icns6} alt="" />
                    </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="max-w-[368px] h-[213px] w-[100%] flex flex-col items-center justify-center py-[30px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] space-y-[10px] gradient-border-mask rounded-[34px]">
-                       <h4 className="text-[#fff] text-[22px] text-center  text-center w-[100%]  font-[700] leading-[119.994%] ">Unique Concept! </h4>
+                       <h4 className="text-[#fff] text-[22px] text-center  text-center w-[100%]  font-[700] leading-[119.994%] ">{t("WhattheySec.cardtitle7")}</h4>
                    <img className="opacity-[0.5]" src={icns7} alt="" />
                    </div>
                         </SwiperSlide>

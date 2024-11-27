@@ -60,8 +60,8 @@ const WhyShouldSection = () => {
                 />
                <p className="text-center leading-[120%] text-[14px] font-[400] text-[#fff]">{t(item.para)}</p>
                </div>
-              <div className="flex justify-center items-end min-h-[170px]">
-              <img src={item.icon} alt="" />
+              <div className="flex justify-center items-end min-h-[170px] ">
+              <img src={item.icon} className="max-h-[170px]" alt="" />
               </div>
             </div>
         ))
