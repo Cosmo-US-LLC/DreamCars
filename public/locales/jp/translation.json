@@ -24,9 +24,9 @@
     "navBtn": "ウォレットを接続"
   },
   "ProductDetails": {
-    "para1": "Dreamcarsは、ほとんどの人が夢見る車へのアクセスを提供します",
-    "title1": "高級レンタカーに投資し、毎日収入を得る",
-    "para2": "Dreamcarsで車を株式のように取引：高級車を購入、売却、株式を所有し、レンタル収入で最大5,000 USDTを毎日得る可能性がある唯一のプラットフォーム。$DCARSホルダーに限定提供。",
+   "para1": "Dreamcarsは世界で最も排他的な車へのアクセスを提供します",
+    "title1": "高級レンタカーに投資して月収を得る",
+    "para2": "車を株式のように取引します。Dreamcarsは、高級車の株式を購入、所有、売却できる初で唯一のプラットフォームです。レンタルを通じて月最大50,000 USDTを稼ぎます。このプラットフォームは、$DCARS保有者のみに利用可能です。",
     "card1": "暗号通貨のロールス・ロイス！",
     "card2": "あなたの夢の車の一部を所有！",
     "card3": "これは今までにないことです！",
@@ -85,13 +85,12 @@
     "mainTitle": "掲載メディア"
   },
   "BetaSection": {
-    "title": "世界初のブロックチェーンで動く高級レンタカーシェアプラットフォーム",
-    "para1": "たった$10から本物の高級レンタカー株を購入",
-    "para2": "高級レンタカーで月々のレンタル収入を得る",
-    "para3": "各車両は平均20％から50％の年利を生み出します",
-    "para4": "履歴データと価格データを監視",
+    "title": "世界初のブロックチェーン対応の高級車取引プラットフォーム",
+    "para1": "本物の高級車シェアを購入",
+    "para2": "USDTで毎月のレンタル収入を獲得",
+    "para3": "過去のパフォーマンスと価格データを監視",
+    "para4": "各車両は平均20％から50％のAPYを生成",
     "para5": "Dreamcarsマーケットプレイスで数秒で車を取引",
-    "para6": "Dreamcarsの任意の場所で高級車を割引価格でレンタル",
     "btn": "$DCARSを購入"
   },
     "LicensedCard": {
@@ -106,9 +105,10 @@
     "OwnCarSection": {
       "mainTitle": "高級車を所有し、",
       "mainTitle2": "レンタル収入を得る",
-      "para1": "Dreamcars は暗号通貨を使用して高級レンタカーで収入を得る方法を簡単にします。Dreamcars では、$DCARS デジタル通貨を使用して、<strong>メルセデス・ベンツ、ポルシェ、ベントレー、ロールス・ロイス、フェラーリ、ランボルギーニ</strong>などの名門ブランドの車の株式を購入できます。これらの車は Dreamcars チームによって管理・レンタルされており、車の一部を所有するだけでなく、レンタル収入も得ることができます。",
-      "para2": "各車は株式に分割され、NFT として販売され、<strong>オリジナルの購入および所有契約とリンクし、当社のレンタルショールームにある実際の完全に第三者保険を掛けた車によって裏付けられています</strong>。これらの高級車の一部は、わずか $10 から所有することができます。",
-      "para3": "高級車に数十万ドルを費やしたり、その価値が減少することを心配することはもうありません。<strong>Dreamcars では、車の一部が貴重な資産となり、毎月安定した収入を得ることができます。</strong>"
+      "para1": "Dreamcarsは暗号通貨を使用して高級レンタカーから収入を得るのを簡単にします。$DCARSトークンを使用して、<strong>メルセデス・ベンツ、ポルシェ、ベントレー、ロールスロイス、フェラーリ、ランボルギーニ</strong>などのトップブランドの高級レンタカーの株式を購入できます。",
+      "para2": "各車両は株式に分割され、NFTに変換されます。<strong>車両のシリアル番号、所有権情報</strong>、購入契約などの重要な詳細を安全に保存します。",
+      "para3": "すべての車両は第三者の保険会社によって完全にカバーされ、ドバイ、マイアミ、またはマルベーリャのDreamcarsショールームに保管されています。当社のチームはそれらを毎日、毎週、または毎月貸し出します。賃貸収入は毎月1日にUSDTで車両所有者に支払われます。",
+      "para4": "スーパーカーに何十万ドルも費やしたり、その価値が下がることを心配する必要はありません。Dreamcarsでは、車両の株式が安定した月収をもたらす価値のある資産になります。"
     },
     "WhyShouldSec": {
       "title": "プレセール中の限定特典",
@@ -124,22 +124,21 @@
     "BenefitSection": {
       "title": "なぜ Dreamcars を選ぶべきか？",
       "cardTitle": "100% の真正性",
-      "cardSubtitle": "本物の高級レンタカーの株式は NFT として販売され、購入および所有契約はスマートコントラクトに含まれます。ブロックチェーン技術を活用することで、各車両のシリアル番号と詳細を NFT メタデータに埋め込んで、その真正性を保証します。",
-      "cardTitle21": "高級車の一部を所有する",
-      "cardSubtitle2": "Dreamcars は、高級車を実際の車で裏付けられた NFT として提供し、部分所有権のために分割することによって、誰でも高級車レンタル市場への参入を手軽にしました。",
-      "cardTitle3": "ポジティブキャッシュフロー",
-      "cardSubtitle3": "Dreamcars を利用して、高級車のレンタルによる月額収入を USDT で得ることができ、ブロックチェーン技術と実際の資産によって保証されています。",
-      "cardTitle4": "高い流動性",
-      "cardSubtitle4": "当社の革新的な融資プロトコルを使用することで、ユーザーは車の株式を担保として競争力のあるローンを利用できます。これにより、車両の完全な所有権を保持しながら資金調達が可能です。",
-      "cardTitle5": "代替資産",
-      "cardSubtitle5": "Dreamcars は、変動の激しい暗号通貨や株式市場に対する安定した成長志向の代替手段を提供します。新しい資産クラスの先駆者として、追加の収入を得る機会と富を分散する方法を提供します。",
-      "cardTitle6": "レンタカーの割引",
-      "cardSubtitle6": "共に、世界で最も優れた車両の株式を所有しながら、Dreamcars の各ロケーションで高級車のレンタルに関する大幅な割引を享受する、新しくエキサイティングで利益を生む方法を創出し、高級車レンタル業界を変革しています。"
-    },
+      "cardSubtitle": "各レンタカーは株式に分割され、NFTとしてトークン化されます。スマートコントラクトには車のシリアル番号や所有権の詳細が含まれ、完全な真正性と透明性を保証します。",
+    "cardTitle21": "ラグジュアリーの一部を所有",
+    "cardSubtitle2": "Dreamcarsでは、大金をかけずに高級レンタカーの株式を所有し、日々、週、月のレンタルから収入を得ることができます。",
+    "cardTitle3": "ポジティブキャッシュフロー",
+    "cardSubtitle3": "レンタカーの収入から毎月USDTを稼ぎます。収入は毎月1日に保有株数に応じて車両所有者に分配されます。",
+    "cardTitle4": "高い流動性",
+    "cardSubtitle4": "完全な所有権を維持しながら、資金への簡単なアクセスを得るために車両株式を流動性プロトコルを通じて使用します。",
+    "cardTitle5": "代替資産",
+    "cardSubtitle5": "Dreamcarsは、不安定な株式や暗号通貨を超えてポートフォリオを多様化するのに役立つ安定した収入生成資産を提供します。",
+    "cardTitle6": "レンタカーの割引",
+    "cardSubtitle6": "Dreamcarsユーザーは高級レンタカーで大幅な割引を受け、超高級車をお得な価格で利用できます。"
+  },
     "RewardSection": {
     "title": "特別ボーナスがたったのから開始",
-    "para": "Dreamcarsメンバーズクラブに参加して、素晴らしい報酬とボーナス$DCARSを手に入れましょう！<br/><br/>購入すればするほど、利益が大きくなります！これらの特別な報酬はプレセール中のみ提供され、今後は再度提供されません。",
-    "spendText": "いくら使いたいですか？",
+    "para": "限定のDreamcarsメンバーズクラブに参加して、特別な報酬とボーナス$DCARSトークンを手に入れましょう！ <br/><br/>購入すればするほど、より多くの特典を得られます！これらの特別な報酬はプレセール期間中のみ利用可能です。二度と提供されることはありません。",
     "packageType1": "メルセデス",
     "packageText11": "メルセデスNFT",
     "packageText12": "ステーキング報酬",
@@ -214,14 +213,14 @@
   "LamborghiniSec": {
     "title": "Lamborghini Huracan  Shares For ",
     "titlespan": "Only $10",
-    "para": "Imagine owning a brand-new Lamborghini Huracan and <strong>earning up to $15,000 monthly</strong>  from this single car* without having to manage it yourself. That's what Dreamcars makes possible.<br /><br /> Dreamcars is breaking barriers by opening up the luxury rental car business to crypto users worldwide. Simply buy $DCARS and then purchase shares in your dream cars for as little as $10, and sell them from the comfort of your home at any time. In the past, you would have needed to <strong> spend a fortune or take out large bank loans</strong> to start your own luxury car rental business. Plus, you would have had to rent space, buy insurance, and advertise. Now, all of these tasks are handled for you. You can simply choose your car and start earning monthly rental income.",
+    "para": "新品のランボルギーニ・ウラカンを所有し、指一本動かさずにレンタルで何千ものUSDTを稼ぐことを想像してみてください。旅行中でも、ビーチでリラックスしていても、自宅にいても、毎月1日に自動的にレンタル収入を受け取ることができます。Dreamcarsは、世界中の暗号通貨ユーザーに高級レンタル市場を開放することでこれを可能にします。<br /><br /> これまでなら、贅沢なレンタル事業を始めるには莫大な資金を費やしたり、大規模な銀行ローンを組む必要がありました。また、スペースの賃貸、保険の購入、広告の作成も必要です。今では、Dreamcarsがすべてを引き受けます。最初の車を選ぶだけで、毎月のレンタル収入を得ることができます。",
     
     "paralats":"*This calculation is based on the assumption that you own all the shares of the car"
 
   },
   "SimpleExampleSec":{
     "title": "Here's A Simple <strong>Example</strong>",
-    "para": "A Lamborghini Huracan Spyder 2024, purchased for $280,000, can generate nearly $97,000 in net profit after deducting all costs, including depreciation*.",
+    "para": "2024年式ランボルギーニ・ウラカン・スパイダーは、280,000ドルで購入され、減価償却を含むすべての費用を差し引いた後、約97,000ドルの純利益を生む可能性があります。*",
     "calculation": "1-Year Calculation:",
     "totalcard": "Total Annual Costs**",
     "amountcard1": "$83,000",
@@ -233,7 +232,7 @@
   },
   "LuxurySec":{
     "title": "The Luxury Car Rental  Industry Is <strong>Growing Fast</strong>",
-    "para": "The luxury car rental market is growing fast as <strong>more people want to drive high-end cars for special occasions or just to enjoy a premium experience.</strong> Dreamcars makes it possible for users to take part in the luxury rental business by purchasing car shares powered by blockchain technology. This way, users can earn income from rentals without owning or maintaining the cars. As demand for luxury car rentals rises, <strong>Dreamcars offers an easy and profitable way to be part of this growing market.</strong> "
+    "para": "高級車レンタル市場は急速に拡大しており、<strong>休暇、結婚式、または単にスリルを体験するためにスーパーカーを運転したい人々が増えています。現在2,000億ドル以上の価値がある</strong>この市場は、2029年までに3,000億ドルに達すると予測されています。Dreamcarsは、高級車レンタル業界への参入を可能にし、車を管理または維持する手間をかけずに収益を得ることができます。高級車レンタルの需要が増加する中で、<strong>Dreamcarsは、この急成長する市場の一部になるための簡単で収益性の高い方法を提供します。</strong>"
   },
     "TheLuxurySec": {
       "title": "ラグジュアリーカーのレンタル業界は<strong>急速に成長しています</strong>",
@@ -290,7 +289,7 @@
       },
       "MostFunSection": {
         "title": "ラグジュアリーカーの所有は、あなたの暗号ポートフォリオを最も楽しく<span>多様化</span>する方法です",
-        "para": "暗号市場のような非常に変動性の高い市場では、Dreamcarsでラグジュアリーなレンタカーを所有することが収入を得るシンプルで信頼できる方法を提供します。 <strong>多くの人々が過去のベアマーケットで暗号資産が50%以上減少したのを見て、今では資産を守るためのより安定した方法を求めています。</strong> 私たちを誤解しないでください—私たちも暗号通貨に投資しており、それを未来と見なしています。しかし、ブロックチェーンの中には、資産を守るためのより安全な選択肢があるべきだとも信じています。<br/><br/> <strong>デジタル資産をウォレットに置いたままで、市場の変動や下落にさらされる代わりに</strong>（USDCやUSDTのような安定コインでさえ、インフレやUSDペッグによって価値を失うことがあります）、Dreamcarsを通じてそれらを本物のラグジュアリーカーのシェアに変換し、月々のレンタル収入を得ることができます。 <strong>これにより、他のほとんどの選択肢よりも高いリターンと安定性を提供します。</strong> Dreamcarsを使えば、暗号市場が苦しんでいる時でも、あなたの富を守り、成長させることができます。",
+      "para": "暗号通貨や株式のような非常に変動の激しい市場では、利益を現金化することが重要です。短期間で価値の50%を失う可能性があります。Dreamcarsは、資産の一部を分散させ、保護するためのシンプルで信頼性のある方法を提供します。<br/><br/> デジタル資産をすべてウォレットに保管しておく代わりに、それらをDreamcarsを通じて実際の高級車の株式に変換し、価値のある実物資産に裏付けられた毎月の賃貸収入を得ることができます。これにより、他のほとんどのオプションよりも安定性と一貫したリターンが得られます。専門家が言うように、全ての卵を一つのバスケットに入れてはいけません。",
         "btn1": "$DCARSを購入"
       },
       "FeaturesSection": {
@@ -419,16 +418,16 @@
             "WhatMakesSec": {
               "title": "$DCARS<br/> <strong>は何が特別ですか?</strong>",
               "para": "$DCARSトークンはDreamcarsプラットフォームのネイティブ暗号通貨であり、暗号を使用して高級レンタカーを所有する唯一の方法です。<br/><br/> 重要: <strong>$DCARSがないと、Dreamcarsで車を購入することはできません</strong>。Dreamcarsマーケットプレイスにアクセスし、エコシステムに完全に関与するためには、一定量の$DCARSを保有する必要があります。$DCARSトークンを保有することで、次のような特典にアクセスできます:",
-              "lisec1": "レンタカーの売買",
-              "lisec2": "車購入に関する投票権",
-              "lisec3": "車からの賃貸収入の獲得",
-              "lisec4": "Dreamcarsマーケットプレイスのすべての機能にアクセス",
-              "lisec5": "レンディングプロトコルを使用して車をヘッジ"
+              "lisec1": "車の購入と販売",
+    "lisec2": "車の購入に関する投票権",
+    "lisec3": "レンタカーから月収を得る",
+    "lisec4": "Dreamcarsマーケットプレイスのすべての機能にアクセス",
+    "lisec5": "貸付プロトコルを使用して即時流動性を得る"
             },
             "DreamcarsBusinessSec": {
-              "title": "Dreamcarsのビジネスモデルは$DCARSの成長を継続的にサポートします<br />",
-              "para": "私たちのマーケットプレイスは世界中で高級レンタカーを提供しており、10種類以上の異なる暗号通貨を使用して購入可能です。車のシェアを購入し保有するには、特定の量の$DCARSを保有し、それを所有期間中ロックする必要があります。<br/><br/> <strong>このプロセスにより、マーケットプレイスに車が追加されるたびに、$DCARSの価値は時間とともに安定して増加します。</strong>",
-              "difftext": "3つの異なる車のカテゴリー",
+              "title": "Dreamcarsのビジネスモデルは、<br /> $DCARSの成長を継続的に支援します",
+              "para": "Dreamcarsマーケットプレイスでは、仮想通貨を使用して、世界中のラグジュアリーレンタカーのシェアを購入、販売、および取引できます。車のシェアを所有するには、特定量の$DCARSを保持し、所有権を維持したい期間ロックする必要があります。このプロセスにより、マーケットプレイスにより多くの車が追加されるにつれて、$DCARSの価値が時間とともに着実に増加することが保証されます。",
+              "difftext": "3種類の車カテゴリー",
               "cardtitle1": "エントリーレベル車",
               "cardtitle2": "プレミアム車",
               "cardtitle3": "トップパフォーマー",

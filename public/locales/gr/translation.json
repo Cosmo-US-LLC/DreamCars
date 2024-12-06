@@ -24,9 +24,9 @@
     "navBtn": "Wallet verbinden"
   },
   "ProductDetails": {
-    "para1": "Dreamcars bietet Zugang zu Autos, von denen die meisten Menschen nur träumen können.",
-    "title1": "Investiere in Luxusautos zur Vermietung und verdiene täglich Einkommen",
-    "para2": "Handel mit Autos wie Aktien auf Dreamcars: die erste und einzige Plattform zum Kauf, Verkauf und Besitz von Anteilen an Luxusautos, mit einem Gewinnpotenzial von bis zu 5.000 USDT pro Tag durch Vermietungen. Exklusiv für $DCARS Inhaber verfügbar.",
+    "para1": "Dreamcars ermöglicht den Zugang zu den exklusivsten Autos der Welt",
+    "title1": "Investieren Sie in Luxusmietwagen und verdienen Sie monatliches Einkommen",
+    "para2": "Handeln Sie Autos wie Aktien. Dreamcars ist die erste und einzige Plattform, auf der Sie Anteile an Luxusautos kaufen, besitzen und verkaufen können. Verdienen Sie bis zu 50.000 USDT monatlich durch Vermietungen. Die Plattform ist ausschließlich für $DCARS-Inhaber verfügbar.",
     "card1": "Die Rolls Royce <br /> der Kryptowährung!",
     "card2": "Besitze einen Anteil an deinem Traumauto!",
     "card3": "Noch nie zuvor gemacht!",
@@ -85,13 +85,12 @@
     "mainTitle": "Vorgestellt in"
   },
   "BetaSection": {
-  "title": "Die erste Blockchain-unterstützte Luxusmietwagenplattform der Welt",
-  "para1": "Kaufen Sie echte Luxusmietwagenanteile ab nur 10 $",
-  "para2": "Verdienen Sie monatliches Mieteinkommen mit Luxusmietwagen",
-  "para3": "Jedes Auto generiert eine durchschnittliche Rendite von 20% bis 50% APY",
-  "para4": "Überwachen Sie historische Performance- und Preisdaten",
-  "para5": "Handeln Sie Autos in Sekunden auf dem Dreamcars-Marktplatz",
-  "para6": "Mieten Sie Luxusautos zu reduzierten Preisen an jeder Dreamcars-Standort",
+"title": "Die weltweit erste Blockchain-basierte Handelsplattform für Luxusautos",
+    "para1": "Kaufen Sie echte Luxusautoanteile",
+    "para2": "Verdienen Sie monatliches Mieteinkommen in USDT",
+    "para3": "Verfolgen Sie historische Leistungs- und Preisdaten",
+    "para4": "Jedes Auto generiert durchschnittlich 20 % bis 50 % APY",
+    "para5": "Handeln Sie Autos in Sekundenschnelle auf dem Dreamcars-Marktplatz",
   "btn": "KAUFEN $DCARS"
 },
 "LicensedCard": {
@@ -106,9 +105,10 @@
 "OwnCarSection": {
   "mainTitle": "Besitzen Sie Luxusautos,",
   "mainTitle2": "Verdienen Sie Mieteinkommen",
-  "para1": "Dreamcars macht es einfach, mit Luxusmietwagen Kryptowährungen zu verdienen. Mit Dreamcars können Sie Anteile an renommierten Autos von Marken wie <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, Lamborghini</strong> und mehr kaufen, und das mit unserer digitalen Währung, $DCARS. Diese Autos werden vom Dreamcars-Team verwaltet und vermietet, sodass Sie nicht nur einen Anteil am Auto besitzen, sondern auch Einkommen aus den Mieten verdienen.",
-  "para2": "Jedes Auto wird in Anteile aufgeteilt und als NFT verkauft, verbunden mit dem <strong>originalen Kauf- und Eigentumsvertrag und abgesichert durch ein echtes, vollständig von Dritten versichertes Fahrzeug in einem unserer Miet-Showrooms</strong>. Sie können einen Bruchteil dieser Luxusautos schon ab 10 $ besitzen.",
-  "para3": "Kein Ausgeben von Hunderttausenden für ein Luxusauto oder Sorge, dass es an Wert verliert. <strong>Mit Dreamcars wird Ihr Anteil am Auto zu einer wertvollen Vermögensposition, die Ihnen jeden Monat ein stabiles Einkommen generiert.</strong>"
+  "para1": "Dreamcars macht es einfach, Einkommen aus Luxusmietwagen mit Krypto zu verdienen. Mit unserem $DCARS-Token können Sie Anteile an renommierten Mietwagen von Top-Marken wie <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari und Lamborghini</strong> kaufen.",
+    "para2": "Jedes Auto wird in Anteile aufgeteilt und in ein NFT umgewandelt, <strong>das wichtige Details wie die Seriennummer des Autos, Eigentumsinformationen</strong> und den Kaufvertrag sicher speichert.",
+    "para3": "Alle Autos sind vollständig von Drittversicherungen abgedeckt und in Dreamcars-Showrooms in Dubai, Miami oder Marbella untergebracht. Unser Team vermietet sie täglich, wöchentlich oder monatlich. Mieteinnahmen werden den Autobesitzern am 1. eines jeden Monats in USDT ausgezahlt.",
+    "para4": "Sie müssen keine Hunderttausende für Supersportwagen ausgeben oder sich Sorgen machen, dass ihr Wert sinkt. Mit Dreamcars wird Ihr Autoanteil zu einem wertvollen Vermögenswert, der ein stetiges monatliches Einkommen bietet."
 },
 "WhyShouldSec": {
   "title": "Exklusive Vorteile während der Vorverkaufsphase",
@@ -124,21 +124,21 @@
 "BenefitSection": {
   "title": "Warum Dreamcars wählen?",
   "cardTitle": "100% Authentizität",
-  "cardSubtitle": "Anteile an echten Luxusmietwagen werden als NFTs verkauft, mit Kauf- und Eigentumsvereinbarungen im Smart Contract. Durch den Einsatz von Blockchain-Technologie stellen wir sicher, dass die Authentizität jedes Fahrzeugs gewährleistet ist, indem wir seine Seriennummer und Details in die NFT-Metadaten einbetten.",
-  "cardTitle21": "Besitzen Sie ein Stück Luxus",
-  "cardSubtitle2": "Dreamcars hat den Besitz von Luxusautos zugänglicher gemacht, indem NFTs angeboten werden, die durch echte Autos abgesichert sind, in Bruchteilen für den teilweisen Besitz aufgeteilt und den Einstieg in den Luxusautovermietungsmarkt für jeden erschwinglich machen.",
+  "cardSubtitle": "Jedes Mietauto wird in Anteile aufgeteilt und als NFTs tokenisiert, einschließlich der Seriennummer des Autos und der Eigentumsdetails im Smart Contract, was volle Authentizität und Transparenz gewährleistet.",
+  "cardTitle21": "Besitze ein Stück Luxus",
+  "cardSubtitle2": "Mit Dreamcars kannst du Anteile an Luxusmietwagen besitzen, ohne ein Vermögen auszugeben, und Geld aus täglichen, wöchentlichen und monatlichen Vermietungen verdienen.",
   "cardTitle3": "Positiver Cashflow",
-  "cardSubtitle3": "Erzeugen Sie einen konstanten Cashflow in USDT mit Dreamcars durch monatliche Einkünfte aus Luxusautovermietungen, abgesichert durch Blockchain-Technologie und echte Vermögenswerte.",
+  "cardSubtitle3": "Verdiene jeden Monat USDT aus Autovermietungen, wobei das Einkommen basierend auf der Anzahl der gehaltenen Anteile am 1. jedes Monats an die Fahrzeugbesitzer verteilt wird.",
   "cardTitle4": "Hohe Liquidität",
-  "cardSubtitle4": "Mit unserem innovativen Kreditprotokoll können Nutzer wettbewerbsfähige Kredite aufnehmen, indem sie ihre Autoanteile als Sicherheiten verwenden, während sie weiterhin das vollständige Eigentum an ihren Fahrzeugen behalten.",
-  "cardTitle5": "Alternative Vermögenswerte",
-  "cardSubtitle5": "Dreamcars bietet eine stabile, wachstumsorientierte Alternative zu volatilen Kryptowährungen und Aktienmärkten. Durch die Schaffung einer neuen Asset-Klasse bietet es Ihnen die Möglichkeit, zusätzliches Einkommen zu generieren und Ihr Vermögen zu diversifizieren.",
+  "cardSubtitle4": "Nutze deine Autoanteile, um über unser Liquiditätsprotokoll Kredite zu erhalten und dabei das volle Eigentum zu behalten.",
+  "cardTitle5": "Alternative Anlagen",
+  "cardSubtitle5": "Dreamcars bietet ein stabiles, einkommensgenerierendes Asset, das hilft, dein Portfolio über volatile Aktien und Kryptowährungen hinaus zu diversifizieren.",
   "cardTitle6": "Rabatte auf Mietwagen",
-  "cardSubtitle6": "Gemeinsam verwandeln wir die Luxusautovermietungsbranche, indem wir eine spannende, profitable und zugängliche Möglichkeit schaffen, Anteile an den weltweit besten Fahrzeugen zu besitzen, während Sie auch erhebliche Rabatte auf Luxusautovermietungen an jedem Dreamcars-Standort genießen."
+  "cardSubtitle6": "Dreamcars-Nutzer erhalten große Rabatte auf Luxusmietwagen und können Supersportwagen zu unschlagbaren Preisen fahren."
 },
 "RewardSection": {
   "title": "Erhalten Sie spezielle Boni ab nur ",
-  "para": "Treten Sie dem exklusiven Dreamcars-Mitgliederclub bei und erhalten Sie außergewöhnliche Belohnungen plus Bonus $DCARS! <br/><br/>Je mehr Sie kaufen, desto größer sind die Vorteile! Diese speziellen Belohnungen sind nur während des Pre-Sales verfügbar und werden nie wieder angeboten.",
+"para": "Treten Sie dem exklusiven Dreamcars Member’s Club bei und erhalten Sie außergewöhnliche Belohnungen und Bonus-DCARS-Token! <br/><br/>Je mehr Sie kaufen, desto größer sind die Vorteile! Diese speziellen Belohnungen sind nur während des Vorverkaufs verfügbar. Sie werden nie wieder angeboten.",
   "spendText": "Wie viel möchten Sie ausgeben?",
   "packageType1": "Mercedes",
   "packageText11": "Mercedes NFT",
@@ -213,12 +213,12 @@
   "LamborghiniSec": {
     "title": "Lamborghini Huracan Anteile für",
     "titlespan": "Nur $10",
-    "para": "Stellen Sie sich vor, Sie besitzen einen brandneuen Lamborghini Huracan und <strong>verdienen bis zu $15.000 monatlich</strong> mit diesem einzigen Auto*, ohne es selbst verwalten zu müssen. Genau das ermöglicht Dreamcars.<br /><br /> Dreamcars durchbricht Barrieren, indem es die Luxusautovermietung weltweit für Krypto-Nutzer öffnet. Kaufen Sie einfach $DCARS und erwerben Sie dann Anteile an Ihren Traumautos ab nur $10, und verkaufen Sie diese bequem von zu Hause aus, wann immer Sie wollen. Früher hätten Sie <strong>ein Vermögen ausgeben oder große Bankkredite aufnehmen müssen</strong>, um Ihr eigenes Luxusauto-Vermietungsgeschäft zu starten. Außerdem hätten Sie Platz mieten, Versicherungen abschließen und Werbung machen müssen. Jetzt wird all dies für Sie erledigt. Sie können einfach Ihr Auto wählen und beginnen, monatliches Mieteinkommen zu verdienen.",
+    "para": "Stellen Sie sich vor, Sie besitzen einen brandneuen Lamborghini Huracan und verdienen Tausende von USDT, indem Sie ihn vermieten, ohne einen Finger zu rühren. Erhalten Sie Ihre Mieteinnahmen automatisch am 1. jeden Monats, egal ob Sie reisen, sich am Strand entspannen oder einfach zu Hause sind. Dreamcars macht dies möglich, indem es den Luxusvermietungsmarkt Krypto-Nutzern weltweit öffnet.<br /><br /> Früher hätten Sie ein Vermögen ausgeben oder große Bankkredite aufnehmen müssen, um Ihr eigenes Luxusautovermietungsgeschäft zu starten. Sie müssten auch Platz mieten, Versicherungen abschließen und Werbung machen. Jetzt übernimmt Dreamcars alles. Wählen Sie einfach Ihr erstes Auto aus und beginnen Sie, monatliches Mieteinkommen zu verdienen.",
     "paralats": "*Diese Berechnung basiert auf der Annahme, dass Sie alle Anteile des Autos besitzen."
   },
   "SimpleExampleSec": {
     "title": "Hier ist ein einfaches <strong>Beispiel</strong>",
-    "para": "Ein Lamborghini Huracan Spyder 2024, gekauft für $280.000, kann nach Abzug aller Kosten, einschließlich Abschreibung*, fast $97.000 Nettogewinn erwirtschaften.",
+   "para": "Ein Lamborghini Huracan Spyder 2024, der für 280.000 $ gekauft wurde, könnte nach Abzug aller Ausgaben, einschließlich Abschreibung, einen Nettogewinn von rund 97.000 $ erzielen.*",
     "calculation": "Berechnung für 1 Jahr:",
     "totalcard": "Jährliche Gesamtkosten**",
     "amountcard1": "$83.000",
@@ -230,7 +230,7 @@
   },
   "LuxurySec": {
     "title": "Die Luxusautovermietungsbranche wächst <strong>schnell</strong>",
-    "para": "Der Markt für Luxusautovermietung wächst schnell, da <strong>immer mehr Menschen hochklassige Autos für besondere Anlässe fahren möchten oder einfach nur ein Premium-Erlebnis genießen wollen.</strong> Dreamcars ermöglicht es Nutzern, am Luxusvermietgeschäft teilzunehmen, indem sie Autoanteile kaufen, die von Blockchain-Technologie unterstützt werden. Auf diese Weise können Nutzer Einkünfte aus Vermietungen erzielen, ohne die Autos zu besitzen oder zu warten. Mit der steigenden Nachfrage nach Luxusautovermietungen <strong>bietet Dreamcars eine einfache und profitable Möglichkeit, Teil dieses wachsenden Marktes zu werden.</strong>"
+    "para": "Der Luxusautovermietungsmarkt wächst rasant, da <strong>Menschen Supercars für Urlaube, Hochzeiten oder einfach, um den Nervenkitzel zu erleben, fahren möchten. Derzeit mit einem Wert von über 20 Milliarden Dollar</strong> wird erwartet, dass der Markt bis 2029 30 Milliarden Dollar erreichen wird. Dreamcars ermöglicht es Nutzern, an dieser florierenden Branche teilzunehmen, indem sie Anteile an Luxusmietwagen kaufen. Auf diese Weise können Nutzer Geld durch Vermietungen verdienen, ohne sich um die Verwaltung oder Wartung der Autos kümmern zu müssen. Da die Nachfrage nach Luxusautovermietungen weiter steigt, <strong>bietet Dreamcars eine einfache und profitable Möglichkeit, Teil dieses schnell wachsenden Marktes zu sein.</strong>"
   },
   "TheLuxurySec": {
     "title": "Die Luxusautovermietungsbranche wächst <strong>schnell</strong>",
@@ -287,7 +287,7 @@
   },
   "MostFunSection": {
     "title": "Luxusautos zu besitzen ist der spaßigste Weg, dein Krypto-Portfolio <span>zu diversifizieren</span>",
-    "para": "In einem hochvolatilen Markt wie Krypto bietet der Besitz von Luxusmietwagen mit Dreamcars einen einfachen und zuverlässigen Weg, Einkünfte zu erzielen. <strong>Viele haben ihre Krypto-Bestände in den letzten Bärenmärkten um mehr als 50% sinken sehen</strong> und suchen nun nach stabileren Möglichkeiten, ihr Vermögen zu schützen. Versteh uns nicht falsch – wir sind voll und ganz auf Krypto eingestellt und sehen es als die Zukunft. Aber wir glauben auch, dass es innerhalb des Blockchain-Bereichs sicherere Optionen geben sollte, die es dir ermöglichen, dein Vermögen durch ein einfaches, <br> hochrentables Geschäft zu schützen.<br/><br/><strong>Anstatt deine digitalen Vermögenswerte in deiner Wallet zu lassen, die der Marktschwankung oder einem Abschwung ausgesetzt sind</strong> (selbst Stablecoins wie USDC oder USDT können durch Inflation und den USD-Peg an Wert verlieren), kannst du sie in Anteile an echten Luxusautos durch Dreamcars umwandeln und monatliche Mieteinnahmen verdienen, <strong>unterstützt von echten, wertvollen Vermögenswerten.</strong> Dies bietet viel mehr Stabilität und höhere Renditen als die meisten anderen Optionen. Mit Dreamcars kannst du dein Vermögen schützen und vergrößern, selbst wenn der Krypto-Markt struggelt.",
+    "para": "Es ist wichtig, in hochvolatilen Märkten wie Krypto oder Aktien Gewinne auszuzahlen, da Sie innerhalb kurzer Zeit 50% Ihres Wertes verlieren könnten. Dreamcars bietet eine einfache und zuverlässige Möglichkeit, Teile Ihres Vermögens zu diversifizieren und zu schützen.<br/><br/> Anstatt alle Ihre digitalen Vermögenswerte in Ihrer Wallet zu belassen, wo sie Hacks, Marktschwankungen oder potenziellen Einbrüchen ausgesetzt sind, können Sie diese in Anteile an echten Luxusautos über Dreamcars umwandeln und monatliche Mieteinnahmen erzielen, die durch wertvolle reale Vermögenswerte abgesichert sind. Dies bietet mehr Stabilität und konsistente Renditen als die meisten anderen Optionen. Wie Experten sagen: Sie sollten nie alle Eier in einen Korb legen.",
     "btn1": "Kaufe $DCARS"
   },
     "FeaturesSection": {
@@ -415,16 +415,16 @@
 "WhatMakesSec": {
   "title": "Was macht $DCARS<br/> <strong>besonders?</strong>",
   "para": "Der $DCARS Token ist die native Kryptowährung der Dreamcars Plattform und die einzige Möglichkeit, Luxusmietwagen mit Krypto zu besitzen.<br/><br/> Wichtig: <strong>Ohne $DCARS kannst du kein Auto</strong> auf Dreamcars kaufen. Du musst eine bestimmte Menge $DCARS halten, um auf den Dreamcars Marktplatz zuzugreifen und vollständig mit dem Ökosystem zu interagieren. Indem du $DCARS Tokens hältst, erhältst du Zugang zu exklusiven Funktionen wie:",
-  "lisec1": "Mieten und verkaufen von Luxusautos",
-  "lisec2": "Stimmrechte bei Autokäufen",
-  "lisec3": "Verdiene Miet-Einkommen aus den Autos",
-  "lisec4": "Zugriff auf alle Funktionen des Dreamcars Marktplatzes",
-  "lisec5": "Nutze das Lending-Protokoll, um gegen ein Auto abzusichern"
+  "lisec1": "Autos kaufen und verkaufen",
+    "lisec2": "Stimmrechte beim Autokauf",
+    "lisec3": "Monatliches Einkommen durch Mietwagen verdienen",
+    "lisec4": "Zugriff auf alle Funktionen des Dreamcars-Marktplatzes",
+    "lisec5": "Das Kreditprotokoll nutzen, um sofortige Liquidität zu erhalten"
 },
 "DreamcarsBusinessSec": {
-  "title": "Das Dreamcars Geschäftsmodell unterstützt kontinuierlich <br /> das <strong>Wachstum von $DCARS</strong>",
-  "para": "Unser Marktplatz bietet Luxusautos weltweit zur Miete an, die mit über 10 verschiedenen Kryptowährungen gekauft werden können. Um Anteile an einem Auto zu kaufen und zu halten, musst du eine bestimmte Menge $DCARS besitzen und sie für die Dauer deines Eigentums sperren.<br/><br/> <strong>Dieser Prozess stellt sicher, dass mit der Hinzufügung neuer Autos zum Marktplatz der Wert von $DCARS im Laufe der Zeit stetig steigt.</strong>",
-  "difftext": "3 Verschiedene Auto-Kategorien",
+  "title": "Das Dreamcars-Geschäftsmodell unterstützt kontinuierlich <br /> das Wachstum von $DCARS",
+    "para": "Der Dreamcars-Marktplatz ermöglicht es Ihnen, Anteile an Luxusmietwagen von überall auf der Welt mit Kryptowährung zu kaufen, zu verkaufen und zu handeln. Um Anteile an Autos zu besitzen, müssen Sie eine bestimmte Menge an $DCARS besitzen und diese für so lange sperren, wie Sie das Eigentum beibehalten möchten. Dieser Prozess stellt sicher, dass der Wert von $DCARS im Laufe der Zeit stetig steigt, je mehr Autos auf dem Marktplatz hinzugefügt werden.",
+    "difftext": "3 verschiedene Fahrzeugkategorien",
   "cardtitle1": "Einsteiger-Autos",
   "cardtitle2": "Premium-Autos",
   "cardtitle3": "Top-Performer",

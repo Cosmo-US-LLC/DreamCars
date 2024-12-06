@@ -24,9 +24,9 @@
     "navBtn": "Cüzdanı Bağla"
   },
   "ProductDetails": {
-    "para1": "Dreamcars, çoğu insanın sadece hayal edebileceği arabalara erişim sağlar",
-    "title1": "Lüks Kiralık Arabalara Yatırım Yapın ve Günlük Gelir Elde Edin",
-    "para2": "Dreamcars ile arabaları hisse senetleri gibi alıp satabilirsiniz: Lüks arabalarda hisse satın alabileceğiniz ve kiralardan günlük 5.000 USDT'ye kadar kazanma potansiyeline sahip ilk ve tek platform. Sadece $DCARS sahiplerine özel.",
+    "para1": "Dreamcars, dünyanın en özel arabalarına erişim sağlar",
+    "title1": "Lüks Kiralık Arabalara Yatırım Yapın ve Aylık Gelir Kazanın",
+    "para2": "Arabaları hisse senetleri gibi alıp satın. Dreamcars, lüks arabalarda hisse satın alabileceğiniz, sahiplenebileceğiniz ve satabileceğiniz ilk ve tek platformdur. Kiralamalar yoluyla aylık 50.000 USDT'ye kadar kazanın. Platform yalnızca $DCARS sahiplerine açıktır.",
     "card1": "Kripto Paraların Rolls Royce'u!",
     "card2": "Hayalinizdeki Arabanın Bir Parçasına Sahip Olun!",
     "card3": "Bunlar Daha Önce Hiç Yapılmadı!",
@@ -85,13 +85,12 @@
     "mainTitle": "Öne Çıkanlar"
   },
   "BetaSection": {
-    "title": "Dünyanın İlk Blockchain Destekli Lüks Kiralık Araba Platformu",
-    "para1": "Gerçek Lüks Kiralık Araba Hisselerine sadece $10'dan Başlayarak Satın Alın",
-    "para2": "Lüks Kiralık Arabalarla Aylık Kiralama Geliri Kazanın",
-    "para3": "Her Araba Ortalama %20 ile %50 APY Üretir",
-    "para4": "Geçmiş Performans ve Fiyat Verilerini İzleyin",
-    "para5": "Dreamcars Marketplace'de Arabaları Saniyeler İçinde Ticarete Sokun",
-    "para6": "Dreamcars Lokasyonlarında Lüks Arabaları İndirimli Fiyatlarla Kiralayın",
+   "title": "Dünyanın İlk Blockchain Destekli Lüks Araç Ticaret Platformu",
+    "para1": "Gerçek Lüks Araç Hisseleri Satın Alın",
+    "para2": "USDT cinsinden aylık kira geliri kazanın",
+    "para3": "Tarihi performans ve fiyat verilerini izleyin",
+    "para4": "Her araç ortalama %20 ila %50 APY üretir",
+    "para5": "Dreamcars Pazarında araçları saniyeler içinde ticaret yapın",
     "btn": "$DCARS SATIN AL"
   },
   "LicensedCard": {
@@ -106,9 +105,10 @@
   "OwnCarSection": {
     "mainTitle": "Lüks Arabalar Sahip Olun,",
     "mainTitle2": "Kiralama Geliri Kazanın",
-    "para1": "Dreamcars, lüks kiralık arabalarla kripto kullanarak gelir elde etmeyi kolaylaştırır. Dreamcars ile, <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, Lamborghini</strong> gibi prestijli markalardan araba hisseleri satın alabilirsiniz. Bu arabalar Dreamcars ekibi tarafından yönetilir ve kiraya verilir, böylece sadece arabanın hissesine sahip olmazsınız, aynı zamanda kiralamalardan gelir elde edersiniz.",
-    "para2": "Her araba hisseye bölünmüş ve NFT olarak satılmaktadır, <strong>orijinal satın alma ve sahiplik sözleşmesi ile bağlantılı ve bizim kiralama showroom'larımızdan birindeki gerçek, tamamen üçüncü şahıs sigortasıyla desteklenen bir araçla teminat altına alınmıştır</strong>. Bu lüks arabaların bir kısmına sadece 10$ ile sahip olabilirsiniz.",
-    "para3": "Artık yüzbinlerce doları lüks bir araca harcamanıza veya değer kaybetmesinden endişe etmenize gerek yok. <strong>Dreamcars ile, arabanın hisseniz değerli bir varlık haline gelir ve her ay düzenli gelir sağlar.</strong>"
+    "para1": "Dreamcars, kripto kullanarak lüks kiralık arabalardan gelir elde etmeyi kolaylaştırır. $DCARS tokenimiz ile <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari ve Lamborghini</strong> gibi üst düzey markaların prestijli kiralık arabalarına hisse satın alabilirsiniz.",
+    "para2": "Her araç, hisselere bölünerek bir NFT'ye dönüştürülür ve <strong>araç seri numarası, mülkiyet bilgileri</strong> ve satın alma sözleşmesi gibi önemli detayları güvenli bir şekilde saklar.",
+    "para3": "Tüm araçlar üçüncü taraf sigorta şirketleri tarafından tamamen sigortalıdır ve Dubai, Miami veya Marbella'daki Dreamcars showroomlarında tutulur. Ekibimiz araçları günlük, haftalık veya aylık olarak kiralar. Kira gelirleri her ayın 1'inde araç sahiplerine USDT olarak ödenir.",
+    "para4": "Süper arabalar için yüzbinlerce dolar harcamanıza veya değer kaybı konusunda endişelenmenize gerek yok. Dreamcars ile araba hisseniz, istikrarlı aylık gelir sağlayan değerli bir varlık haline gelir."
   },
   "WhyShouldSec": {
     "title": "Ön Satışta Özel Avantajlar",
@@ -124,21 +124,21 @@
   "BenefitSection": {
     "title": "Neden Dreamcars'ı Seçmelisiniz?",
     "cardTitle": "100% Gerçeklik",
-    "cardSubtitle": "Gerçek lüks kiralık arabaların hisseleri NFT olarak satılacak, satın alma ve sahiplik sözleşmeleri akıllı sözleşmede yer alacak. Blockchain teknolojisinden yararlanarak, her aracın gerçekliğini NFT meta verilerine seri numarası ve detaylarını ekleyerek sağlıyoruz.",
-    "cardTitle21": "Lüks Bir Parçaya Sahip Olun",
-    "cardSubtitle2": "Dreamcars, gerçek arabalarla teminat altına alınan ve kısmi sahiplik için bölünmüş NFT'ler sunarak lüks araba sahipliğini daha erişilebilir hale getirdi, böylece herkesin lüks araba kiralama pazarına girmesi mümkün oldu.",
+    "cardSubtitle": "Her bir kiralık araba, hisselere bölünür ve NFT olarak tokenize edilir. Akıllı sözleşmede arabanın seri numarası ve sahiplik bilgileri dahil tüm detaylar tam otantiklik ve şeffaflık sağlar.",
+    "cardTitle21": "Lüksün Bir Parçasına Sahip Olun",
+    "cardSubtitle2": "Dreamcars ile bir servet harcamadan lüks kiralık arabaların hisselerine sahip olabilir ve günlük, haftalık ve aylık kiralamalardan gelir elde edebilirsiniz.",
     "cardTitle3": "Pozitif Nakit Akışı",
-    "cardSubtitle3": "Dreamcars ile, blockchain teknolojisi ve gerçek varlıklarla güvence altına alınan lüks araba kiralamalarından aylık gelir elde ederek tutarlı bir nakit akışı sağlayın.",
+    "cardSubtitle3": "Araba kiralamalarından her ay USDT kazanın. Gelirler, her ayın 1’inde sahip olunan hisse sayısına göre araç sahiplerine dağıtılır.",
     "cardTitle4": "Yüksek Likidite",
-    "cardSubtitle4": "Yenilikçi kredi protokolümüz sayesinde, kullanıcılar araç hisselerini teminat olarak kullanarak rekabetçi kredilere erişebilir ve araçlarının tam mülkiyetini koruyabilir.",
+    "cardSubtitle4": "Tam mülkiyeti korurken fonlara kolay erişim sağlamak için araç hisselerinizi likidite protokolümüz aracılığıyla teminat olarak kullanın.",
     "cardTitle5": "Alternatif Varlıklar",
-    "cardSubtitle5": "Dreamcars, volatil kripto paralara ve hisse senedi piyasalarına karşı stabil ve büyüme odaklı bir alternatif sunuyor. Yeni bir varlık sınıfı öncüsü olarak, size ek gelir elde etme ve zenginliğinizi çeşitlendirme fırsatı sunuyor.",
-    "cardTitle6": "Kiralık Arabalarda İndirimler",
-    "cardSubtitle6": "Birlikte, dünyadaki en iyi araçların hisselerine sahip olmanın heyecan verici, karlı ve erişilebilir bir yolunu yaratırken, Dreamcars lokasyonlarındaki lüks araba kiralamalarında önemli indirimler sağlıyoruz."
+    "cardSubtitle5": "Dreamcars, dalgalı hisse senetleri ve kripto para birimlerinin ötesinde portföyünüzü çeşitlendirmeye yardımcı olan istikrarlı, gelir sağlayan bir varlık sunar.",
+    "cardTitle6": "Kiralık Araçlarda İndirimler",
+    "cardSubtitle6": "Dreamcars kullanıcıları lüks araç kiralamalarında büyük indirimlerden yararlanır ve süper arabaları rakipsiz fiyatlarla kullanabilir."
   },
   "RewardSection": {
     "title": "Sadece Başlangıç İçin Özel Bonuslar Kazanın ",
-    "para": "Dreamcars Üyeler Kulübüne katılın ve olağanüstü ödüller ile bonus $DCARS kazanın! <br/><br/>Ne kadar çok alırsanız, o kadar büyük faydalar sağlarsınız! Bu özel ödüller yalnızca ön satış sırasında mevcuttur ve bir daha asla sunulmayacaktır.",
+    "para": "Özel Dreamcars Üyeler Kulübü'ne katılın ve olağanüstü ödüller ile bonus $DCARS tokenları kazanın! <br/><br/>Ne kadar çok satın alırsanız, o kadar büyük avantajlar elde edersiniz! Bu özel ödüller yalnızca ön satışta mevcuttur. Bir daha asla sunulmayacak.",
     "spendText": "Ne kadar harcamak istersiniz?",
     "packageType1": "Mercedes",
     "packageText11": "Mercedes NFT",
@@ -213,7 +213,7 @@
   "LamborghiniSec": {
     "title": "Lamborghini Huracan Paylaşımları İçin",
     "titlespan": "Sadece $10",
-    "para": "Hayalinizdeki yeni bir Lamborghini Huracan'a sahip olduğunuzu ve <strong>bu tek araçtan ayda 15.000$'a kadar gelir elde ettiğinizi</strong> düşünün* ve bunun yönetimini kendiniz yapmanıza gerek yok. İşte Dreamcars bunu mümkün kılıyor.<br /><br />Dreamcars, lüks araç kiralama işini dünya çapında kripto kullanıcılarına açarak engelleri yıkıyor. Sadece $DCARS satın alarak, hayalinizdeki arabaların hisselerini yalnızca $10'a satın alabilir ve istediğiniz zaman evinizin konforunda satabilirsiniz. Eskiden, kendi lüks araç kiralama işinizi kurmak için <strong>büyük bir servet harcamanız veya büyük banka kredileri almanız gerekirdi</strong>. Ayrıca, alan kiralamanız, sigorta almanız ve reklam yapmanız gerekirdi. Artık tüm bu işlemler sizin için hallediliyor. Sadece arabanızı seçin ve aylık kiralama geliri kazanmaya başlayın.",
+    "para": "Yepyeni bir Lamborghini Huracan'a sahip olduğunuzu ve parmağınızı bile kıpırdatmadan kiralayarak binlerce USDT kazandığınızı hayal edin. Seyahat ediyor olun, bir sahilde dinleniyor olun veya evde olun, kira gelirleriniz her ayın 1'inde otomatik olarak hesabınıza yatırılır. Dreamcars, lüks kiralama pazarını dünya çapındaki kripto kullanıcılarına açarak bunu mümkün kılıyor.<br /><br /> Eskiden kendi lüks araç kiralama işinizi başlatmak için bir servet harcamak veya büyük banka kredileri almak zorunda kalırdınız. Ayrıca alan kiralamanız, sigorta yaptırmanız ve reklam yapmanız gerekirdi. Şimdi Dreamcars her şeyi hallediyor. Sadece ilk aracınızı seçin ve aylık kira geliri elde etmeye başlayın.",
     "paralats": "*Bu hesaplama, aracın tüm hisselerine sahip olduğunuzu varsayarak yapılmıştır."
   },
   "SimpleExampleSec": {
@@ -230,7 +230,7 @@
   },
   "LuxurySec": {
     "title": "Lüks Araç Kiralama Sektörü <strong>Hızla Büyüyor</strong>",
-    "para": "Lüks araç kiralama pazarı hızla büyüyor çünkü <strong>daha fazla insan özel günler için veya premium bir deneyim yaşamak için yüksek kaliteli arabalar sürmek istiyor.</strong> Dreamcars, kullanıcıların blockchain teknolojisiyle desteklenen araç hisselerini satın alarak lüks kiralama işine katılmalarını mümkün kılıyor. Bu şekilde, araçları sahip olmadan veya bakımını yapmadan kiralama gelirleri elde edebilirsiniz. Lüks araç kiralama talebi arttıkça, <strong>Dreamcars, bu büyüyen pazara katılmak için kolay ve karlı bir yol sunuyor.</strong>"
+    "para": "Lüks araç kiralama pazarı hızla büyüyor, <strong>tatiller, düğünler veya sadece heyecanı yaşamak için süper araba kullanmak isteyen insanlarla birlikte. Şu anda 20 milyar doların üzerinde bir değere sahip olan</strong> pazarın 2029 yılına kadar 30 milyar dolara ulaşması bekleniyor. Dreamcars, lüks kiralık arabalarda hisse satın alarak kullanıcıların bu gelişen sektöre katılmasını sağlıyor. Bu şekilde, kullanıcılar araçları yönetme veya bakım yapma zahmeti olmadan kiralamalardan para kazanabilirler. Lüks araç kiralama talebi artmaya devam ederken, <strong>Dreamcars, bu hızla büyüyen pazarın bir parçası olmanın kolay ve kârlı bir yolunu sunuyor.</strong>"
   },
   "TheLuxurySec": {
     "title": "Lüks Araç Kiralama Sektörü <strong>Hızla Büyüyor</strong>",
@@ -287,7 +287,7 @@
 },
 "MostFunSection": {
   "title": "Lüks Arabalara Sahip Olmak, Kripto Portföyünüzü <span>çeşitlendirmek</span> için En Eğlenceli Yoldur",
-  "para": "Kripto gibi son derece dalgalı bir piyasada, Dreamcars ile lüks kiralık arabalara sahip olmak, gelir elde etmenin basit ve güvenilir bir yolunu sunar. <strong>Birçok kişi, önceki ayı piyasalarında kripto varlıklarının %50'den fazla düştüğünü gördü</strong> ve şimdi varlıklarını korumak için daha stabil yollar arıyorlar. Yanlış anlamayın—biz de kriptoya tamamen bağlıyız ve bunu geleceğin bir parçası olarak görüyoruz. Ancak, blockchain alanında varlıklarınızı korumanın, yüksek getiri sağlayan basit bir iş modeliyle yapılabileceğine inanıyoruz.<br/><br/> <strong>Dijital varlıklarınızı cüzdanınızda, piyasa volatilitesine veya düşüşlerine maruz bırakmak yerine</strong> (USDC veya USDT gibi stablecoin'ler bile enflasyon ve USD sabitlemesi nedeniyle değer kaybedebilir), bunları Dreamcars üzerinden gerçek lüks arabaların hisselerine dönüştürebilir ve aylık kira geliri elde edebilirsiniz, <strong>gerçek, değerli varlıklarla desteklenen.</strong> Bu, çoğu diğer seçeneğe göre çok daha fazla stabilite ve daha yüksek getiri sunar. Dreamcars ile, kripto piyasası zorlanırken bile varlıklarınızı koruyabilir ve büyütebilirsiniz.",
+  "para": "Kripto veya hisse senetleri gibi son derece oynak piyasalarda kârınızı nakde çevirmek önemlidir, çünkü kısa bir sürede değerinizin %50'sini kaybedebilirsiniz. Dreamcars, servetinizin bir kısmını çeşitlendirmek ve korumak için basit ve güvenilir bir yol sunuyor.<br/><br/> Tüm dijital varlıklarınızı cüzdanınızda bırakmak yerine, bunları Dreamcars aracılığıyla gerçek lüks araç hisselerine dönüştürebilir ve değerli gerçek varlıklarla desteklenen aylık kira geliri elde edebilirsiniz. Bu, diğer çoğu seçeneğe göre daha fazla istikrar ve tutarlı getiriler sağlar. Uzmanların dediği gibi, tüm yumurtalarınızı tek bir sepete koymamalısınız.",
   "btn1": "$DCARS SATIN AL"
 },
 "FeaturesSection": {
@@ -415,16 +415,16 @@
 "WhatMakesSec": {
     "title": "$DCARS'ı Özel Kılan Nedir?<br/> <strong>Özel?</strong>",
     "para": "$DCARS token'ı, Dreamcars platformunun yerel kripto para birimidir ve lüks araç kiralamaları satın almak için tek yoldur.<br/><br/> Önemli: <strong>$DCARS olmadan, Dreamcars'tan hiçbir araç satın alamazsınız</strong>. Dreamcars marketplace'ine erişmek ve ekosistemi tam olarak kullanabilmek için belirli bir miktar $DCARS’a sahip olmanız gerekir. $DCARS token'ları tutarak, aşağıdaki özel özelliklere erişim sağlayabilirsiniz:",
-    "lisec1": "Araç kiralamaları satın almak ve satmak",
-    "lisec2": "Araç alımları üzerinde oy hakkı",
-    "lisec3": "Araçlardan kira geliri elde etmek",
-    "lisec4": "Tüm Dreamcars marketplace özelliklerine erişim",
-    "lisec5": "Bir araca karşılık verilen lending protokolünü kullanmak"
+   "lisec1": "Araba alım satımı",
+    "lisec2": "Araba alımlarında oy hakkı",
+    "lisec3": "Kiralık araçlardan aylık gelir elde edin",
+    "lisec4": "Tüm Dreamcars pazar özelliklerine erişim",
+    "lisec5": "Anında likidite sağlamak için kredi protokolünü kullanın"
 },
 "DreamcarsBusinessSec": {
-    "title": "Dreamcars iş modeli, sürekli olarak <br /> $DCARS'ın büyümesini destekler",
-    "para": "Marketplace'imiz dünya çapında lüks araç kiralamaları sunar, 10'dan fazla farklı kripto para birimi ile satın alınabilir. Bir arabada hisse almak ve tutmak için belirli bir miktar $DCARS'a sahip olmanız ve sahipliğiniz süresince bunu kilitlemeniz gerekir.<br/><br/> <strong>Bu süreç, daha fazla araç marketplace'ye eklendikçe, $DCARS’ın değerinin zamanla düzenli olarak artmasını sağlar.</strong>",
-    "difftext": "3 Farklı Araç Kategorisi",
+  "title": "Dreamcars iş modeli sürekli olarak <br /> $DCARS'ın büyümesini destekler",
+  "para": "Dreamcars pazar yeri, dünyanın herhangi bir yerinden kripto para kullanarak lüks kiralık araba hisseleri almanızı, satmanızı ve takas etmenizi sağlar. Araba hisselerine sahip olmak için belirli bir miktarda $DCARS tutmanız ve mülkiyeti sürdürmek istediğiniz sürece kilitlemeniz gerekir. Bu süreç, pazara daha fazla araba eklendikçe $DCARS'ın değerinin zamanla istikrarlı bir şekilde artmasını sağlar.",
+  "difftext": "3 Farklı Araba Kategorisi",
     "cardtitle1": "Giriş Seviyesi Araçlar",
     "cardtitle2": "Premium Araçlar",
     "cardtitle3": "Üst Performans Araçlar",

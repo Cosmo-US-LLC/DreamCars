@@ -37,7 +37,7 @@ const ProductDetailsSection = () => {
       <div className=" space-y-4 py-[4rem] xs:py-[2.2rem] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[90%] max-w-[1276px] mx-auto ">
         <div className="2xl:space-y-[45px]  xl:space-y-[45px] lg:space-y-4 xs:space-y-2 sm:space-y-3 md:space-y-3 lg:block xs:block md:block sm:block">
         <div>
-        <div className="w-[100%] max-w-[1090px] mx-auto xl:w-[100%] flex flex-col justify-between lg:w-[100%]  xs:w-[100%] sm:w-[100%] md:w-[100%]  ">
+        <div className="w-[100%] max-w-[1200px] mx-auto xl:w-[100%] flex flex-col justify-between lg:w-[100%]  xs:w-[100%] sm:w-[100%] md:w-[100%]  ">
             <div className="space-y-[10px]  ">
               <h5 className="2xl:text-[18px] xl:text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[12px] leading-[130%] font-[400] font-[Lato] text-white text-center ">
                 {t("ProductDetails.para1")}

@@ -24,9 +24,9 @@
     "navBtn": "Connect Wallet"
   },
   "ProductDetails": {
-    "para1": "Dreamcars unlocks access to cars that most people can only dream of",
-    "title1": "Invest In Luxury Rental Cars And Earn Daily Income",
-    "para2": "Trade cars like stocks with Dreamcars: The first and only platform to buy, sell, and own shares in luxury cars, with the potential to earn up to 5,000 USDT daily from rentals. Exclusively available to $DCARS holders.",
+    "para1": "Dreamcars unlocks access to the world’s most exclusive cars",
+    "title1": "Invest In Luxury Rental Cars And Earn Monthly Income",
+    "para2": "Trade cars like stocks. Dreamcars is the first and only platform where you can buy, own, and sell shares in luxury cars. Earn up to 50,000 USDT monthly through rentals. The platform is exclusively available to $DCARS holders.",
     "card1":"The Rolls Royce <br /> Of Crypto!",
     "card2":"Own A Piece Of your Dream Car!",
     "card3":"This Has Never Been Done Before!",
@@ -85,13 +85,12 @@
     "mainTitle": "Featured In"
   },
   "BetaSection": {
-    "title": "The World’s First Blockchain Powered Luxury Rental Car  Platform",
-    "para1": " Buy Real Luxury Rental Car Shares starting from just $10 ",
-    "para2": "Earn Monthly Rental Income with Luxury Rental Cars ",
-    "para3": "Each Car Generates an Average of 20% to 50% APY ",
-    "para4": "Monitor Historical Performance & Price Data ",
-    "para5": "Trade Cars in Seconds on the Dreamcars Marketplace ",
-    "para6": "Rent Luxury Cars at Discounted Prices at any Dreamcars Location",
+    "title": "The World’s First Blockchain Powered Luxury Car Trading Platform",
+    "para1": "Buy Real Luxury Car Shares",
+    "para2": "Earn Monthly Rental Income in USDT",
+    "para3": "Monitor Historical Performance & Price Data",
+    "para4": "Each Car Generates an Average of 20% to 50% APY",
+    "para5": "Trade Cars in Seconds on the Dreamcars Marketplace",
     "btn": "BUY $DCARS"
   },
   "LicensedCard": {
@@ -106,9 +105,11 @@
   "OwnCarSection": {
     "mainTitle": "Own Luxury Cars,",
     "mainTitle2": "Earn Rental Income",
-    "para1": "Dreamcars makes it easy to generate income with luxury rental cars using crypto. With Dreamcars, you can purchase shares in prestigious cars from brands like <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, Lamborghini</strong>, and more using our digital currency, $DCARS. These cars are managed and rented out by the Dreamcars team, so you not only own a share of the car but also earn income from the rentals.",
-    "para2": "Each car is divided into shares and sold as an NFT, linked to the <strong>original purchase and ownership contract, and backed by a real, fully third-party-insured vehicle in one of our rental showrooms</strong>. You can own a fraction of these luxury cars for as little as $10.",
-    "para3": "No more spending hundreds of thousands on a luxury car or worrying about it losing value. <strong>With Dreamcars, your share of the car becomes a valuable asset, generating a steady stream of income for you each month.</strong>"
+    "para1": "Dreamcars makes it easy to earn income from luxury rental cars using crypto. With our $DCARS token, you can buy shares in prestigious rental cars from top brands like <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, and Lamborghini.</strong>",
+    "para2": "Each car is divided into shares and turned into an NFT, <strong>which securely stores important details like the car's serial number, ownership info,</strong> and purchase agreement.",
+    "para3": "All cars are fully covered by third-party insurance companies and kept in Dreamcars showrooms in Dubai, Miami or Marbella. Our team rents them out daily, weekly, or monthly. Rental earnings are paid to car owners in USDT on the 1st of each month.",
+    "para4": "No need to spend hundreds of thousands on supercars or worry about their value dropping. With Dreamcars, your car share becomes a valuable asset that provides steady monthly income."
+    
   },
   "WhyShouldSec": {
     "title": "Exclusive Advantages During the Pre-Sale",
@@ -125,21 +126,21 @@
   "BenefitSection": {
     "title": "Why Choose Dreamcars?",
     "cardTitle": "100% Authenticity",
-    "cardSubtitle": "Shares of real luxury rental cars will be sold as NFTs, with purchase and ownership agreements in the smart contract. By leveraging blockchain technology, we ensure each vehicle's authenticity by embedding its serial number and details in the NFT metadata.",
+    "cardSubtitle": "Each rental car is divided into shares and tokenized as NFTs, including the car’s serial number and ownership details on the smart contract, ensuring full authenticity and transparency.",
     "cardTitle21": "Own a Piece of Luxury",
-    "cardSubtitle2": "Dreamcars has made luxury car ownership more accessible by offering NFTs backed by real cars, divided into fractions for partial ownership, making entry into the luxury car rental market affordable for everyone.",
+    "cardSubtitle2": "With Dreamcars, you can own shares in luxury rental cars without spending a fortune and earn money from daily, weekly, and monthly rentals.",
     "cardTitle3": "Positive Cashflow",
-    "cardSubtitle3": "Generate consistent cash flow in USDT with Dreamcars through monthly income from luxury car rentals, secured by blockchain technology and real assets.",
+    "cardSubtitle3": "Earn USDT each month from car rentals, with income distributed to car owners on the 1st of every month based on the number of shares they hold.",
     "cardTitle4": "High Liquidity",
-    "cardSubtitle4": "With our innovative lending protocol, users can access competitive loans by leveraging their car shares as collateral, all while retaining full ownership of their vehicles.",
+    "cardSubtitle4": "Use your car shares to get loans through our liquidity protocol, giving you easy access to funds while keeping full ownership.B24",
     "cardTitle5": "Alternative Assets",
-    "cardSubtitle5": "Dreamcars provides a stable, growth-oriented alternative to volatile cryptocurrencies and stock markets. By pioneering a new asset class, it offers you the opportunity to generate additional income and diversify your wealth.",
+    "cardSubtitle5": "Dreamcars offers a stable, income-generating asset that helps diversify your portfolio beyond volatile stocks and crypto.",
     "cardTitle6": "Discounts On Rental Cars",
-    "cardSubtitle6": "Together, we are transforming the luxury car rental industry by creating an exciting, profitable, and accessible way to own shares of the world’s finest vehicles, while also enjoying significant discounts on luxury car rentals at any Dreamcars location."
+    "cardSubtitle6": "Dreamcars users get big discounts on luxury car rentals and get to drive supercars at unbeatable prices."
   },
   "RewardSection": {
     "title": "Get Special Bonuses Starting At Just ",
-    "para": "Join the exclusive Dreamcars Members Club and get extraordinary rewards plus bonus $DCARS! <br/><br/>The more you buy, the greater the benefits! These special rewards are available only during the pre-sale and will never be offered again.",
+    "para": "Join the exclusive Dreamcars Member’s Club and get extraordinary rewards and bonus $DCARS tokens! <br/><br/>TThe more you buy, the greater the benefits! These special rewards are only available in the pre-sale. They will never be offered again.",
     "spendText": "How much do you want to spend?",
     "packageType1": "Mercedes",
     "packageText11": "Mercedes NFT",
@@ -213,16 +214,16 @@
     "answer4":"Yes, you can upgrade your NFT as long as the pre-sale is still going on. For example, if you spend $1,000 on $DCARS, you’ll get the Mercedes NFT. To upgrade to the Porsche NFT, you’ll need to buy another $4000 worth of $DCARS. You’ll get the rewards and NFT for the highest level you reach. After the pre-sale ends, you won’t be able to upgrade your NFT"
   },
   "LamborghiniSec": {
-    "title": "Lamborghini Huracan  Shares For ",
-    "titlespan": "Only $10",
-    "para": "Imagine owning a brand-new Lamborghini Huracan and <strong>earning up to $15,000 monthly</strong>  from this single car* without having to manage it yourself. That's what Dreamcars makes possible.<br /><br /> Dreamcars is breaking barriers by opening up the luxury rental car business to crypto users worldwide. Simply buy $DCARS and then purchase shares in your dream cars for as little as $10, and sell them from the comfort of your home at any time. In the past, you would have needed to <strong> spend a fortune or take out large bank loans</strong> to start your own luxury car rental business. Plus, you would have had to rent space, buy insurance, and advertise. Now, all of these tasks are handled for you. You can simply choose your car and start earning monthly rental income.",
+    "title": "Lamborghini Huracan Shares for a Fraction of ",
+    "titlespan": "the Price",
+    "para": "Imagine owning a brand-new Lamborghini Huracan and earning thousands of USDT by renting it out without having to lift a finger. Receive your rental earnings automatically on the 1st of each month, whether you're traveling, relaxing on a beach, or simply at home. Dreamcars makes this possible by opening the luxury rental market to crypto users worldwide.<br /><br /> In the past, you would have had to spend a fortune or take out large bank loans to start your own luxury car rental business. You’d also need to rent space, buy insurance, and advertise. Now, Dreamcars takes care of everything. Just choose your first car and start earning monthly rental income.",
     
     "paralats":"*This calculation is based on the assumption that you own all the shares of the car"
 
   },
   "SimpleExampleSec":{
     "title": "Here's A Simple <strong>Example</strong>",
-    "para": "A Lamborghini Huracan Spyder 2024, purchased for $280,000, can generate nearly $97,000 in net profit after deducting all costs, including depreciation*.",
+    "para": "A 2024 Lamborghini Huracan Spyder, bought for $280,000, could earn around $97,000 in net profit after accounting for all expenses, including depreciation.*",
     "calculation": "1-Year Calculation:",
     "totalcard": "Total Annual Costs**",
     "amountcard1": "$83,000",
@@ -234,7 +235,7 @@
   },
   "LuxurySec":{
     "title": "The Luxury Car Rental  Industry Is <strong>Growing Fast</strong>",
-    "para": "The luxury car rental market is growing fast as <strong>more people want to drive high-end cars for special occasions or just to enjoy a premium experience.</strong> Dreamcars makes it possible for users to take part in the luxury rental business by purchasing car shares powered by blockchain technology. This way, users can earn income from rentals without owning or maintaining the cars. As demand for luxury car rentals rises, <strong>Dreamcars offers an easy and profitable way to be part of this growing market.</strong> "
+    "para": "The luxury car rental market is expanding rapidly, with<strong>wanting to drive supercars for holidays, weddings, or simply to experience the thrill. Currently valued at over $20 billion,</strong> the market is expected to reach $30 billion by 2029. Dreamcars allows users to join this thriving industry by buying shares in luxury rental cars. This way, users can earn money from rentals without the hassle of managing or maintaining the cars. As demand for luxury car rentals continues to rise,  <strong>Dreamcars offers an easy and profitable way to be part of this fast-growing market.</strong> "
   },
   "TheLuxurySec":{
     "title":"The Luxury Car Rental  Industry Is <strong>Growing Fast</strong>",
@@ -290,8 +291,8 @@
     "btn2": "Do you need Help?"
   },
   "MostFunSection": {
-    "title": "Owning Luxury Cars Is the most fun way to <span>diversify</span> your Crypto Portfolio",
-    "para": "In a highly volatile market like crypto, owning luxury rental cars with Dreamcars offers a simple and reliable way to earn income. <strong>Many have seen their crypto holdings drop by over 50% during past bear markets</strong> and are now seeking more stable ways to preserve their assets. Don’t get us wrong—we're all in on crypto and see it as the future. But we also believe there should be safer options within the blockchain space, allowing you to protect your assets through a straightforward,  high-return business.<br/><br/> <strong>Instead of leaving your digital assets in your wallet, exposed to market volatility or downturns</strong>  (even stablecoins like USDC or USDT can lose value due to inflation and the USD peg), you can convert them into shares of real luxury cars through Dreamcars and earn monthly rental income, <strong> backed by real, valuable assets.</strong> This offers much more stability and higher returns than most other options. With Dreamcars, you can protect and grow your wealth, even when the crypto market is struggling.",
+    "title": "Owning Luxury Cars Is the most fun way to diversify your Crypto Portfolio",
+    "para": "It's important to cash out your profits in highly volatile markets like crypto or stocks, where you could lose 50% of your value in a short period. Dreamcars offers a simple and reliable way to diversify and protect parts of your wealth.<br/><br/> Instead of leaving all your digital assets in your wallet, exposed to hacks, market swings, or potential downturns. You can convert them into shares of real luxury cars through Dreamcars and earn monthly rental income, backed by valuable real assets. This provides more stability and consistent returns than most other options. As experts say, you should never leave all your eggs in one basket.",
     "btn1": "BUY $DCARS"
   },
   "FeaturesSection": {
@@ -421,16 +422,16 @@
   "WhatMakesSec":{
     "title": "What Makes $DCARS<br/> <strong>Special?</strong>",
     "para":"The $DCARS token is the native cryptocurrency of the Dreamcars platform and the only way to own luxury rental cars using crypto.<br/><br/> Important: <strong>Without $DCARS, you can't purchase any car</strong> on Dreamcars. You need to hold a certain amount of $DCARS to access the Dreamcars marketplace and fully engage with the ecosystem. By holding $DCARS tokens, you'll unlock access to exclusive features such as:",
-    "lisec1":"Buying and selling rental cars",
+    "lisec1":"Buying and selling cars",
     "lisec2":"Voting rights on car purchases",
-    "lisec3":"Earn rental income from the cars",
+    "lisec3":"Earn montly income from rental cars",
     "lisec4":"Access all Dreamcars marketplace features",
-    "lisec5":"Use the lending protocol to hedge against a car"
+    "lisec5":"Use the lending protocol to access instant liquidity"
 
   },
   "DreamcarsBusinessSec":{
-    "title": "The Dreamcars business model continuously <br /> supports <strong>the growth of $DCARS</strong>",
-    "para":"Our marketplace offers luxury rental cars worldwide, available for purchase using over 10 different cryptocurrencies. To buy and hold shares in a car, you’ll need to own a specific amount of $DCARS and lock it for the duration of your ownership.<br/><br/> <strong>This process ensures that as more cars are added to the marketplace, the value of $DCARS steadily increases over time.<strong/>",
+    "title": "The Dreamcars business model continuously <br /> supports the growth of $DCARS",
+    "para":"The Dreamcars marketplace lets you buy, sell, and trade shares of luxury rental cars from anywhere in the world using cryptocurrency. To own car shares, you’ll need to hold a specific amount of $DCARS and lock it for as long as you wish to maintain ownership. This process ensures that as more cars are added to the marketplace, the value of $DCARS steadily increases over time.",
     "difftext":"3 Different Car Categories",
     "cardtitle1":"Entry-Level Cars",
     "cardtitle2":"Premium Cars",

@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 
-import tokens from "../../assects/images/tokens.png"
+import tokens from "../../assects/images/tokens.webp"
 import line1 from "../../assects/images/line (1).png"
 import line2 from "../../assects/images/line (2).png"
 import line3 from "../../assects/images/line (3).png"

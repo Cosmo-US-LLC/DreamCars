@@ -31,7 +31,6 @@ const BetaSection = () => {
                     <li className="list-disc text-[20px] leading-[20px] xs:text-[16px] xs:text-center text-white">{t('BetaSection.para3')}</li>
                     <li className="list-disc text-[20px] leading-[20px] xs:text-[16px] xs:text-center text-white">{t('BetaSection.para4')}</li>
                     <li className="list-disc text-[20px] leading-[20px] xs:text-[16px] xs:text-center text-white">{t('BetaSection.para5')}</li>
-                    <li className="list-disc text-[20px] leading-[20px] xs:text-[16px] xs:text-center text-white">{t('BetaSection.para6')}</li>
                    </ul>
 
                     <div className="pt-[15px]  xs:pt-[10px] flex xs:justify-center">

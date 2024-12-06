@@ -24,9 +24,9 @@
     "navBtn": "Wallet verbinden"
   },
   "ProductDetails": {
-    "para1": "Dreamcars ontgrendelt toegang tot auto's waarvan de meeste mensen alleen kunnen dromen",
-    "title1": "Investeer in luxe huurauto's en verdien dagelijkse inkomsten",
-    "para2": "Handel in auto's als aandelen met Dreamcars: Het eerste en enige platform om aandelen in luxe auto's te kopen, verkopen en bezitten, met het potentieel om tot 5.000 USDT per dag te verdienen met verhuur. Exclusief beschikbaar voor $DCARS houders.",
+    "para1": "Dreamcars geeft toegang tot 's werelds meest exclusieve auto's",
+    "title1": "Investeer in luxe huurauto's en verdien maandelijks inkomen",
+    "para2": "Handel in auto's zoals aandelen. Dreamcars is het eerste en enige platform waar je aandelen in luxe auto's kunt kopen, bezitten en verkopen. Verdien tot 50.000 USDT per maand via verhuur. Het platform is exclusief beschikbaar voor $DCARS-houders.",
     "card1": "De Rolls Royce <br /> Van Crypto's!",
     "card2": "Bezit een deel van je droomauto!",
     "card3": "Nog nooit eerder vertoond!",
@@ -97,13 +97,12 @@
       "mainTitle": "Uitgelicht op"
     },
     "BetaSection": {
-      "title": "'s Werelds eerste blockchain-gebaseerde luxe autoverhuurplatform",
-      "para1": "Koop aandelen in echte luxe huurauto's vanaf slechts $10",
-      "para2": "Verdien maandelijkse huurinkomsten met luxe auto's",
-      "para3": "Elke auto genereert gemiddeld 20% tot 50% APY",
-      "para4": "Volg historische prestaties en prijsgegevens",
-      "para5": "Handel auto's binnen seconden op de Dreamcars marktplaats",
-      "para6": "Huur luxe auto's met korting bij elke Dreamcars locatie",
+      "title": "Het eerste blockchain-aangedreven handelsplatform voor luxeauto's ter wereld",
+      "para1": "Koop echte aandelen van luxeauto's",
+      "para2": "Verdien maandelijks huurinkomen in USDT",
+      "para3": "Bekijk historische prestaties en prijsgegevens",
+      "para4": "Elke auto genereert gemiddeld 20% tot 50% APY",
+      "para5": "Handel auto's in seconden op de Dreamcars-marktplaats",
       "btn": "KOOP $DCARS"
     },
     "LicensedCard": {
@@ -118,28 +117,29 @@
     "OwnCarSection": {
       "mainTitle": "Bezit luxe auto's,",
       "mainTitle2": "Verdien huurinkomsten",
-      "para1": "Dreamcars vereenvoudigt het genereren van inkomsten met luxe huurauto's via cryptocurrency. Met Dreamcars kun je aandelen kopen in prestigieuze auto's van merken als <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, Lamborghini</strong> en anderen met onze digitale valuta, $DCARS. Deze auto's worden beheerd en verhuurd door het Dreamcars team, dus je bezit niet alleen een deel van de auto, maar verdient ook inkomsten uit de verhuur.",
-      "para2": "Elke auto wordt opgedeeld in aandelen en verkocht als NFT, gekoppeld aan het <strong>originele aankoop- en eigendomscontract, en gedekt door een echt voertuig dat volledig verzekerd is door derden in een van onze verhuurshowrooms</strong>. Je kunt een fractie van deze luxe auto's bezitten voor slechts $10.",
-      "para3": "Geen noodzaak meer om honderdduizenden uit te geven aan een luxe auto of je zorgen te maken over waardevermindering. <strong>Met Dreamcars wordt jouw aandeel in de auto een waardevol actief, dat elke maand een constante inkomstenstroom voor je genereert.</strong>"
+      "para1": "Dreamcars maakt het gemakkelijk om inkomsten te verdienen uit luxe huurauto's met behulp van crypto. Met onze $DCARS-token kun je aandelen kopen in prestigieuze huurauto's van topmerken zoals <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari en Lamborghini</strong>.",
+      "para2": "Elke auto wordt opgedeeld in aandelen en omgezet in een NFT, <strong>die belangrijke details zoals het serienummer van de auto, eigendomsinformatie</strong> en de koopovereenkomst veilig opslaat.",
+      "para3": "Alle auto's zijn volledig gedekt door externe verzekeringsmaatschappijen en worden bewaard in Dreamcars-showrooms in Dubai, Miami of Marbella. Ons team verhuurt ze dagelijks, wekelijks of maandelijks. Huuropbrengsten worden op de 1e van elke maand in USDT aan de eigenaren uitbetaald.",
+      "para4": "Geen noodzaak om honderdduizenden te besteden aan superauto's of je zorgen te maken over waardevermindering. Met Dreamcars wordt je aandeelpakket een waardevol bezit dat een stabiel maandelijks inkomen biedt."
     },
     "BenefitSection": {
     "title": "Waarom Kiezen voor Dreamcars?",
     "cardTitle": "100% Authenticiteit",
-    "cardSubtitle": "Aandelen van echte luxe huurauto's worden verkocht als NFT's, met koop- en eigendomsovereenkomsten in het slimme contract. Door blockchain-technologie te benutten, waarborgen we de authenticiteit van elk voertuig door het serienummer en de details in de NFT-metadata op te nemen.",
-    "cardTitle21": "Eigendom van een Stuk Luxe",
-    "cardSubtitle2": "Dreamcars heeft het bezit van luxe auto's toegankelijker gemaakt door NFT's aan te bieden die ondersteund worden door echte auto's, verdeeld in fracties voor gedeeltelijk eigendom, waardoor de instap in de luxe autoverhuurmarkt voor iedereen betaalbaar wordt.",
+    "cardSubtitle": "Elke huurauto wordt verdeeld in aandelen en getokeniseerd als NFT's, inclusief het serienummer van de auto en eigendomsgegevens in het slimme contract, wat volledige authenticiteit en transparantie garandeert.",
+    "cardTitle21": "Bezit een Stuk Luxe",
+    "cardSubtitle2": "Met Dreamcars kun je aandelen in luxe huurauto's bezitten zonder een fortuin uit te geven en geld verdienen met dagelijkse, wekelijkse en maandelijkse verhuur.",
     "cardTitle3": "Positieve Cashflow",
-    "cardSubtitle3": "Genereer consistente cashflow in USDT met Dreamcars door maandelijks inkomen uit luxe autoverhuur, beveiligd door blockchain-technologie en echte activa.",
+    "cardSubtitle3": "Verdien elke maand USDT met autoverhuur, waarbij de inkomsten op de 1e van elke maand worden verdeeld aan de eigenaren op basis van het aantal aandelen dat ze bezitten.",
     "cardTitle4": "Hoge Liquiditeit",
-    "cardSubtitle4": "Met ons innovatieve leenprotocol kunnen gebruikers concurrerende leningen verkrijgen door hun autoshares als onderpand te gebruiken, terwijl ze het volledige eigendom van hun voertuigen behouden.",
+    "cardSubtitle4": "Gebruik je autoaandelen om leningen te krijgen via ons liquiditeitsprotocol, met behoud van volledig eigendom.",
     "cardTitle5": "Alternatieve Activa",
-    "cardSubtitle5": "Dreamcars biedt een stabiel, op groei gericht alternatief voor volatiele cryptocurrencies en aandelenmarkten. Door een nieuwe activaklasse te pionieren, biedt het de mogelijkheid om extra inkomen te genereren en je vermogen te diversifiëren.",
-    "cardTitle6": "Kortingen op Huurauto's",
-    "cardSubtitle6": "Samen transformeren we de luxe autoverhuurindustrie door een spannende, winstgevende en toegankelijke manier te creëren om aandelen van 's werelds mooiste voertuigen te bezitten, terwijl we ook genieten van aanzienlijke kortingen op luxe autoverhuur op elke Dreamcars-locatie."
-},
+    "cardSubtitle5": "Dreamcars biedt een stabiel, inkomsten genererend activum dat helpt om je portefeuille te diversifiëren voorbij volatiele aandelen en crypto.",
+    "cardTitle6": "Korting op Huurauto's",
+    "cardSubtitle6": "Dreamcars-gebruikers krijgen grote kortingen op luxe huurauto's en kunnen superauto's rijden tegen onverslaanbare prijzen."
+  },
       "RewardSection": {
         "title": "Ontvang speciale bonussen vanaf slechts ",
-        "para": "Word lid van de exclusieve Dreamcars Members Club en ontvang buitengewone beloningen plus $DCARS bonussen! <br/><br/>Hoe meer je koopt, hoe groter de voordelen! Deze speciale beloningen zijn alleen beschikbaar tijdens de presale en zullen nooit meer worden aangeboden.",
+       "para": "Word lid van de exclusieve Dreamcars Member’s Club en ontvang buitengewone beloningen en bonus $DCARS-tokens! <br/><br/>Hoe meer je koopt, hoe groter de voordelen! Deze speciale beloningen zijn alleen beschikbaar tijdens de voorverkoop. Ze worden nooit meer aangeboden.",
         "spendText": "Hoeveel wil je uitgeven?",
         "packageType1": "Mercedes",
         "packageText11": "Mercedes NFT",
@@ -202,13 +202,13 @@
         "LamborghiniSec": {
     "title": "Lamborghini Huracan Aandelen Voor",
     "titlespan": "Slechts $10",
-    "para": "Stel je voor dat je een gloednieuwe Lamborghini Huracan bezit en <strong>tot $15.000 per maand verdient</strong> met deze ene auto* zonder dat je het zelf hoeft te beheren. Dat is wat Dreamcars mogelijk maakt.<br /><br />Dreamcars doorbreekt barrières door de luxe autoverhuurmarkt open te stellen voor crypto-gebruikers wereldwijd. Koop eenvoudig $DCARS en koop vervolgens aandelen in je droomauto's voor slechts $10, en verkoop ze op elk moment vanuit het comfort van je huis. In het verleden zou je een <strong>fortuin moeten uitgeven of grote bankleningen moeten afsluiten</strong> om je eigen luxe autoverhuurbedrijf te starten. Bovendien zou je ruimte moeten huren, verzekering moeten kopen en adverteren. Nu worden al deze taken voor je afgehandeld. Je kunt eenvoudig je auto kiezen en beginnen met het verdienen van maandelijkse huurinkomsten.",
+   "para": "Stel je voor dat je een gloednieuwe Lamborghini Huracan bezit en duizenden USDT verdient door deze te verhuren zonder iets te hoeven doen. Ontvang je huurinkomsten automatisch op de 1e van elke maand, of je nu reist, ontspant op het strand of gewoon thuis bent. Dreamcars maakt dit mogelijk door de luxeverhuurmarkt open te stellen voor crypto-gebruikers wereldwijd.<br /><br /> In het verleden moest je een fortuin uitgeven of grote bankleningen afsluiten om je eigen luxe autoverhuurbedrijf te starten. Je zou ook ruimte moeten huren, verzekeringen afsluiten en adverteren. Nu regelt Dreamcars alles. Kies gewoon je eerste auto en begin maandelijkse huurinkomsten te verdienen.",
     
     "paralats": "*Deze berekening is gebaseerd op de veronderstelling dat je alle aandelen van de auto bezit"
   },
   "SimpleExampleSec": {
     "title": "Hier is een Simpel <strong>Voorbeeld</strong>",
-    "para": "Een Lamborghini Huracan Spyder 2024, aangeschaft voor $280.000, kan bijna $97.000 aan nettowinst genereren na aftrek van alle kosten, inclusief afschrijving*.",
+    "para": "Een Lamborghini Huracan Spyder 2024, gekocht voor $280.000, zou een netto winst van ongeveer $97.000 kunnen opleveren na aftrek van alle kosten, inclusief afschrijving.*",
     "calculation": "1-Jaar Berekening:",
     "totalcard": "Totale Jaarlijkse Kosten**",
     "amountcard1": "$83.000",
@@ -220,7 +220,7 @@
   },
   "LuxurySec": {
     "title": "De Luxe Autoverhuurmarkt Groeit <strong>Snel</strong>",
-    "para": "De luxe autoverhuurmarkt groeit snel omdat <strong>steeds meer mensen luxe auto's willen rijden voor speciale gelegenheden of gewoon om een premium ervaring te genieten.</strong> Dreamcars maakt het mogelijk voor gebruikers om deel te nemen aan de luxe autoverhuur door autoaandelen aan te schaffen die worden ondersteund door blockchain-technologie. Op deze manier kunnen gebruikers inkomen genereren uit verhuur zonder de auto's te bezitten of te onderhouden. Naarmate de vraag naar luxe autoverhuur stijgt, <strong>biedt Dreamcars een gemakkelijke en winstgevende manier om deel uit te maken van deze groeiende markt.</strong>"
+    "para": "De markt voor luxe autoverhuur groeit snel, met <strong>mensen die supercars willen rijden voor vakanties, bruiloften of simpelweg om de sensatie te ervaren. Momenteel gewaardeerd op meer dan 20 miljard dollar,</strong> wordt verwacht dat de markt tegen 2029 30 miljard dollar zal bereiken. Dreamcars stelt gebruikers in staat om deel te nemen aan deze bloeiende industrie door aandelen te kopen in luxe huurauto's. Op deze manier kunnen gebruikers geld verdienen aan verhuur zonder de last van het beheren of onderhouden van de auto's. Naarmate de vraag naar luxe autoverhuur blijft stijgen, <strong>biedt Dreamcars een eenvoudige en winstgevende manier om deel uit te maken van deze snelgroeiende markt.</strong>"
   },
   "TheLuxurySec": {
     "title": "De Luxe Autoverhuurmarkt Groeit <strong>Snel</strong>",
@@ -263,7 +263,7 @@
   },
   "MostFunSection": {
     "title": "Het bezitten van luxeauto's is de leukste manier om je Crypto-portefeuille te <span>diversifiëren</span>",
-    "para": "In een zeer volatiele markt zoals crypto, biedt het bezit van luxe huurauto's via Dreamcars een eenvoudige en betrouwbare manier om inkomen te genereren. <strong>Veel mensen hebben hun crypto-bezit met meer dan 50% zien dalen tijdens eerdere berenmarkten</strong> en zoeken nu naar stabielere manieren om hun vermogen te behouden. Begrijp ons niet verkeerd—wij geloven volledig in crypto en zien het als de toekomst. Maar we geloven ook dat er veiligere opties moeten zijn binnen de blockchain-ruimte, waarmee je je vermogen kunt beschermen via een eenvoudige,  hoog-renderende business.<br/><br/> <strong>In plaats van je digitale activa in je wallet te laten, blootgesteld aan marktvolatiliteit of dalingen</strong> (zelfs stablecoins zoals USDC of USDT kunnen waarde verliezen door inflatie en de USD-pegging), kun je ze omzetten in aandelen van echte luxeauto's via Dreamcars en maandelijks huurinkomen verdienen, <strong>ondersteund door echte, waardevolle activa.</strong> Dit biedt veel meer stabiliteit en hogere rendementen dan de meeste andere opties. Met Dreamcars kun je je vermogen beschermen en laten groeien, zelfs wanneer de cryptomarkt in moeilijkheden verkeert.",
+    "para": "Het is belangrijk om je winst te verzilveren in zeer volatiele markten zoals crypto of aandelen, waar je binnen korte tijd 50% van je waarde kunt verliezen. Dreamcars biedt een eenvoudige en betrouwbare manier om delen van je vermogen te diversifiëren en te beschermen.<br/><br/> In plaats van al je digitale activa in je wallet te laten staan, blootgesteld aan hacks, marktschommelingen of mogelijke neergangen, kun je deze via Dreamcars omzetten in aandelen van echte luxeauto's en maandelijks huurinkomen verdienen, ondersteund door waardevolle echte activa. Dit biedt meer stabiliteit en consistente rendementen dan de meeste andere opties. Zoals experts zeggen: je moet nooit al je eieren in één mandje leggen.",
     "btn1": "KOOP $DCARS"
   },
     "FeaturesSection": {
@@ -404,9 +404,9 @@
     "btn": "KOOP $DCARS"
   },
   "DreamcarsBusinessSec": {
-    "title": "Het Dreamcars businessmodel ondersteunt voortdurend <br /> de groei van <strong>$DCARS</strong>",
-    "para": "Onze marketplace biedt luxe huurauto's wereldwijd, beschikbaar voor aankoop met meer dan 10 verschillende cryptocurrencies. Om aandelen in een auto te kopen en vast te houden, moet je een specifiek bedrag aan $DCARS bezitten en dit vergrendelen voor de duur van je eigendom.<br/><br/> <strong>Dit proces zorgt ervoor dat naarmate er meer auto's aan de marketplace worden toegevoegd, de waarde van $DCARS gestaag toeneemt in de loop van de tijd.<strong/>",
-    "difftext": "3 Verschillende Autocategorieën",
+    "title": "Het Dreamcars-bedrijfsmodel ondersteunt continu <br /> de groei van $DCARS",
+    "para": "De Dreamcars-marktplaats stelt u in staat om aandelen in luxe huurauto's te kopen, verkopen en verhandelen vanuit elke locatie ter wereld met cryptocurrency. Om aandelen in auto's te bezitten, moet u een specifieke hoeveelheid $DCARS bezitten en deze zo lang blokkeren als u het eigendom wilt behouden. Dit proces zorgt ervoor dat de waarde van $DCARS in de loop van de tijd gestaag toeneemt naarmate er meer auto's aan de marktplaats worden toegevoegd.",
+    "difftext": "3 verschillende autoklassen",
     "cardtitle1": "Instapmodellen",
     "cardtitle2": "Premium Auto's",
     "cardtitle3": "Top Prestaties",
@@ -558,11 +558,11 @@
         "WhatMakesSec": {
           "title": "Wat maakt $DCARS<br/> <strong>Speciaal?</strong>",
           "para": "De $DCARS token is de eigen cryptocurrency van het Dreamcars platform en de enige manier om luxe huurauto's te bezitten met crypto.<br/><br/> Belangrijk: <strong>Zonder $DCARS kun je geen auto kopen</strong> op Dreamcars. Je moet een bepaalde hoeveelheid $DCARS bezitten om toegang te krijgen tot de Dreamcars marktplaats en volledig deel te nemen aan het ecosysteem. Door $DCARS tokens te bezitten, krijg je toegang tot exclusieve functies zoals:",
-          "lisec1": "Kopen en verkopen van huurauto's",
-          "lisec2": "Stemrecht bij auto-aankopen",
-          "lisec3": "Verdien huurinkomsten van de auto's",
-          "lisec4": "Toegang tot alle Dreamcars marktplaats functies",
-          "lisec5": "Gebruik het leenprotocol om te hedgen tegen een auto"
+          "lisec1": "Auto's kopen en verkopen",
+          "lisec2": "Stemrechten bij autoverkopen",
+          "lisec3": "Maandelijks inkomen verdienen met huurauto's",
+          "lisec4": "Toegang tot alle functies van de Dreamcars-marktplaats",
+          "lisec5": "Het leenprotocol gebruiken om directe liquiditeit te verkrijgen"
         },
           "WhyShouldSec": {
             "title": "Exclusieve voordelen tijdens de presale",

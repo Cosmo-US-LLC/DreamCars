@@ -24,9 +24,9 @@
     "navBtn": "Kết Nối Ví"
   },
   "ProductDetails": {
-    "para1": "Dreamcars mở ra cơ hội sở hữu những chiếc xe mà hầu hết mọi người chỉ có thể mơ ước.",
-    "title1": "Đầu Tư Vào Xe Cho Thuê Sang Trọng Và Kiếm Thu Nhập Hàng Ngày",
-    "para2": "Giao dịch xe như cổ phiếu với Dreamcars: Nền tảng đầu tiên và duy nhất để mua, bán và sở hữu cổ phần trong xe sang, với tiềm năng kiếm lên đến 5,000 USDT mỗi ngày từ cho thuê. Chỉ dành cho người sở hữu $DCARS.",
+   "para1": "Dreamcars mở ra quyền truy cập vào những chiếc xe độc quyền nhất thế giới",
+    "title1": "Đầu tư vào xe thuê cao cấp và kiếm thu nhập hàng tháng",
+    "para2": "Giao dịch xe như cổ phiếu. Dreamcars là nền tảng đầu tiên và duy nhất nơi bạn có thể mua, sở hữu và bán cổ phần trong các loại xe sang trọng. Kiếm được tới 50.000 USDT hàng tháng thông qua việc cho thuê. Nền tảng chỉ dành riêng cho những người sở hữu $DCARS.",
     "card1": "Rolls Royce <br /> Của Crypto!",
     "card2": "Sở hữu một phần chiếc xe mơ ước của bạn!",
     "card3": "Chưa Từng Có Điều Này Trước Đây!",
@@ -85,13 +85,12 @@
     "mainTitle": "Nổi Bật Trong"
   },
   "BetaSection": {
-    "title": "Nền Tảng Xe Cho Thuê Sang Trọng Đầu Tiên Thế Giới Được Hỗ Trợ Blockchain",
-    "para1": "Mua Cổ Phần Xe Cho Thuê Sang Trọng Thực Tế bắt đầu từ chỉ $10",
-    "para2": "Kiếm Thu Nhập Cho Thuê Hàng Tháng Với Xe Cho Thuê Sang Trọng",
-    "para3": "Mỗi Xe Tạo Ra Trung Bình 20% đến 50% APY",
-    "para4": "Theo Dõi Hiệu Suất Lịch Sử & Dữ Liệu Giá",
-    "para5": "Giao Dịch Xe Trong Vài Giây Trên Thị Trường Dreamcars",
-    "para6": "Thuê Xe Sang Trọng với Giá Giảm tại bất kỳ Địa Điểm Dreamcars nào",
+    "title": "Nền tảng giao dịch xe sang đầu tiên trên thế giới sử dụng công nghệ blockchain",
+    "para1": "Mua cổ phần xe sang thực sự",
+    "para2": "Kiếm thu nhập thuê hàng tháng bằng USDT",
+    "para3": "Theo dõi hiệu suất lịch sử và dữ liệu giá",
+    "para4": "Mỗi xe tạo ra trung bình từ 20% đến 50% APY",
+    "para5": "Giao dịch xe chỉ trong vài giây trên thị trường Dreamcars",
     "btn": "MUA $DCARS"
   },
   "LicensedCard": {
@@ -106,9 +105,10 @@
 "OwnCarSection": {
   "mainTitle": "Sở Hữu Xe Hạng Sang,",
   "mainTitle2": "Kiếm Thu Nhập Từ Cho Thuê",
-  "para1": "Dreamcars giúp bạn dễ dàng tạo thu nhập với xe cho thuê hạng sang bằng crypto. Với Dreamcars, bạn có thể mua cổ phần trong các xe danh tiếng từ các thương hiệu như <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, Lamborghini</strong>, và nhiều hơn nữa sử dụng tiền điện tử của chúng tôi, $DCARS. Những chiếc xe này được quản lý và cho thuê bởi đội ngũ Dreamcars, vì vậy bạn không chỉ sở hữu cổ phần trong chiếc xe mà còn kiếm thu nhập từ việc cho thuê.",
-  "para2": "Mỗi chiếc xe được chia thành các cổ phần và bán dưới dạng NFT, liên kết với <strong>hợp đồng mua bán và sở hữu ban đầu, và được đảm bảo bởi một chiếc xe thật, đã được bảo hiểm toàn diện của bên thứ ba trong một trong các showroom cho thuê của chúng tôi</strong>. Bạn có thể sở hữu một phần nhỏ của những chiếc xe hạng sang này với giá chỉ từ $10.",
-  "para3": "Không còn phải chi hàng trăm nghìn đô la cho một chiếc xe hạng sang hay lo lắng về việc nó mất giá. <strong>Với Dreamcars, cổ phần của bạn trong chiếc xe trở thành một tài sản có giá trị, tạo ra nguồn thu nhập ổn định hàng tháng cho bạn.</strong>"
+  "para1": "Dreamcars giúp bạn dễ dàng kiếm thu nhập từ việc cho thuê xe sang bằng tiền điện tử. Với token $DCARS của chúng tôi, bạn có thể mua cổ phần của các dòng xe cho thuê danh tiếng từ các thương hiệu hàng đầu như <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari và Lamborghini</strong>.",
+  "para2": "Mỗi chiếc xe được chia thành cổ phần và biến thành NFT, <strong>lưu trữ an toàn các thông tin quan trọng như số sê-ri của xe, thông tin sở hữu</strong> và hợp đồng mua bán.",
+  "para3": "Tất cả các xe đều được bảo hiểm đầy đủ bởi các công ty bảo hiểm bên thứ ba và được giữ trong các showroom của Dreamcars tại Dubai, Miami hoặc Marbella. Đội ngũ của chúng tôi cho thuê hàng ngày, hàng tuần hoặc hàng tháng. Thu nhập từ việc cho thuê được trả cho chủ sở hữu xe bằng USDT vào ngày 1 mỗi tháng.",
+  "para4": "Bạn không cần phải chi hàng trăm nghìn đô la cho những chiếc siêu xe hoặc lo lắng về việc mất giá. Với Dreamcars, cổ phần của bạn trong xe trở thành một tài sản có giá trị, mang lại thu nhập hàng tháng ổn định."
 },
 "WhyShouldSec": {
   "title": "Ưu Đãi Đặc Biệt Trong Giai Đoạn Pre-Sale",
@@ -124,21 +124,21 @@
 "BenefitSection": {
   "title": "Tại Sao Chọn Dreamcars?",
   "cardTitle": "100% Chính Hãng",
-  "cardSubtitle": "Cổ phần của những chiếc xe hạng sang thực sự sẽ được bán dưới dạng NFTs, với hợp đồng mua bán và sở hữu trong hợp đồng thông minh. Bằng cách tận dụng công nghệ blockchain, chúng tôi đảm bảo tính xác thực của từng phương tiện bằng cách nhúng số seri và chi tiết của xe vào siêu dữ liệu NFT.",
-  "cardTitle21": "Sở Hữu Một Phần Xe Hạng Sang",
-  "cardSubtitle2": "Dreamcars đã làm cho việc sở hữu xe hạng sang trở nên dễ tiếp cận hơn bằng cách cung cấp NFTs được bảo vệ bởi xe thật, chia thành các phần cho quyền sở hữu một phần, giúp việc gia nhập thị trường cho thuê xe hạng sang trở nên dễ dàng cho mọi người.",
-  "cardTitle3": "Dòng Tiền Tích Cực",
-  "cardSubtitle3": "Tạo ra dòng tiền ổn định bằng USDT với Dreamcars qua thu nhập hàng tháng từ việc cho thuê xe hạng sang, được đảm bảo bởi công nghệ blockchain và tài sản thật.",
-  "cardTitle4": "Thanh Khoản Cao",
-  "cardSubtitle4": "Với giao thức cho vay sáng tạo của chúng tôi, người dùng có thể tiếp cận các khoản vay cạnh tranh bằng cách sử dụng cổ phần xe của họ làm tài sản thế chấp, trong khi vẫn giữ quyền sở hữu đầy đủ với phương tiện của mình.",
-  "cardTitle5": "Tài Sản Thay Thế",
-  "cardSubtitle5": "Dreamcars cung cấp một lựa chọn thay thế ổn định và phát triển cho các loại tiền điện tử và thị trường chứng khoán dễ biến động. Bằng cách tiên phong trong một loại tài sản mới, Dreamcars mang đến cho bạn cơ hội tạo ra thu nhập bổ sung và đa dạng hóa tài sản.",
-  "cardTitle6": "Giảm Giá Cho Xe Cho Thuê",
-  "cardSubtitle6": "Chúng ta cùng nhau đang thay đổi ngành cho thuê xe hạng sang bằng cách tạo ra một cách thức hấp dẫn, sinh lợi và dễ tiếp cận để sở hữu cổ phần của những chiếc xe tốt nhất thế giới, đồng thời tận hưởng mức giảm giá đáng kể cho việc cho thuê xe hạng sang tại bất kỳ địa điểm nào của Dreamcars."
-},
+  "cardSubtitle": "Mỗi xe cho thuê được chia thành cổ phần và mã hóa dưới dạng NFT, bao gồm số seri và thông tin quyền sở hữu trong hợp đồng thông minh để đảm bảo tính xác thực và minh bạch tuyệt đối.",
+    "cardTitle21": "Sở hữu Một Phần Sang Trọng",
+    "cardSubtitle2": "Với Dreamcars, bạn có thể sở hữu cổ phần trong các xe cho thuê sang trọng mà không cần tốn kém và kiếm thu nhập từ việc cho thuê hàng ngày, hàng tuần và hàng tháng.",
+    "cardTitle3": "Dòng Tiền Tích Cực",
+    "cardSubtitle3": "Kiếm USDT hàng tháng từ việc cho thuê xe, thu nhập được phân phối cho các chủ xe vào ngày 1 mỗi tháng dựa trên số cổ phần sở hữu.",
+    "cardTitle4": "Thanh khoản Cao",
+    "cardSubtitle4": "Sử dụng cổ phần xe của bạn làm tài sản thế chấp thông qua giao thức thanh khoản của chúng tôi trong khi vẫn giữ quyền sở hữu đầy đủ.",
+    "cardTitle5": "Tài Sản Thay Thế",
+    "cardSubtitle5": "Dreamcars cung cấp một tài sản ổn định, tạo thu nhập giúp đa dạng hóa danh mục đầu tư của bạn vượt qua cổ phiếu và tiền điện tử biến động.",
+    "cardTitle6": "Giảm Giá Thuê Xe",
+    "cardSubtitle6": "Người dùng Dreamcars nhận được giảm giá lớn cho các xe cho thuê sang trọng và có thể lái những siêu xe với giá không thể sánh được."
+  },
 "RewardSection": {
     "title": "Nhận Thưởng Đặc Biệt Bắt Đầu Từ Chỉ",
-    "para": "Tham gia Câu Lạc Bộ Thành Viên Dreamcars và nhận những phần thưởng đặc biệt cùng với $DCARS thưởng! <br/><br/>Càng mua nhiều, bạn sẽ nhận được càng nhiều lợi ích! Những phần thưởng đặc biệt này chỉ có trong đợt pre-sale và sẽ không bao giờ được cung cấp lại.",
+    "para": "Tham gia Câu lạc bộ thành viên Dreamcars độc quyền và nhận phần thưởng đặc biệt cùng token thưởng $DCARS! <br/><br/>Càng mua nhiều, bạn càng nhận được nhiều lợi ích! Những phần thưởng đặc biệt này chỉ có sẵn trong giai đoạn bán trước. Chúng sẽ không bao giờ được cung cấp lại.",
     "spendText": "Bạn muốn chi bao nhiêu?",
     "packageType1": "Mercedes",
     "packageText11": "NFT Mercedes",
@@ -215,12 +215,12 @@
 "LamborghiniSec": {
     "title": "Chia Sẻ Lamborghini Huracan Cho ",
     "titlespan": "Chỉ $10",
-    "para": "Hãy tưởng tượng sở hữu một chiếc Lamborghini Huracan mới và <strong>kiếm tới $15,000 mỗi tháng</strong> từ chiếc xe này mà không cần phải tự quản lý. Đó là điều mà Dreamcars làm được.<br /><br /> Dreamcars đang phá vỡ rào cản bằng cách mở rộng kinh doanh cho thuê xe sang cho người dùng tiền điện tử trên toàn cầu. Chỉ cần mua $DCARS và sau đó mua cổ phần trong những chiếc xe mơ ước của bạn với giá chỉ từ $10, và bán chúng từ sự thoải mái của ngôi nhà của bạn bất cứ lúc nào. Trước đây, bạn sẽ phải <strong> chi một khoản tiền lớn hoặc vay ngân hàng lớn</strong> để bắt đầu kinh doanh cho thuê xe sang. Hơn nữa, bạn sẽ phải thuê mặt bằng, mua bảo hiểm và quảng cáo. Giờ đây, tất cả các công việc này đều được xử lý cho bạn. Bạn chỉ cần chọn chiếc xe của mình và bắt đầu kiếm thu nhập cho thuê hàng tháng.",
+    "para": "Hãy tưởng tượng bạn sở hữu một chiếc Lamborghini Huracan hoàn toàn mới và kiếm được hàng ngàn USDT bằng cách cho thuê mà không cần phải động tay động chân. Nhận thu nhập từ việc cho thuê tự động vào ngày 1 hàng tháng, bất kể bạn đang đi du lịch, thư giãn trên bãi biển hay chỉ ở nhà. Dreamcars biến điều này thành hiện thực bằng cách mở cửa thị trường cho thuê xe sang cho người dùng tiền điện tử trên toàn cầu.<br /><br /> Trước đây, bạn sẽ phải tiêu tốn một số tiền lớn hoặc vay ngân hàng lớn để bắt đầu công việc kinh doanh cho thuê xe sang của riêng mình. Bạn cũng cần thuê không gian, mua bảo hiểm và quảng cáo. Giờ đây, Dreamcars lo tất cả mọi thứ. Chỉ cần chọn chiếc xe đầu tiên của bạn và bắt đầu kiếm thu nhập hàng tháng từ việc cho thuê.",
     "paralats": "*Phép tính này được đưa ra dựa trên giả định rằng bạn sở hữu tất cả cổ phần của chiếc xe"
 },
 "SimpleExampleSec": {
     "title": "Dưới Đây Là Một <strong>Ví Dụ</strong> Đơn Giản",
-    "para": "Một chiếc Lamborghini Huracan Spyder 2024, được mua với giá $280,000, có thể tạo ra gần $97,000 lợi nhuận ròng sau khi trừ tất cả chi phí, bao gồm khấu hao*.",
+    "para": "Một chiếc Lamborghini Huracan Spyder 2024, mua với giá 280.000 USD, có thể mang lại lợi nhuận ròng khoảng 97.000 USD sau khi tính tất cả các chi phí, bao gồm cả khấu hao.*",
     "calculation": "Tính Toán 1 Năm:",
     "totalcard": "Tổng Chi Phí Hàng Năm**",
     "amountcard1": "$83,000",
@@ -232,8 +232,8 @@
 },
 "LuxurySec": {
     "title": "Ngành Cho Thuê Xe Sang Đang <strong>Tăng Trưởng Nhanh</strong>",
-    "para": "Thị trường cho thuê xe sang đang tăng trưởng nhanh khi <strong>nhiều người muốn lái những chiếc xe hạng sang cho các dịp đặc biệt hoặc chỉ để tận hưởng một trải nghiệm cao cấp.</strong> Dreamcars giúp người dùng tham gia vào kinh doanh cho thuê xe sang bằng cách mua cổ phần xe được hỗ trợ bởi công nghệ blockchain. Bằng cách này, người dùng có thể kiếm thu nhập từ việc cho thuê mà không cần sở hữu hoặc duy trì những chiếc xe. Khi nhu cầu cho thuê xe sang tăng lên, <strong>Dreamcars cung cấp một cách dễ dàng và sinh lợi để tham gia vào thị trường đang phát triển này.</strong>"
-},
+    "para": "Thị trường cho thuê xe sang đang phát triển nhanh chóng, với <strong>người muốn lái siêu xe để đi nghỉ, tổ chức đám cưới hoặc chỉ để trải nghiệm cảm giác hồi hộp. Hiện được định giá hơn 20 tỷ đô la,</strong> thị trường dự kiến sẽ đạt 30 tỷ đô la vào năm 2029. Dreamcars cho phép người dùng tham gia vào ngành công nghiệp đang phát triển này bằng cách mua cổ phần trong các xe thuê hạng sang. Bằng cách này, người dùng có thể kiếm tiền từ việc cho thuê mà không cần phải quản lý hoặc bảo trì xe. Khi nhu cầu thuê xe sang tiếp tục tăng, <strong>Dreamcars cung cấp một cách dễ dàng và sinh lời để trở thành một phần của thị trường đang phát triển nhanh chóng này.</strong>"
+  },
 "TheLuxurySec": {
     "title": "Ngành Cho Thuê Xe Sang Đang <strong>Tăng Trưởng Nhanh</strong>",
     "para": "Thị trường cho thuê xe sang đang tăng trưởng nhanh khi <strong>nhiều người muốn lái những chiếc xe hạng sang cho các dịp đặc biệt hoặc chỉ để tận hưởng một trải nghiệm cao cấp.</strong> Dreamcars giúp người dùng tham gia vào kinh doanh cho thuê xe sang bằng cách mua cổ phần xe được hỗ trợ bởi công nghệ blockchain. Bằng cách này, người dùng có thể kiếm thu nhập từ việc cho thuê mà không cần sở hữu hoặc duy trì những chiếc xe. Khi nhu cầu cho thuê xe sang tăng lên, <strong>Dreamcars cung cấp một cách dễ dàng và sinh lợi để tham gia vào thị trường đang phát triển này.</strong>"
@@ -289,7 +289,7 @@
   },
     "MostFunSection": {
       "title": "Sở hữu xe sang là cách thú vị nhất để <span>đa dạng hóa</span> danh mục Crypto của bạn",
-      "para": "Trong một thị trường đầy biến động như crypto, sở hữu xe cho thuê sang trọng với Dreamcars cung cấp một cách đơn giản và đáng tin cậy để kiếm thu nhập. <strong>Nhiều người đã chứng kiến số lượng crypto của họ giảm hơn 50% trong các thị trường giảm giá trước đây</strong> và hiện đang tìm kiếm những cách ổn định hơn để bảo vệ tài sản của mình. Đừng hiểu lầm chúng tôi—chúng tôi cũng đầu tư vào crypto và coi nó là tương lai. Nhưng chúng tôi cũng tin rằng sẽ có những lựa chọn an toàn hơn trong không gian blockchain, cho phép bạn bảo vệ tài sản của mình thông qua một mô hình kinh doanh đơn giản và lợi nhuận cao.<br/><br/> <strong>Thay vì để tài sản kỹ thuật số của bạn trong ví, bị ảnh hưởng bởi sự biến động của thị trường hoặc suy thoái</strong> (ngay cả stablecoin như USDC hoặc USDT cũng có thể mất giá do lạm phát và tỷ lệ USD), bạn có thể chuyển đổi chúng thành cổ phần của những chiếc xe sang trọng thực tế qua Dreamcars và kiếm thu nhập cho thuê hàng tháng, <strong>được bảo vệ bởi tài sản thực sự có giá trị.</strong> Điều này mang lại sự ổn định cao hơn và lợi nhuận lớn hơn so với hầu hết các lựa chọn khác. Với Dreamcars, bạn có thể bảo vệ và phát triển tài sản của mình, ngay cả khi thị trường crypto đang gặp khó khăn.",
+      "para": "Điều quan trọng là rút lợi nhuận của bạn trong các thị trường có tính biến động cao như tiền điện tử hoặc cổ phiếu, nơi bạn có thể mất 50% giá trị của mình trong một khoảng thời gian ngắn. Dreamcars cung cấp một cách đơn giản và đáng tin cậy để đa dạng hóa và bảo vệ một phần tài sản của bạn.<br/><br/> Thay vì để tất cả tài sản kỹ thuật số của bạn trong ví, dễ bị tấn công, biến động thị trường hoặc giảm giá tiềm năng, bạn có thể chuyển chúng thành cổ phần của các xe sang thực sự thông qua Dreamcars và kiếm thu nhập từ việc cho thuê hàng tháng, được hỗ trợ bởi các tài sản thực có giá trị. Điều này mang lại sự ổn định hơn và lợi nhuận ổn định hơn so với hầu hết các tùy chọn khác. Như các chuyên gia nói, bạn không nên đặt tất cả trứng vào một giỏ.",
       "btn1": "MUA $DCARS"
     },
     "FeaturesSection": {
@@ -419,16 +419,16 @@
     "WhatMakesSec": {
       "title": "Điều gì làm cho $DCARS<br/> <strong>Đặc biệt?</strong>",
       "para": "Token $DCARS là đồng tiền mã hóa gốc của nền tảng Dreamcars và là cách duy nhất để sở hữu xe sang cho thuê bằng crypto.<br/><br/> Quan trọng: <strong>Không có $DCARS, bạn không thể mua bất kỳ chiếc xe nào</strong> trên Dreamcars. Bạn cần sở hữu một số lượng $DCARS nhất định để truy cập vào chợ Dreamcars và tham gia đầy đủ vào hệ sinh thái. Bằng cách nắm giữ token $DCARS, bạn sẽ mở khóa quyền truy cập vào các tính năng độc quyền như:",
-      "lisec1": "Mua và bán xe cho thuê",
+      "lisec1": "Mua và bán ô tô",
       "lisec2": "Quyền biểu quyết trong việc mua xe",
-      "lisec3": "Kiếm thu nhập từ việc cho thuê xe",
-      "lisec4": "Truy cập tất cả các tính năng của chợ Dreamcars",
-      "lisec5": "Sử dụng giao thức cho vay để phòng ngừa rủi ro với xe"
+      "lisec3": "Kiếm thu nhập hàng tháng từ xe cho thuê",
+      "lisec4": "Truy cập tất cả các tính năng của thị trường Dreamcars",
+      "lisec5": "Sử dụng giao thức vay để có thanh khoản tức thì"
     },
     "DreamcarsBusinessSec": {
-      "title": "Mô hình kinh doanh Dreamcars liên tục <br /> hỗ trợ <strong>sự phát triển của $DCARS</strong>",
-      "para": "Chợ của chúng tôi cung cấp xe sang cho thuê trên toàn thế giới, có thể mua bằng hơn 10 loại tiền mã hóa khác nhau. Để mua và sở hữu cổ phần trong một chiếc xe, bạn sẽ cần sở hữu một lượng $DCARS nhất định và khóa nó trong suốt thời gian sở hữu.<br/><br/> <strong>Quy trình này đảm bảo rằng khi thêm nhiều xe vào chợ, giá trị của $DCARS sẽ tăng trưởng ổn định theo thời gian.</strong>",
-      "difftext": "3 Danh Mục Xe Khác Nhau",
+      "title": "Mô hình kinh doanh của Dreamcars liên tục <br /> hỗ trợ sự phát triển của $DCARS",
+      "para": "Thị trường Dreamcars cho phép bạn mua, bán và giao dịch cổ phần của xe hơi hạng sang từ bất kỳ đâu trên thế giới bằng tiền điện tử. Để sở hữu cổ phần xe, bạn cần nắm giữ một lượng $DCARS cụ thể và khóa nó trong thời gian bạn muốn duy trì quyền sở hữu. Quá trình này đảm bảo rằng khi nhiều xe hơi được thêm vào thị trường, giá trị của $DCARS sẽ tăng đều đặn theo thời gian.",
+      "difftext": "3 loại xe khác nhau",
       "cardtitle1": "Xe Cơ Bản",
       "cardtitle2": "Xe Cao Cấp",
       "cardtitle3": "Xe Hiệu Suất Cao",

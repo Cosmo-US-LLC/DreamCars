@@ -24,9 +24,9 @@
     "navBtn": "Connetti portafoglio"
   },
   "ProductDetails": {
-    "para1": "Dreamcars sblocca l'accesso ad auto di cui la maggior parte delle persone può solo sognare",
-    "title1": "Investi in auto di lusso a noleggio e guadagna entrate giornaliere",
-    "para2": "Fai trading di auto come azioni con Dreamcars: La prima e unica piattaforma per acquistare, vendere e possedere quote di auto di lusso, con il potenziale di guadagnare fino a 5.000 USDT al giorno dai noleggi. Disponibile esclusivamente per i possessori di $DCARS.",
+    "para1": "Dreamcars sblocca l'accesso alle auto più esclusive del mondo",
+    "title1": "Investi in auto di lusso a noleggio e guadagna un reddito mensile",
+    "para2": "Scambia auto come azioni. Dreamcars è la prima e unica piattaforma dove puoi acquistare, possedere e vendere azioni di auto di lusso. Guadagna fino a 50.000 USDT mensili tramite noleggi. La piattaforma è disponibile esclusivamente per i possessori di $DCARS.",
     "card1": "La Rolls Royce <br /> Delle Crypto!",
     "card2": "Possiedi una parte della tua auto dei sogni!",
     "card3": "Non è mai stato fatto prima!",
@@ -85,13 +85,12 @@
       "mainTitle": "In evidenza su"
     },
     "BetaSection": {
-      "title": "La prima piattaforma di noleggio auto di lusso al mondo basata su blockchain",
-      "para1": "Acquista quote di vere auto di lusso a noleggio a partire da soli $10",
-      "para2": "Guadagna entrate mensili dal noleggio con auto di lusso",
-      "para3": "Ogni auto genera in media dal 20% al 50% APY",
-      "para4": "Monitora le performance storiche e i dati sui prezzi",
-      "para5": "Fai trading di auto in pochi secondi sul mercato Dreamcars",
-      "para6": "Noleggia auto di lusso a prezzi scontati in qualsiasi location Dreamcars",
+      "title": "La prima piattaforma di trading di auto di lusso basata su blockchain",
+    "para1": "Acquista azioni reali di auto di lusso",
+    "para2": "Guadagna reddito mensile da noleggio in USDT",
+    "para3": "Monitora le prestazioni storiche e i dati sui prezzi",
+    "para4": "Ogni auto genera in media dal 20% al 50% di APY",
+    "para5": "Scambia auto in pochi secondi sul marketplace Dreamcars",
       "btn": "ACQUISTA $DCARS"
     },
     "LicensedCard": {
@@ -106,9 +105,10 @@
     "OwnCarSection": {
       "mainTitle": "Possiedi auto di lusso,",
       "mainTitle2": "Guadagna entrate da noleggio",
-      "para1": "Dreamcars semplifica la generazione di reddito con auto di lusso a noleggio attraverso le criptovalute. Con Dreamcars, puoi acquistare quote di auto prestigiose di marchi come <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, Lamborghini</strong> e altri utilizzando la nostra valuta digitale, $DCARS. Queste auto sono gestite e noleggiate dal team Dreamcars, quindi non solo possiedi una parte dell'auto ma guadagni anche entrate dai noleggi.",
-      "para2": "Ogni auto viene divisa in quote e venduta come NFT, collegata al <strong>contratto originale di acquisto e proprietà, e garantita da un veicolo reale completamente assicurato da terzi in uno dei nostri showroom di noleggio</strong>. Puoi possedere una frazione di queste auto di lusso per soli $10.",
-      "para3": "Non c'è più bisogno di spendere centinaia di migliaia per un'auto di lusso o preoccuparsi del suo deprezzamento. <strong>Con Dreamcars, la tua quota dell'auto diventa un asset prezioso, generando un flusso costante di entrate per te ogni mese.</strong>"
+      "para1": "Dreamcars rende facile guadagnare dai noleggi di auto di lusso utilizzando le criptovalute. Con il nostro token $DCARS, puoi acquistare quote di auto di lusso a noleggio di marchi prestigiosi come <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari e Lamborghini</strong>.",
+    "para2": "Ogni auto è suddivisa in quote e trasformata in un NFT, <strong>che memorizza in modo sicuro dettagli importanti come il numero di serie dell'auto, le informazioni sulla proprietà</strong> e il contratto di acquisto.",
+    "para3": "Tutte le auto sono completamente coperte da compagnie di assicurazione terze e conservate negli showroom Dreamcars a Dubai, Miami o Marbella. Il nostro team le noleggia giornalmente, settimanalmente o mensilmente. I guadagni del noleggio vengono pagati ai proprietari di auto in USDT il 1° di ogni mese.",
+    "para4": "Non è necessario spendere centinaia di migliaia per supercar o preoccuparsi della perdita di valore. Con Dreamcars, la tua quota di auto diventa un bene prezioso che fornisce un reddito mensile costante."
     },
     "WhyShouldSec": {
       "title": "Benefici esclusivi durante la prevendita",
@@ -124,21 +124,21 @@
     "BenefitSection": {
       "title": "Perché scegliere Dreamcars?",
       "cardTitle": "100% Autenticità",
-      "cardSubtitle": "Le quote di vere auto di lusso a noleggio saranno vendute come NFT, con contratti di acquisto e proprietà nello smart contract. Utilizzando la tecnologia blockchain, garantiamo l'autenticità di ogni veicolo includendo il suo numero di serie e i dettagli nei metadati NFT.",
-      "cardTitle21": "Possiedi una parte del lusso",
-      "cardSubtitle2": "Dreamcars ha reso la proprietà di auto di lusso più accessibile offrendo NFT garantiti da auto reali, divisi in frazioni per la proprietà parziale, rendendo l'ingresso nel mercato del noleggio auto di lusso accessibile a tutti.",
-      "cardTitle3": "Flusso di cassa positivo",
-      "cardSubtitle3": "Genera un flusso di cassa costante in USDT con Dreamcars attraverso entrate mensili dal noleggio di auto di lusso, garantite dalla tecnologia blockchain e asset reali.",
-      "cardTitle4": "Alta liquidità",
-      "cardSubtitle4": "Con il nostro innovativo protocollo di prestito, gli utenti possono accedere a prestiti competitivi utilizzando le loro quote auto come garanzia, mantenendo la piena proprietà dei loro veicoli.",
-      "cardTitle5": "Asset alternativi",
-      "cardSubtitle5": "Dreamcars offre un'alternativa stabile e orientata alla crescita rispetto alle criptovalute volatili e ai mercati azionari. Come pionieri di una nuova classe di asset, ti offre l'opportunità di generare reddito aggiuntivo e diversificare il tuo patrimonio.",
-      "cardTitle6": "Sconti sul noleggio auto",
-      "cardSubtitle6": "Insieme, stiamo trasformando l'industria del noleggio auto di lusso creando un modo emozionante, redditizio e accessibile di possedere parti dei veicoli più belli al mondo, godendo di significativi sconti sui noleggi di auto di lusso in qualsiasi location Dreamcars."
-    },
+      "cardSubtitle": "Ogni auto a noleggio è divisa in quote e tokenizzata come NFT, includendo il numero di serie dell'auto e i dettagli di proprietà nel contratto intelligente, garantendo piena autenticità e trasparenza.",
+    "cardTitle21": "Possiedi un Pezzo di Lusso",
+    "cardSubtitle2": "Con Dreamcars puoi possedere quote di auto di lusso senza spendere una fortuna e guadagnare denaro dai noleggi giornalieri, settimanali e mensili.",
+    "cardTitle3": "Flusso di Cassa Positivo",
+    "cardSubtitle3": "Guadagna USDT ogni mese dai noleggi di auto, con i guadagni distribuiti ai proprietari il 1° di ogni mese in base al numero di quote possedute.",
+    "cardTitle4": "Alta Liquidità",
+    "cardSubtitle4": "Usa le tue quote di auto per ottenere prestiti tramite il nostro protocollo di liquidità, mantenendo la piena proprietà.",
+    "cardTitle5": "Beni Alternativi",
+    "cardSubtitle5": "Dreamcars offre un bene stabile e generatore di reddito che aiuta a diversificare il tuo portafoglio oltre azioni e criptovalute volatili.",
+    "cardTitle6": "Sconti su Auto a Noleggio",
+    "cardSubtitle6": "Gli utenti Dreamcars ottengono grandi sconti su auto di lusso e possono guidare supercar a prezzi imbattibili."
+  },
       "RewardSection": {
         "title": "Ottieni bonus speciali a partire da soli ",
-        "para": "Unisciti al Club Membri esclusivo Dreamcars e ottieni ricompense straordinarie più bonus $DCARS! <br/><br/>Più acquisti, maggiori sono i benefici! Queste ricompense speciali sono disponibili solo durante la prevendita e non saranno mai più offerte.",
+        "para": "Unisciti all'esclusivo Dreamcars Member’s Club e ricevi premi straordinari e token $DCARS bonus! <br/><br/>Più acquisti, maggiori saranno i vantaggi! Questi premi speciali sono disponibili solo durante la prevendita. Non saranno mai più offerti.",
         "spendText": "Quanto vuoi spendere?",
         "packageType1": "Mercedes",
         "packageText11": "NFT Mercedes",
@@ -205,12 +205,12 @@
 "LamborghiniSec": {
     "title": "Azioni Lamborghini Huracan  Per ",
     "titlespan": "Solo $10",
-    "para": "Immagina di possedere una Lamborghini Huracan nuova di zecca e <strong>guadagnare fino a $15,000 al mese</strong> da questa singola auto* senza doverla gestire tu stesso. Questo è ciò che Dreamcars rende possibile.<br /><br />Dreamcars sta abbattendo le barriere aprendo il business del noleggio di auto di lusso agli utenti di criptovalute di tutto il mondo. Basta acquistare $DCARS e poi acquistare azioni delle auto dei tuoi sogni per soli $10, vendendole comodamente da casa tua in qualsiasi momento. In passato, avresti dovuto <strong>spendere una fortuna o richiedere prestiti bancari elevati</strong> per avviare il tuo business di noleggio di auto di lusso. Inoltre, avresti dovuto affittare uno spazio, acquistare assicurazioni e fare pubblicità. Ora, tutte queste attività sono gestite per te. Puoi semplicemente scegliere la tua auto e iniziare a guadagnare un reddito da noleggio mensile.",
+    "para": "Immagina di possedere una nuovissima Lamborghini Huracan e guadagnare migliaia di USDT noleggiandola senza muovere un dito. Ricevi automaticamente i tuoi guadagni da noleggio il 1° di ogni mese, che tu stia viaggiando, rilassandoti su una spiaggia o semplicemente a casa. Dreamcars rende tutto ciò possibile aprendo il mercato del noleggio di lusso agli utenti di criptovalute in tutto il mondo.<br /><br /> In passato, avresti dovuto spendere una fortuna o richiedere grandi prestiti bancari per avviare la tua attività di noleggio auto di lusso. Avresti anche bisogno di affittare uno spazio, acquistare un'assicurazione e fare pubblicità. Ora Dreamcars si occupa di tutto. Scegli semplicemente la tua prima auto e inizia a guadagnare un reddito mensile da noleggio.",
     "paralats": "*Questa stima si basa sul presupposto che possiedi tutte le azioni dell'auto"
 },
 "SimpleExampleSec": {
     "title": "Ecco un Semplice <strong>Esempio</strong>",
-    "para": "Una Lamborghini Huracan Spyder 2024, acquistata per $280,000, può generare circa $97,000 di profitto netto dopo aver dedotto tutti i costi, inclusa la svalutazione*.",
+    "para": "280.000 $'a satın alınan bir 2024 Lamborghini Huracan Spyder, amortisman da dahil olmak üzere tüm masraflar hesaplandıktan sonra yaklaşık 97.000 $ net kar elde edebilir.*",
     "calculation": "Calcolo Annuale:",
     "totalcard": "Costi Annuali Totali**",
     "amountcard1": "$83,000",
@@ -222,8 +222,8 @@
 },
 "LuxurySec": {
     "title": "L'Industria del Noleggio Auto di Lusso Sta <strong>Crescendo Velocemente</strong>",
-    "para": "Il mercato del noleggio di auto di lusso sta crescendo rapidamente poiché <strong>sempre più persone vogliono guidare auto di alta gamma per occasioni speciali o semplicemente per godersi un'esperienza premium.</strong> Dreamcars rende possibile per gli utenti partecipare al business del noleggio di lusso acquistando azioni delle auto alimentate dalla tecnologia blockchain. In questo modo, gli utenti possono guadagnare reddito dai noleggi senza possedere o mantenere le auto. Poiché la domanda di noleggio di auto di lusso sta aumentando, <strong>Dreamcars offre un modo facile e redditizio per far parte di questo mercato in crescita.</strong>"
-},
+    "para": "Il mercato del noleggio di auto di lusso sta crescendo rapidamente, con <strong>persone che vogliono guidare supercar per vacanze, matrimoni o semplicemente per provare l'emozione. Attualmente valutato oltre 20 miliardi di dollari,</strong> si prevede che il mercato raggiunga i 30 miliardi di dollari entro il 2029. Dreamcars consente agli utenti di entrare in questo settore in espansione acquistando quote di auto di lusso a noleggio. In questo modo, gli utenti possono guadagnare dagli affitti senza il fastidio di gestire o mantenere le auto. Con la continua crescita della domanda di noleggio di auto di lusso, <strong>Dreamcars offre un modo semplice e redditizio per far parte di questo mercato in rapida crescita.</strong>"
+  },
 "TheLuxurySec": {
     "title": "L'Industria del Noleggio Auto di Lusso Sta <strong>Crescendo Velocemente</strong>",
     "para": "Il mercato del noleggio di auto di lusso sta crescendo rapidamente poiché <strong>sempre più persone vogliono guidare auto di alta gamma per occasioni speciali o semplicemente per godersi un'esperienza premium.</strong> Dreamcars rende possibile per gli utenti partecipare al business del noleggio di lusso acquistando azioni delle auto alimentate dalla tecnologia blockchain. In questo modo, gli utenti possono guadagnare reddito dai noleggi senza possedere o mantenere le auto. Poiché la domanda di noleggio di auto di lusso sta aumentando, <strong>Dreamcars offre un modo facile e redditizio per far parte di questo mercato in crescita.</strong>"
@@ -279,7 +279,7 @@
 },
 "MostFunSection": {
     "title": "Possedere Auto di Lusso è il modo più divertente per <span>diversificare</span> il tuo Portafoglio Crypto",
-    "para": "In un mercato altamente volatile come quello delle criptovalute, possedere auto di lusso a noleggio con Dreamcars offre un modo semplice e affidabile per guadagnare reddito. <strong>Molti hanno visto i loro asset crypto scendere di oltre il 50% durante i precedenti mercati ribassisti</strong> e ora stanno cercando modi più stabili per preservare i loro asset. Non fraintendeteci: siamo tutti dentro nelle crypto e le vediamo come il futuro. Ma crediamo anche che dovrebbero esserci opzioni più sicure nel mondo blockchain, che ti permettano di proteggere i tuoi asset tramite un'attività semplice, con alti ritorni.<br/><br/> <strong>Invece di lasciare i tuoi asset digitali nel wallet, esposti alla volatilità o ai ribassi del mercato</strong> (anche le stablecoin come USDC o USDT possono perdere valore a causa dell'inflazione e del legame con il dollaro), puoi convertirli in azioni di auto di lusso reali tramite Dreamcars e guadagnare reddito mensile da noleggio, <strong>supportato da asset reali e di valore.</strong> Questo offre molta più stabilità e ritorni più alti rispetto alla maggior parte delle altre opzioni. Con Dreamcars, puoi proteggere e far crescere la tua ricchezza, anche quando il mercato crypto sta lottando.",
+    "para": "È importante incassare i tuoi profitti in mercati altamente volatili come le criptovalute o le azioni, dove potresti perdere il 50% del tuo valore in breve tempo. Dreamcars offre un modo semplice e affidabile per diversificare e proteggere parte della tua ricchezza.<br/><br/> Invece di lasciare tutti i tuoi asset digitali nel portafoglio, esposti a hack, oscillazioni di mercato o possibili ribassi, puoi convertirli in quote di auto di lusso reali tramite Dreamcars e guadagnare un reddito mensile da noleggio, supportato da beni reali di valore. Questo fornisce maggiore stabilità e rendimenti costanti rispetto alla maggior parte delle altre opzioni. Come dicono gli esperti, non dovresti mai mettere tutte le uova nello stesso paniere.",
     "btn1": "ACQUISTA $DCARS"
 },
 "FeaturesSection": {
@@ -409,16 +409,16 @@
   "WhatMakesSec": {
     "title": "Cosa Rende $DCARS<br/> <strong>Speciale?</strong>",
     "para":"Il token $DCARS è la criptovaluta nativa della piattaforma Dreamcars e l'unico modo per possedere auto di lusso in affitto tramite criptovaluta.<br/><br/> Importante: <strong>Senno' $DCARS, non puoi acquistare nessuna auto</strong> su Dreamcars. Devi detenere una certa quantità di $DCARS per accedere al marketplace Dreamcars e interagire pienamente con l'ecosistema. Detenendo i token $DCARS, avrai accesso a funzionalità esclusive come:",
-    "lisec1":"Acquistare e vendere auto a noleggio",
-    "lisec2":"Diritti di voto sugli acquisti di auto",
-    "lisec3":"Guadagnare reddito da affitto dalle auto",
-    "lisec4":"Accedere a tutte le funzionalità del marketplace Dreamcars",
-    "lisec5":"Usare il protocollo di prestito per coprirsi contro un'auto"
+    "lisec1": "Acquistare e vendere auto",
+    "lisec2": "Diritti di voto sugli acquisti di auto",
+    "lisec3": "Guadagnare un reddito mensile con le auto a noleggio",
+    "lisec4": "Accesso a tutte le funzionalità del mercato Dreamcars",
+    "lisec5": "Utilizzare il protocollo di prestito per ottenere liquidità immediata"
   },
   "DreamcarsBusinessSec": {
-    "title": "Il modello di business Dreamcars supporta continuamente <br /> la crescita di <strong>$DCARS</strong>",
-    "para":"Il nostro marketplace offre auto di lusso a noleggio in tutto il mondo, acquistabili utilizzando oltre 10 criptovalute diverse. Per acquistare e detenere azioni in un'auto, dovrai possedere una quantità specifica di $DCARS e bloccarla per tutta la durata della tua proprietà.<br/><br/> <strong>Questo processo garantisce che, man mano che più auto vengono aggiunte al marketplace, il valore di $DCARS aumenti costantemente nel tempo.</strong>",
-    "difftext":"3 Categorie di Auto Differenti",
+    "title": "Il modello di business di Dreamcars supporta continuamente <br /> la crescita di $DCARS",
+    "para": "Il marketplace di Dreamcars ti consente di acquistare, vendere e scambiare quote di auto di lusso a noleggio da qualsiasi parte del mondo utilizzando criptovalute. Per possedere quote di auto, devi detenere una quantità specifica di $DCARS e bloccarla per tutto il tempo che desideri mantenere la proprietà. Questo processo garantisce che, man mano che più auto vengono aggiunte al mercato, il valore di $DCARS aumenti costantemente nel tempo.",
+    "difftext": "3 categorie diverse di auto",
     "cardtitle1": "Auto di Ingresso",
     "cardtitle2": "Auto Premium",
     "cardtitle3": "Top Performer",

@@ -24,9 +24,9 @@
     "navBtn": "Conectar Carteira"
   },
   "ProductDetails": {
-    "para1": "Dreamcars desbloqueia acesso a carros que a maioria das pessoas só pode sonhar",
-    "title1": "Invista em Carros de Luxo para Aluguel e Ganhe Renda Diária",
-    "para2": "Negocie carros como ações com Dreamcars: a primeira e única plataforma para comprar, vender e possuir ações em carros de luxo, com potencial de ganhar até 5.000 USDT diários com aluguéis. Exclusivamente disponível para detentores de $DCARS.",
+    "para1": "Dreamcars desbloqueia o acesso aos carros mais exclusivos do mundo",
+    "title1": "Invista em carros de luxo para aluguel e ganhe renda mensal",
+    "para2": "Negocie carros como ações. Dreamcars é a primeira e única plataforma onde você pode comprar, possuir e vender ações de carros de luxo. Ganhe até 50.000 USDT mensalmente por meio de aluguéis. A plataforma está disponível exclusivamente para detentores de $DCARS.",
     "card1": "O Rolls Royce <br /> das Criptos!",
     "card2": "Possua uma Parte do Seu Carro dos Sonhos!",
     "card3": "Isso Nunca Foi Feito Antes!",
@@ -85,13 +85,12 @@
     "mainTitle": "Destaque em"
   },
   "BetaSection": {
-    "title": "A Primeira Plataforma de Aluguel de Carros de Luxo Movida por Blockchain no Mundo",
-    "para1": "Compre Ações de Carros de Luxo Reais a partir de apenas $10",
-    "para2": "Ganhe Renda Mensal com Aluguel de Carros de Luxo",
-    "para3": "Cada Carro Gera uma Média de 20% a 50% de APY",
-    "para4": "Monitore Desempenho Histórico e Dados de Preço",
-    "para5": "Negocie Carros em Segundos no Marketplace da Dreamcars",
-    "para6": "Alugue Carros de Luxo com Descontos em qualquer Localização Dreamcars",
+    "title": "A primeira plataforma de negociação de carros de luxo alimentada por blockchain do mundo",
+    "para1": "Compre ações reais de carros de luxo",
+    "para2": "Ganhe renda mensal de aluguel em USDT",
+    "para3": "Monitore o desempenho histórico e os dados de preços",
+    "para4": "Cada carro gera em média de 20% a 50% APY",
+    "para5": "Negocie carros em segundos no mercado Dreamcars",
     "btn": "COMPRE $DCARS"
   },
   "LicensedCard": {
@@ -106,9 +105,10 @@
   "OwnCarSection": {
     "mainTitle": "Possua Carros de Luxo,",
     "mainTitle2": "Ganhe Renda com Aluguel",
-    "para1": "A Dreamcars torna fácil gerar renda com carros de luxo para aluguel usando criptomoedas. Com a Dreamcars, você pode comprar ações de carros prestigiados de marcas como <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, Lamborghini</strong> e mais usando nossa moeda digital, $DCARS. Esses carros são gerenciados e alugados pela equipe Dreamcars, então você não só possui uma parte do carro, mas também ganha renda com os aluguéis.",
-    "para2": "Cada carro é dividido em ações e vendido como um NFT, vinculado ao <strong>contrato original de compra e propriedade, e garantido por um veículo real totalmente segurado por terceiros em um de nossos showrooms de aluguel</strong>. Você pode possuir uma fração desses carros de luxo por apenas $10.",
-    "para3": "Não é mais necessário gastar centenas de milhares em um carro de luxo ou se preocupar com a perda de valor. <strong>Com a Dreamcars, sua participação no carro se torna um ativo valioso, gerando uma fonte constante de renda para você todos os meses.</strong>"
+    "para1": "A Dreamcars torna fácil ganhar renda com carros de luxo para aluguel usando criptomoedas. Com nosso token $DCARS, você pode comprar ações de carros de aluguel prestigiados de marcas como <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari e Lamborghini</strong>.",
+    "para2": "Cada carro é dividido em ações e transformado em um NFT, <strong>que armazena com segurança detalhes importantes como o número de série do carro, informações de propriedade</strong> e o contrato de compra.",
+    "para3": "Todos os carros estão totalmente cobertos por seguradoras terceirizadas e armazenados nos showrooms da Dreamcars em Dubai, Miami ou Marbella. Nossa equipe os aluga diariamente, semanalmente ou mensalmente. Os rendimentos do aluguel são pagos aos proprietários dos carros em USDT no dia 1º de cada mês.",
+    "para4": "Não é necessário gastar centenas de milhares em supercarros ou se preocupar com a depreciação de valor. Com a Dreamcars, sua parte no carro se torna um ativo valioso que fornece uma renda mensal estável."
   },
   "WhyShouldSec": {
     "title": "Vantagens Exclusivas Durante a Pré-venda",
@@ -124,21 +124,21 @@
   "BenefitSection": {
     "title": "Por Que Escolher Dreamcars?",
     "cardTitle": "100% Autenticidade",
-    "cardSubtitle": "Ações de carros de luxo reais para aluguel serão vendidas como NFTs, com contratos de compra e propriedade integrados no smart contract. Utilizando a tecnologia blockchain, garantimos a autenticidade de cada veículo incorporando seu número de série e detalhes nos metadados do NFT.",
-    "cardTitle21": "Possua Um Pedaço de Luxo",
-    "cardSubtitle2": "A Dreamcars tornou a posse de carros de luxo mais acessível, oferecendo NFTs garantidos por carros reais, divididos em frações para propriedade parcial, tornando a entrada no mercado de aluguel de carros de luxo acessível para todos.",
+   "cardSubtitle": "Cada carro alugado é dividido em ações e tokenizado como NFT, incluindo o número de série e detalhes de propriedade no contrato inteligente para garantir total autenticidade e transparência.",
+    "cardTitle21": "Possua uma Parte do Luxo",
+    "cardSubtitle2": "Com Dreamcars, você pode possuir ações de carros de aluguel de luxo sem gastar uma fortuna e ganhar com alugueis diários, semanais e mensais.",
     "cardTitle3": "Fluxo de Caixa Positivo",
-    "cardSubtitle3": "Gere fluxo de caixa consistente em USDT com a Dreamcars através de renda mensal de aluguéis de carros de luxo, garantida por tecnologia blockchain e ativos reais.",
+    "cardSubtitle3": "Ganhe USDT todos os meses com aluguéis de carros. A receita é distribuída aos proprietários no dia 1º de cada mês, com base no número de ações possuídas.",
     "cardTitle4": "Alta Liquidez",
-    "cardSubtitle4": "Com nosso protocolo de empréstimos inovador, os usuários podem acessar empréstimos competitivos utilizando suas ações de carros como garantia, mantendo a posse completa de seus veículos.",
+    "cardSubtitle4": "Utilize suas ações de veículos como garantia através do nosso protocolo de liquidez enquanto mantém a posse total.",
     "cardTitle5": "Ativos Alternativos",
-    "cardSubtitle5": "A Dreamcars oferece uma alternativa estável e orientada para o crescimento aos mercados voláteis de criptomoedas e ações. Inovando uma nova classe de ativos, proporciona a oportunidade de gerar renda adicional e diversificar sua riqueza.",
-    "cardTitle6": "Descontos em Aluguel de Carros",
-    "cardSubtitle6": "Juntos, estamos transformando a indústria de aluguel de carros de luxo, criando uma forma emocionante, lucrativa e acessível de possuir ações dos melhores veículos do mundo, enquanto desfruta de descontos significativos no aluguel de carros de luxo em qualquer local da Dreamcars."
+    "cardSubtitle5": "Dreamcars oferece um ativo estável e gerador de renda que ajuda a diversificar seu portfólio além de ações voláteis e criptomoedas.",
+    "cardTitle6": "Descontos em Aluguéis",
+    "cardSubtitle6": "Os usuários do Dreamcars aproveitam grandes descontos em aluguéis de carros de luxo e podem dirigir supercarros a preços imbatíveis."
   },
     "RewardSection": {
       "title": "Obtenha Bônus Especiais a Partir de Apenas ",
-      "para": "Junte-se ao exclusivo Clube de Membros Dreamcars e receba recompensas extraordinárias mais bônus em $DCARS! <br/><br/>Quanto mais você comprar, maiores serão os benefícios! Essas recompensas especiais estão disponíveis apenas durante a pré-venda e nunca mais serão oferecidas novamente.",
+      "para": "Junte-se ao exclusivo Dreamcars Member’s Club e receba recompensas extraordinárias e tokens bônus $DCARS! <br/><br/>Quanto mais você comprar, maiores serão os benefícios! Essas recompensas especiais estão disponíveis apenas na pré-venda. Elas nunca mais serão oferecidas.",
       "spendText": "Quanto você deseja gastar?",
       "packageType1": "Mercedes",
       "packageText11": "Mercedes NFT",
@@ -213,12 +213,12 @@
       "LamborghiniSec": {
         "title": "Ações do Lamborghini Huracan  por Apenas ",
         "titlespan": "$10",
-        "para": "Imagine possuir um Lamborghini Huracan novinho em folha e <strong>ganhar até $15.000 por mês</strong> com esse único carro* sem precisar gerenciá-lo pessoalmente. É isso que o Dreamcars torna possível.<br /><br /> O Dreamcars está quebrando barreiras ao abrir o mercado de aluguel de carros de luxo para usuários de criptomoedas em todo o mundo. Basta comprar $DCARS e, em seguida, adquirir ações dos seus carros dos sonhos por apenas $10, podendo vendê-las confortavelmente de sua casa a qualquer momento. Antes, você precisaria <strong>gastar uma fortuna ou fazer grandes empréstimos bancários</strong> para iniciar seu próprio negócio de aluguel de carros de luxo. Além disso, seria necessário alugar espaço, contratar seguro e fazer publicidade. Agora, todas essas tarefas são realizadas para você. Você só precisa escolher o carro e começar a ganhar renda mensal com o aluguel.",
+       "para": "Imagine possuir um Lamborghini Huracan novinho em folha e ganhar milhares de USDT alugando-o sem levantar um dedo. Receba seus rendimentos de aluguel automaticamente no dia 1 de cada mês, esteja você viajando, relaxando em uma praia ou simplesmente em casa. A Dreamcars torna isso possível ao abrir o mercado de aluguel de luxo para usuários de criptomoedas em todo o mundo.<br /><br /> No passado, você teria que gastar uma fortuna ou contrair grandes empréstimos bancários para iniciar seu próprio negócio de aluguel de carros de luxo. Você também precisaria alugar espaço, contratar seguro e fazer publicidade. Agora, a Dreamcars cuida de tudo. Basta escolher seu primeiro carro e começar a ganhar renda mensal com aluguel.",
         "paralats": "*Este cálculo é baseado na suposição de que você possui todas as ações do carro."
       },
       "SimpleExampleSec": {
         "title": "Aqui está um <strong>Exemplo Simples</strong>",
-        "para": "Um Lamborghini Huracan Spyder 2024, comprado por $280.000, pode gerar quase $97.000 em lucro líquido após a dedução de todos os custos, incluindo depreciação*.",
+        "para": "Um Lamborghini Huracan Spyder 2024, comprado por $280.000, poderia gerar cerca de $97.000 de lucro líquido após considerar todas as despesas, incluindo a depreciação.*",
         "calculation": "Cálculo de 1 Ano:",
         "totalcard": "Custos Anuais Totais**",
         "amountcard1": "$83.000",
@@ -230,8 +230,8 @@
       },
       "LuxurySec": {
         "title": "A Indústria de Aluguel de Carros de Luxo Está <strong>Crescendo Rápido</strong>",
-        "para": "O mercado de aluguel de carros de luxo está crescendo rapidamente, pois <strong>mais pessoas querem dirigir carros de alto padrão para ocasiões especiais ou apenas para desfrutar de uma experiência premium.</strong> O Dreamcars torna possível que os usuários participem do mercado de aluguel de carros de luxo adquirindo ações de carros, utilizando tecnologia blockchain. Dessa forma, os usuários podem ganhar renda com os aluguéis sem precisar possuir ou manter os carros. Com o aumento da demanda por aluguéis de carros de luxo, <strong>o Dreamcars oferece uma maneira fácil e lucrativa de fazer parte desse mercado em crescimento.</strong>"
-      },
+        "para": "O mercado de aluguel de carros de luxo está crescendo rapidamente, com <strong>pessoas querendo dirigir supercarros para férias, casamentos ou simplesmente para experimentar a emoção. Atualmente avaliado em mais de 20 bilhões de dólares,</strong> o mercado deve alcançar 30 bilhões de dólares até 2029. Dreamcars permite que os usuários entrem nesse setor em expansão comprando ações de carros de luxo para aluguel. Dessa forma, os usuários podem ganhar dinheiro com aluguéis sem a complicação de gerenciar ou manter os carros. À medida que a demanda por aluguéis de carros de luxo continua a crescer, <strong>Dreamcars oferece uma maneira fácil e lucrativa de fazer parte desse mercado em rápido crescimento.</strong>"
+  },
       "TheLuxurySec": {
         "title": "A Indústria de Aluguel de Carros de Luxo Está <strong>Crescendo Rápido</strong>",
         "para": "O mercado de aluguel de carros de luxo está crescendo rapidamente, pois <strong>mais pessoas querem dirigir carros de alto padrão para ocasiões especiais ou apenas para desfrutar de uma experiência premium.</strong> O Dreamcars torna possível que os usuários participem do mercado de aluguel de carros de luxo adquirindo ações de carros, utilizando tecnologia blockchain. Dessa forma, os usuários podem ganhar renda com os aluguéis sem precisar possuir ou manter os carros. Com o aumento da demanda por aluguéis de carros de luxo, <strong>o Dreamcars oferece uma maneira fácil e lucrativa de fazer parte desse mercado em crescimento.</strong>"
@@ -287,7 +287,7 @@
 },
 "MostFunSection": {
   "title": "Possuir Carros de Luxo é a forma mais divertida de <span>diversificar</span> seu Portfólio de Criptomoedas",
-  "para": "Em um mercado altamente volátil como o de criptomoedas, possuir carros de luxo alugados com o Dreamcars oferece uma maneira simples e confiável de gerar renda. <strong>Muitos viram suas reservas de cripto caírem mais de 50% durante mercados de baixa anteriores</strong> e agora procuram maneiras mais estáveis de preservar seus ativos. Não nos interprete mal — somos totalmente a favor das criptos e as vemos como o futuro. Mas também acreditamos que devem existir opções mais seguras dentro do espaço blockchain, permitindo proteger seus ativos por meio de um negócio direto e com alto retorno.<br/><br/> <strong>Em vez de deixar seus ativos digitais em sua carteira, expostos à volatilidade do mercado ou quedas</strong> (até mesmo stablecoins como USDC ou USDT podem perder valor devido à inflação e ao atrelamento ao USD), você pode convertê-los em ações de carros de luxo reais através do Dreamcars e ganhar renda mensal de aluguel, <strong> respaldada por ativos reais e valiosos.</strong> Isso oferece muito mais estabilidade e retornos mais altos do que a maioria das outras opções. Com o Dreamcars, você pode proteger e aumentar sua riqueza, mesmo quando o mercado de criptos está em dificuldades.",
+  "para": "É importante sacar seus lucros em mercados altamente voláteis como criptomoedas ou ações, onde você pode perder 50% do seu valor em um curto período. A Dreamcars oferece uma maneira simples e confiável de diversificar e proteger partes do seu patrimônio.<br/><br/> Em vez de deixar todos os seus ativos digitais na carteira, expostos a hacks, oscilações do mercado ou possíveis quedas, você pode convertê-los em ações de carros de luxo reais através da Dreamcars e ganhar uma renda mensal de aluguel, respaldada por ativos reais valiosos. Isso proporciona mais estabilidade e retornos consistentes do que a maioria das outras opções. Como dizem os especialistas, você nunca deve colocar todos os ovos em uma cesta só.",
   "btn1": "COMPRAR $DCARS"
 },
 "FeaturesSection": {
@@ -416,15 +416,15 @@
   "WhatMakesSec": {
     "title": "O que Torna o $DCARS<br/> <strong>Especial?</strong>",
     "para": "O token $DCARS é a criptomoeda nativa da plataforma Dreamcars e a única forma de possuir carros de luxo para aluguel usando criptomoedas.<br/><br/> Importante: <strong>Sem $DCARS, você não pode comprar nenhum carro</strong> na Dreamcars. Você precisa manter uma certa quantidade de $DCARS para acessar o marketplace Dreamcars e participar completamente do ecossistema. Ao manter tokens $DCARS, você desbloqueará acesso a recursos exclusivos como:",
-    "lisec1": "Comprar e vender carros de aluguel",
-    "lisec2": "Direito de voto nas compras de carros",
-    "lisec3": "Ganhar renda de aluguel dos carros",
-    "lisec4": "Acessar todos os recursos do marketplace Dreamcars",
-    "lisec5": "Usar o protocolo de empréstimo para proteger um carro"
+    "lisec1": "Compra e venda de carros",
+    "lisec2": "Direitos de voto nas compras de carros",
+    "lisec3": "Ganhe renda mensal com carros alugados",
+    "lisec4": "Acesse todos os recursos do mercado Dreamcars",
+    "lisec5": "Use o protocolo de empréstimo para acessar liquidez instantânea"
   },
     "DreamcarsBusinessSec": {
-      "title": "O modelo de negócios da Dreamcars apoia continuamente <br /> <strong>o crescimento do $DCARS</strong>",
-      "para": "Nosso marketplace oferece carros de luxo para aluguel em todo o mundo, disponíveis para compra usando mais de 10 criptomoedas diferentes. Para comprar e manter ações em um carro, você precisará possuir uma quantidade específica de $DCARS e bloqueá-la durante o período de propriedade.<br/><br/><strong>Esse processo garante que, à medida que mais carros são adicionados ao marketplace, o valor do $DCARS aumente constantemente ao longo do tempo.</strong>",
+      "title": "O modelo de negócios da Dreamcars apoia continuamente o crescimento de $DCARS",
+      "para": "O mercado Dreamcars permite que você compre, venda e negocie ações de carros de luxo de qualquer lugar do mundo usando criptomoedas. Para possuir ações de carros, você precisará manter uma quantidade específica de $DCARS e bloqueá-la pelo tempo que desejar manter a propriedade. Esse processo garante que, à medida que mais carros forem adicionados ao mercado, o valor do $DCARS aumente constantemente ao longo do tempo.",
       "difftext": "3 Categorias Diferentes de Carros",
       "cardtitle1": "Carros de Entrada",
       "cardtitle2": "Carros Premium",

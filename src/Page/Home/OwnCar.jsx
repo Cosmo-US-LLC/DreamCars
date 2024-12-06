@@ -23,6 +23,7 @@ const OWnCarSection = () => {
             <p className="text-[20px] xs:text-[16px] xs:text-center font-[400] leading-[130%] text-white paraOwn" dangerouslySetInnerHTML={{ __html: t('OwnCarSection.para1') }}></p>
             <p className="text-[20px] xs:text-[16px] xs:text-center font-[400] leading-[130%] text-white paraOwn" dangerouslySetInnerHTML={{ __html: t('OwnCarSection.para2') }}></p>
             <p className="text-[20px] xs:text-[16px] xs:text-center font-[400] leading-[130%] text-white" dangerouslySetInnerHTML={{ __html: t('OwnCarSection.para3') }}></p>
+            <p className="text-[20px] xs:text-[16px] xs:text-center font-[400] leading-[130%] text-white" dangerouslySetInnerHTML={{ __html: t('OwnCarSection.para4') }}></p>
         </div>
         <div className=" w-[100%] pt-[15px] relative z-[4]">
                         <Button link="#hero" text={`${t('BetaSection.btn')}`} classes="font-[700] bgcolor max-w-[534px] !w-[100%] xs:w-[100%]  py-[12px] xs:text-[14px] rounded-[10px]" />

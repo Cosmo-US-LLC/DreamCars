@@ -24,9 +24,9 @@
     "navBtn": "Connecter le portefeuille"
   },
   "ProductDetails": {
-    "para1": "Dreamcars donne accès à des voitures dont la plupart des gens ne peuvent que rêver",
-    "title1": "Investissez dans des voitures de luxe en location et gagnez un revenu quotidien",
-    "para2": "Tradez des voitures comme des actions avec Dreamcars : la première et unique plateforme pour acheter, vendre et posséder des parts dans des voitures de luxe, avec un potentiel de gains allant jusqu'à 5,000 USDT par jour grâce aux locations. Exclusivement disponible pour les détenteurs de $DCARS.",
+    "para1": "Dreamcars ouvre l'accès aux voitures les plus exclusives au monde",
+    "title1": "Investissez dans des voitures de luxe en location et gagnez un revenu mensuel",
+    "para2": "Échangez des voitures comme des actions. Dreamcars est la première et unique plateforme où vous pouvez acheter, posséder et vendre des parts de voitures de luxe. Gagnez jusqu'à 50 000 USDT par mois grâce aux locations. La plateforme est exclusivement disponible pour les détenteurs de $DCARS.",
     "card1": "La Rolls Royce <br /> de la crypto !",
     "card2": "Possédez une part de votre voiture de rêve !",
     "card3": "Jamais fait auparavant !",
@@ -85,13 +85,12 @@
     "mainTitle": "Présenté dans"
   },
     "BetaSection": {
-      "title": "La Première Plateforme de Location de Voitures de Luxe Alimentée par la Blockchain",
-      "para1": "Achetez des parts réelles de voitures de luxe en location à partir de seulement 10 $",
-      "para2": "Gagnez un revenu mensuel grâce aux voitures de luxe en location",
-      "para3": "Chaque voiture génère en moyenne entre 20 % et 50 % d'APY",
-      "para4": "Suivez les performances historiques et les données de prix",
-      "para5": "Échangez des voitures en quelques secondes sur le marché Dreamcars",
-      "para6": "Louez des voitures de luxe à prix réduit dans n'importe quel site Dreamcars",
+      "title": "La première plateforme de trading de voitures de luxe alimentée par la blockchain",
+    "para1": "Achetez des parts réelles de voitures de luxe",
+    "para2": "Gagnez un revenu locatif mensuel en USDT",
+    "para3": "Surveillez les performances historiques et les données de prix",
+    "para4": "Chaque voiture génère en moyenne de 20 % à 50 % APY",
+    "para5": "Échangez des voitures en quelques secondes sur le marché Dreamcars",
       "btn": "ACHETER $DCARS"
     },
     "LicensedCard": {
@@ -106,9 +105,10 @@
     "OwnCarSection": {
       "mainTitle": "Possédez des Voitures de Luxe,",
       "mainTitle2": "Gagnez des Revenus Locatifs",
-      "para1": "Dreamcars simplifie la génération de revenus avec des voitures de luxe en location grâce à la crypto. Avec Dreamcars, vous pouvez acheter des parts de voitures prestigieuses de marques comme <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, Lamborghini</strong> et bien d'autres en utilisant notre monnaie numérique, $DCARS. Ces voitures sont gérées et louées par l'équipe Dreamcars, ce qui vous permet non seulement de posséder une part de la voiture mais aussi de gagner un revenu grâce aux locations.",
-      "para2": "Chaque voiture est divisée en parts et vendue sous forme de NFT, liée au <strong>contrat d'achat et de propriété d'origine, et garantie par un véhicule réel, entièrement assuré par un tiers dans l'un de nos showrooms de location</strong>. Vous pouvez posséder une fraction de ces voitures de luxe pour aussi peu que 10 $.",
-      "para3": "Fini de dépenser des centaines de milliers dans une voiture de luxe ou de vous inquiéter de sa perte de valeur. <strong>Avec Dreamcars, votre part de la voiture devient un actif précieux, générant un flux de revenus régulier chaque mois.</strong>"
+      "para1": "Dreamcars simplifie la génération de revenus grâce aux voitures de luxe en utilisant la crypto. Avec notre jeton $DCARS, vous pouvez acheter des parts de voitures de location prestigieuses de grandes marques telles que <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari et Lamborghini</strong>.",
+      "para2": "Chaque voiture est divisée en parts et transformée en NFT, <strong>qui stocke en toute sécurité des détails importants comme le numéro de série de la voiture, les informations sur la propriété</strong> et le contrat d'achat.",
+      "para3": "Toutes les voitures sont entièrement couvertes par des compagnies d'assurance tierces et conservées dans les showrooms Dreamcars à Dubaï, Miami ou Marbella. Notre équipe les loue quotidiennement, hebdomadairement ou mensuellement. Les revenus locatifs sont versés aux propriétaires de voitures en USDT le 1er de chaque mois.",
+      "para4": "Pas besoin de dépenser des centaines de milliers pour des supercars ou de s'inquiéter de leur dépréciation. Avec Dreamcars, votre part de voiture devient un atout précieux qui fournit un revenu mensuel régulier."
     },
     "WhyShouldSec": {
       "title": "Avantages Exclusifs Pendant la Prévente",
@@ -124,21 +124,21 @@
     "BenefitSection": {
       "title": "Pourquoi Choisir Dreamcars ?",
       "cardTitle": "100 % Authenticité",
-      "cardSubtitle": "Des parts de vraies voitures de luxe en location seront vendues sous forme de NFTs, avec des accords d'achat et de propriété intégrés dans le smart contract. En utilisant la technologie blockchain, nous garantissons l'authenticité de chaque véhicule en intégrant son numéro de série et ses détails dans les métadonnées du NFT.",
-      "cardTitle21": "Possédez une Part de Luxe",
-      "cardSubtitle2": "Dreamcars a rendu la possession de voitures de luxe plus accessible en offrant des NFTs adossés à de vraies voitures, divisés en fractions pour une propriété partielle, rendant le marché de la location de voitures de luxe abordable pour tous.",
-      "cardTitle3": "Flux de Trésorerie Positif",
-      "cardSubtitle3": "Générez un flux de trésorerie constant en USDT avec Dreamcars grâce à des revenus mensuels provenant des locations de voitures de luxe, sécurisés par la blockchain et des actifs réels.",
-      "cardTitle4": "Grande Liquidité",
-      "cardSubtitle4": "Avec notre protocole de prêt innovant, les utilisateurs peuvent accéder à des prêts compétitifs en utilisant leurs parts de voitures comme garantie, tout en conservant la pleine propriété de leurs véhicules.",
-      "cardTitle5": "Actifs Alternatifs",
-      "cardSubtitle5": "Dreamcars offre une alternative stable et axée sur la croissance face aux cryptomonnaies volatiles et aux marchés boursiers. En créant une nouvelle classe d'actifs, il vous offre l'opportunité de générer des revenus supplémentaires et de diversifier votre patrimoine.",
-      "cardTitle6": "Réductions sur les Voitures de Location",
-      "cardSubtitle6": "Ensemble, nous transformons l'industrie de la location de voitures de luxe en créant un moyen passionnant, rentable et accessible de posséder des parts des plus beaux véhicules du monde, tout en bénéficiant de réductions importantes sur les locations de voitures de luxe dans n'importe quel site Dreamcars."
+     "cardSubtitle": "Chaque voiture de location est divisée en parts et tokenisée en tant que NFTs, incluant le numéro de série de la voiture et les détails de propriété dans le contrat intelligent, garantissant une authenticité et une transparence totales.",
+    "cardTitle21": "Possédez une Part de Luxe",
+    "cardSubtitle2": "Avec Dreamcars, vous pouvez posséder des parts de voitures de luxe sans dépenser une fortune et gagner de l'argent grâce aux locations journalières, hebdomadaires et mensuelles.",
+    "cardTitle3": "Flux de Trésorerie Positif",
+    "cardSubtitle3": "Gagnez des USDT chaque mois grâce aux locations de voitures, avec des revenus distribués aux propriétaires de voitures le 1er de chaque mois en fonction du nombre de parts détenues.",
+    "cardTitle4": "Haute Liquidité",
+    "cardSubtitle4": "Utilisez vos parts de voitures pour obtenir des prêts via notre protocole de liquidité, vous donnant un accès facile aux fonds tout en conservant la pleine propriété.",
+    "cardTitle5": "Actifs Alternatifs",
+    "cardSubtitle5": "Dreamcars offre un actif stable et générateur de revenus qui aide à diversifier votre portefeuille au-delà des actions et des crypto-monnaies volatiles.",
+    "cardTitle6": "Réductions sur les Voitures de Location",
+    "cardSubtitle6": "Les utilisateurs de Dreamcars bénéficient de grandes réductions sur les voitures de location de luxe et peuvent conduire des supercars à des prix imbattables."
   },
   "RewardSection": {
     "title": "Obtenez des bonus spéciaux à partir de seulement ",
-    "para": "Rejoignez le Club des Membres Dreamcars exclusif et recevez des récompenses extraordinaires ainsi que des bonus $DCARS ! <br/><br/>Plus vous achetez, plus les avantages sont importants ! Ces récompenses spéciales sont uniquement disponibles pendant la prévente et ne seront jamais proposées à nouveau.",
+   "para": "Rejoignez le Dreamcars Member’s Club exclusif et recevez des récompenses extraordinaires et des jetons bonus $DCARS ! <br/><br/>Plus vous achetez, plus les avantages sont importants ! Ces récompenses spéciales ne sont disponibles que pendant la prévente. Elles ne seront plus jamais proposées.",
     "spendText": "Combien voulez-vous dépenser ?",
     "packageType1": "Mercedes",
     "packageText11": "NFT Mercedes",
@@ -213,12 +213,12 @@
 "LamborghiniSec": {
   "title": "Parts de Lamborghini Huracan",
   "titlespan": "Pour Seulement 10 $",
-  "para": "Imaginez posséder une toute nouvelle Lamborghini Huracan et <strong>gagner jusqu'à 15 000 $ par mois</strong> avec cette seule voiture* sans avoir à la gérer vous-même. C'est ce que rend possible Dreamcars.<br /><br /> Dreamcars casse les barrières en ouvrant le marché des voitures de luxe en location aux utilisateurs crypto du monde entier. Achetez simplement des $DCARS, puis acquérez des parts dans vos voitures de rêve à partir de seulement 10 $, et revendez-les confortablement depuis chez vous à tout moment. Par le passé, il vous aurait fallu <strong>dépenser une fortune ou contracter de gros prêts bancaires</strong> pour démarrer votre propre entreprise de location de voitures de luxe. De plus, vous auriez dû louer un espace, souscrire une assurance et faire de la publicité. Désormais, toutes ces tâches sont prises en charge pour vous. Vous pouvez simplement choisir votre voiture et commencer à gagner des revenus mensuels de location.",
+  "para": "Imaginez posséder une toute nouvelle Lamborghini Huracan et gagner des milliers d'USDT en la louant sans lever le petit doigt. Recevez automatiquement vos revenus locatifs le 1er de chaque mois, que vous soyez en voyage, en train de vous détendre sur une plage ou simplement chez vous. Dreamcars rend cela possible en ouvrant le marché de la location de luxe aux utilisateurs de crypto dans le monde entier.<br /><br /> Auparavant, il aurait fallu dépenser une fortune ou contracter de gros prêts bancaires pour démarrer votre propre entreprise de location de voitures de luxe. Vous auriez également dû louer de l'espace, souscrire une assurance et faire de la publicité. Maintenant, Dreamcars s'occupe de tout. Choisissez simplement votre première voiture et commencez à gagner un revenu locatif mensuel.",
   "paralats": "*Ce calcul est basé sur l’hypothèse que vous possédez toutes les parts de la voiture"
 },
 "SimpleExampleSec": {
   "title": "Voici Un Exemple <strong>Simple</strong>",
-  "para": "Une Lamborghini Huracan Spyder 2024, achetée pour 280 000 $, peut générer près de 97 000 $ de bénéfice net après déduction de tous les coûts, y compris la dépréciation*.",
+ "para": "Une Lamborghini Huracan Spyder 2024, achetée pour 280 000 $, pourrait générer un bénéfice net d'environ 97 000 $ après avoir pris en compte toutes les dépenses, y compris la dépréciation.*",
   "calculation": "Calcul sur 1 an :",
   "totalcard": "Coûts Annuels Totaux**",
   "amountcard1": "83 000 $",
@@ -230,8 +230,8 @@
 },
 "LuxurySec": {
   "title": "Le Marché de la Location de Voitures de Luxe  <strong>Croit Rapidement</strong>",
-  "para": "Le marché de la location de voitures de luxe croît rapidement, car <strong>de plus en plus de personnes souhaitent conduire des voitures haut de gamme pour des occasions spéciales ou simplement pour profiter d'une expérience premium.</strong> Dreamcars permet aux utilisateurs de participer au secteur de la location de voitures de luxe en achetant des parts de voitures grâce à la technologie blockchain. De cette manière, les utilisateurs peuvent générer des revenus à partir des locations sans posséder ni entretenir les voitures. À mesure que la demande de voitures de luxe augmente, <strong>Dreamcars offre un moyen simple et rentable de faire partie de ce marché en pleine expansion.</strong>"
-},
+"para": "Le marché de la location de voitures de luxe se développe rapidement, avec <strong>des personnes souhaitant conduire des supercars pour des vacances, des mariages ou simplement pour vivre des sensations fortes. Actuellement évalué à plus de 20 milliards de dollars,</strong> le marché devrait atteindre 30 milliards de dollars d'ici 2029. Dreamcars permet aux utilisateurs de rejoindre cette industrie florissante en achetant des parts de voitures de luxe en location. Ainsi, les utilisateurs peuvent gagner de l'argent grâce aux locations sans avoir à gérer ou entretenir les voitures. Alors que la demande de locations de voitures de luxe continue d'augmenter, <strong>Dreamcars offre un moyen simple et rentable de faire partie de ce marché en pleine croissance.</strong>"
+  },
 "TheLuxurySec": {
   "title": "Le Marché de la Location de Voitures de Luxe  <strong>Croit Rapidement</strong>",
   "para": "Le marché de la location de voitures de luxe croît rapidement, car <strong>de plus en plus de personnes souhaitent conduire des voitures haut de gamme pour des occasions spéciales ou simplement pour profiter d'une expérience premium.</strong> Dreamcars permet aux utilisateurs de participer au secteur de la location de voitures de luxe en achetant des parts de voitures grâce à la technologie blockchain. De cette manière, les utilisateurs peuvent générer des revenus à partir des locations sans posséder ni entretenir les voitures. À mesure que la demande de voitures de luxe augmente, <strong>Dreamcars offre un moyen simple et rentable de faire partie de ce marché en pleine expansion.</strong>"
@@ -287,7 +287,7 @@
   },
   "MostFunSection": {
     "title": "Posséder des Voitures de Luxe est la manière la plus amusante de <span>diversifier</span> votre portefeuille crypto",
-    "para": "Dans un marché hautement volatil comme la crypto, posséder des voitures de location de luxe avec Dreamcars offre une manière simple et fiable de générer un revenu. <strong>Beaucoup ont vu leurs actifs crypto chuter de plus de 50 % lors des précédents marchés baissiers</strong> et recherchent maintenant des moyens plus stables pour préserver leurs biens. Ne vous méprenez pas, nous croyons en la crypto et voyons cela comme l'avenir. Mais nous pensons également qu'il devrait y avoir des options plus sûres dans l'univers de la blockchain, vous permettant de protéger vos actifs grâce à un modèle commercial simple et à haut rendement.<br/><br/> <strong>Au lieu de laisser vos actifs numériques exposés à la volatilité du marché</strong> (même les stablecoins comme USDC ou USDT peuvent perdre de la valeur en raison de l'inflation et de l'ancrage au dollar), vous pouvez les convertir en parts de voitures de luxe réelles avec Dreamcars et gagner un revenu mensuel de location, <strong>adossé à des actifs réels et précieux.</strong> Cela offre beaucoup plus de stabilité et des rendements supérieurs à la plupart des autres options. Avec Dreamcars, vous pouvez protéger et augmenter votre richesse, même lorsque le marché crypto est en difficulté.",
+    "para": "Il est important d'encaisser vos bénéfices dans des marchés hautement volatils comme la crypto ou les actions, où vous pourriez perdre 50 % de votre valeur en peu de temps. Dreamcars offre un moyen simple et fiable de diversifier et protéger une partie de votre patrimoine.<br/><br/> Au lieu de laisser tous vos actifs numériques dans votre portefeuille, exposés aux piratages, aux fluctuations du marché ou aux baisses potentielles, vous pouvez les convertir en actions de voitures de luxe réelles via Dreamcars et percevoir un revenu locatif mensuel, soutenu par des actifs réels précieux. Cela offre plus de stabilité et des rendements constants que la plupart des autres options. Comme disent les experts, il ne faut jamais mettre tous ses œufs dans le même panier.",
     "btn1": "ACHETER $DCARS"
   },
   "FeaturesSection": {
@@ -415,16 +415,16 @@
 "WhatMakesSec": {
   "title": "Qu'est-ce qui rend<br/> <strong>$DCARS Spécial ?</strong>",
   "para": "Le token $DCARS est la cryptomonnaie native de la plateforme Dreamcars et le seul moyen de posséder des voitures de location de luxe avec de la crypto.<br/><br/> Important : <strong>Sans $DCARS, vous ne pouvez acheter aucune voiture</strong> sur Dreamcars. Vous devez détenir un certain montant de $DCARS pour accéder au Marketplace Dreamcars et profiter pleinement de l'écosystème. En possédant des tokens $DCARS, vous débloquerez des fonctionnalités exclusives telles que :",
-  "lisec1": "Acheter et vendre des voitures de location",
-  "lisec2": "Droits de vote sur les achats de voitures",
-  "lisec3": "Gagner des revenus locatifs avec les voitures",
-  "lisec4": "Accéder à toutes les fonctionnalités du Marketplace Dreamcars",
-  "lisec5": "Utiliser le protocole de prêt pour couvrir une voiture"
+  "lisec1": "Achat et vente de voitures",
+  "lisec2": "Droits de vote pour l'achat de voitures",
+  "lisec3": "Gagnez un revenu mensuel avec les voitures de location",
+  "lisec4": "Accès à toutes les fonctionnalités du marché Dreamcars",
+  "lisec5": "Utilisez le protocole de prêt pour accéder à une liquidité instantanée"
 },
 "DreamcarsBusinessSec": {
-  "title": "Le modèle commercial de Dreamcars soutient continuellement <br /> la croissance de <strong>$DCARS</strong>",
-  "para": "Notre place de marché propose des voitures de luxe en location dans le monde entier, disponibles à l'achat avec plus de 10 cryptomonnaies différentes. Pour acheter et détenir des parts d'une voiture, vous devez posséder une quantité spécifique de $DCARS et la verrouiller pendant toute la durée de votre propriété.<br/><br/> <strong>Ce processus garantit qu'à mesure que davantage de voitures sont ajoutées à la place de marché, la valeur de $DCARS augmente régulièrement au fil du temps.</strong>",
-  "difftext": "3 Catégories de Voitures Différentes",
+  "title": "Le modèle commercial de Dreamcars soutient en permanence <br /> la croissance de $DCARS",
+    "para": "La plateforme Dreamcars vous permet d'acheter, de vendre et d'échanger des parts de voitures de luxe en location partout dans le monde en utilisant des cryptomonnaies. Pour posséder des parts, vous devez détenir un certain montant de $DCARS et le verrouiller aussi longtemps que vous souhaitez conserver la propriété. Ce processus garantit que la valeur de $DCARS augmente progressivement à mesure que de nouvelles voitures sont ajoutées au marché.",
+    "difftext": "3 catégories de voitures différentes",
   "cardtitle1": "Voitures d'entrée de gamme",
   "cardtitle2": "Voitures premium",
   "cardtitle3": "Meilleures performances",

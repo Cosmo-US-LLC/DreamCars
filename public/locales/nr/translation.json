@@ -24,9 +24,9 @@
     "navBtn": "Koble til lommebok"
   },
   "ProductDetails": {
-    "para1": "Dreamcars gir tilgang til biler som de fleste bare kan drømme om",
-    "title1": "Invester i luksuriøse leiebiler og tjen daglig inntekt",
-    "para2": "Handel biler som aksjer med Dreamcars: Den første og eneste plattformen for å kjøpe, selge og eie aksjer i luksusbiler, med potensiale til å tjene opptil 5 000 USDT daglig fra leieinntekter. Eksklusivt tilgjengelig for $DCARS eiere.",
+    "para1": "Dreamcars gir tilgang til verdens mest eksklusive biler",
+    "title1": "Investér i luksusbiler for utleie og tjen månedlig inntekt",
+    "para2": "Handle biler som aksjer. Dreamcars er den første og eneste plattformen der du kan kjøpe, eie og selge aksjer i luksusbiler. Tjen opptil 50,000 USDT månedlig gjennom utleie. Plattformen er kun tilgjengelig for $DCARS-innehavere.",
     "card1": "Rolls Royce <br /> Av Crypto!",
     "card2": "Eier en del av din drømmebil!",
     "card3": "Dette har aldri vært gjort før!",
@@ -85,13 +85,12 @@
     "mainTitle": "Fremhevet I"
   },
   "BetaSection": {
-    "title": "Verdens første blockchain-drevne plattform for luksusutleiebiler",
-    "para1": "Kjøp ekte aksjer i luksusutleiebiler fra bare $10",
-    "para2": "Tjen månedlig leieinntekt med luksusutleiebiler",
-    "para3": "Hver bil genererer et gjennomsnitt på 20% til 50% APY",
-    "para4": "Overvåk historisk ytelse og prisdata",
-    "para5": "Handle biler på Dreamcars Marketplace på sekunder",
-    "para6": "Leie luksusbiler til rabatterte priser på hvilken som helst Dreamcars-lokasjon",
+    "title": "Verdens første blokkjede-drevne handelsplattform for luksusbiler",
+    "para1": "Kjøp ekte aksjer i luksusbiler",
+    "para2": "Tjen månedlig leieinntekt i USDT",
+    "para3": "Overvåk historisk ytelse og prisdata",
+    "para4": "Hver bil genererer i gjennomsnitt 20 % til 50 % APY",
+    "para5": "Handle biler på sekunder på Dreamcars-markedsplassen",
     "btn": "KJØP $DCARS"
   },
   "LicensedCard": {
@@ -106,9 +105,10 @@
   "OwnCarSection": {
     "mainTitle": "Eie luksusbiler,",
     "mainTitle2": "Tjen leieinntekt",
-    "para1": "Dreamcars gjør det enkelt å generere inntekt med luksusutleiebiler ved hjelp av krypto. Med Dreamcars kan du kjøpe aksjer i prestisjetunge biler fra merker som <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari, Lamborghini</strong>, og mer, ved å bruke vår digitale valuta, $DCARS. Disse bilene administreres og leies ut av Dreamcars-teamet, så du eier ikke bare en andel av bilen, men tjener også inntekt fra leieinntektene.",
-    "para2": "Hver bil er delt opp i aksjer og solgt som en NFT, knyttet til <strong>den originale kjøps- og eierkontrakten, og støttet av et ekte, fullt tredjepartsforsikret kjøretøy i ett av våre utleieshowrooms</strong>. Du kan eie en del av disse luksusbilene for så lite som $10.",
-    "para3": "Ikke mer å bruke hundretusener på en luksusbil eller bekymre seg for at den mister verdi. <strong>Med Dreamcars blir din andel av bilen en verdifull eiendel som genererer en jevn strøm av inntekt for deg hver måned.</strong>"
+    "para1": "Dreamcars gjør det enkelt å tjene inntekt fra luksusleiebiler ved å bruke krypto. Med vår $DCARS-token kan du kjøpe aksjer i prestisjetunge leiebiler fra toppmerker som <strong>Mercedes-Benz, Porsche, Bentley, Rolls-Royce, Ferrari og Lamborghini</strong>.",
+    "para2": "Hver bil deles opp i aksjer og gjøres om til en NFT, <strong>som sikkert lagrer viktige detaljer som bilens serienummer, eierskapsinformasjon</strong> og kjøpsavtale.",
+    "para3": "Alle bilene er fullstendig dekket av tredjeparts forsikringsselskaper og oppbevares i Dreamcars-showrooms i Dubai, Miami eller Marbella. Teamet vårt leier dem ut daglig, ukentlig eller månedlig. Leieinntektene utbetales til bileierne i USDT den 1. i hver måned.",
+    "para4": "Du trenger ikke bruke hundretusenvis på superbiler eller bekymre deg for verdifall. Med Dreamcars blir bilaksjen din en verdifull eiendel som gir en jevn månedlig inntekt."
   },
   "WhyShouldSec": {
     "title": "Eksklusive fordeler under pre-sale",
@@ -124,21 +124,21 @@
 "BenefitSection": {
     "title": "Hvorfor Velge Dreamcars?",
     "cardTitle": "100% Autentisitet",
-    "cardSubtitle": "Andeler av ekte luksus leiebiler vil bli solgt som NFTs, med kjøps- og eiendomskontrakter i smartkontrakten. Ved å utnytte blokkjedeteknologi, sikrer vi hver bils autentisitet ved å integrere dens serienummer og detaljer i NFT metadata.",
-    "cardTitle21": "Eie Et Stykke Luksus",
-    "cardSubtitle2": "Dreamcars har gjort luksusbil-eierskap mer tilgjengelig ved å tilby NFTs støttet av ekte biler, delt opp i fraksjoner for delvis eierskap, noe som gjør inngang til luksusbilutleiemarkedet rimelig for alle.",
+    "cardSubtitle": "Hver utleiebil deles inn i aksjer og tokeniseres som NFT-er, inkludert bilens serienummer og eierinformasjon i smarte kontrakter for å sikre full autentisitet og åpenhet.",
+    "cardTitle21": "Eie en Del av Luksus",
+    "cardSubtitle2": "Med Dreamcars kan du eie aksjer i luksusleiebiler uten å bruke en formue og tjene penger på daglig, ukentlig og månedlig utleie.",
     "cardTitle3": "Positiv Kontantstrøm",
-    "cardSubtitle3": "Generer jevnlig kontantstrøm i USDT med Dreamcars gjennom månedlig inntekt fra luksusbilutleie, sikret av blokkjedeteknologi og ekte eiendeler.",
+    "cardSubtitle3": "Tjen USDT hver måned fra bilutleie, hvor inntektene distribueres til bileiere den 1. hver måned basert på antall aksjer de eier.",
     "cardTitle4": "Høy Likviditet",
-    "cardSubtitle4": "Med vårt innovative utlånsprotokoll kan brukere få tilgang til konkurransedyktige lån ved å bruke sine bilandeler som sikkerhet, samtidig som de beholder fullt eierskap til sine kjøretøy.",
+    "cardSubtitle4": "Bruk dine bileierskap som sikkerhet gjennom vår likviditetsprotokoll og få enkel tilgang til midler samtidig som du beholder full eierskap.",
     "cardTitle5": "Alternative Eiendeler",
-    "cardSubtitle5": "Dreamcars gir et stabilt, vekstorientert alternativ til volatile kryptovalutaer og aksjemarkeder. Ved å pionere en ny eiendelsklasse, gir det deg muligheten til å generere ekstra inntekt og diversifisere din formue.",
-    "cardTitle6": "Rabatter På Leiebiler",
-    "cardSubtitle6": "Sammen forvandler vi luksusbilutleiebransjen ved å skape en spennende, lønnsom og tilgjengelig måte å eie andeler av verdens fineste kjøretøy, samtidig som du nyter betydelige rabatter på luksusbilutleie på enhver Dreamcars-lokasjon."
-},
+    "cardSubtitle5": "Dreamcars tilbyr en stabil, inntektsgenererende eiendel som hjelper deg med å diversifisere porteføljen din utover volatile aksjer og kryptovalutaer.",
+    "cardTitle6": "Rabatter på Leiebiler",
+    "cardSubtitle6": "Dreamcars-brukere får store rabatter på luksusleiebiler og kan kjøre superbiler til uslåelige priser."
+  },
 "RewardSection": {
     "title": "Få Spesielle Bonuser Fra Kun ",
-    "para": "Bli med i Dreamcars Members Club og få ekstraordinære belønninger pluss bonus $DCARS! <br/><br/>Jo mer du kjøper, jo større blir fordelene! Disse spesielle belønningene er kun tilgjengelige under pre-salget og vil aldri bli tilbudt igjen.",
+    "para": "Bli med i den eksklusive Dreamcars Member’s Club og få ekstraordinære belønninger og bonus $DCARS-tokens! <br/><br/>Jo mer du kjøper, desto større blir fordelene! Disse spesielle belønningene er kun tilgjengelige i forhåndssalget. De vil aldri bli tilbudt igjen.",
     "spendText": "Hvor mye vil du bruke?",
     "packageType1": "Mercedes",
     "packageText11": "Mercedes NFT",
@@ -214,12 +214,12 @@
   "LamborghiniSec": {
     "title": "Lamborghini Huracan  Aksjer for ",
     "titlespan": "Kun $10",
-    "para": "Tenk deg å eie en splitter ny Lamborghini Huracan og <strong>tjene opptil $15,000 månedlig</strong> fra denne ene bilen* uten å måtte administrere den selv. Det er det Dreamcars gjør mulig.<br /><br />Dreamcars bryter barrierer ved å åpne luksusbilleiebransjen for kryptobrukere over hele verden. Kjøp enkelt $DCARS og deretter aksjer i drømmebilene dine for så lite som $10, og selg dem fra komforten av ditt eget hjem når som helst. Tidligere ville du måtte <strong>bruke en formue eller ta opp store banklån</strong> for å starte din egen luksusbilleievirksomhet. I tillegg måtte du leie plass, kjøpe forsikring og annonsere. Nå håndteres alle disse oppgavene for deg. Du kan enkelt velge bilen din og begynne å tjene månedlig leieinntekt.",
+   "para": "Tenk deg å eie en splitter ny Lamborghini Huracan og tjene tusenvis av USDT ved å leie den ut uten å løfte en finger. Motta leieinntektene dine automatisk den 1. hver måned, enten du er på reise, slapper av på en strand eller bare er hjemme. Dreamcars gjør dette mulig ved å åpne luksusleiemarkedet for kryptobrukere over hele verden.<br /><br /> Tidligere måtte du bruke en formue eller ta opp store banklån for å starte din egen luksusbilutleievirksomhet. Du måtte også leie plass, kjøpe forsikring og annonsere. Nå tar Dreamcars seg av alt. Velg bare din første bil og begynn å tjene månedlige leieinntekter.",
     "paralats": "*Denne beregningen er basert på antagelsen om at du eier alle aksjene i bilen"
   },
   "SimpleExampleSec": {
     "title": "Her er et enkelt <strong>eksempel</strong>",
-    "para": "En Lamborghini Huracan Spyder 2024, kjøpt for $280,000, kan generere nesten $97,000 i nettofortjeneste etter at alle kostnader er trukket fra, inkludert verdifall*.",
+    "para": "En 2024 Lamborghini Huracan Spyder, kjøpt for $280 000, kan gi rundt $97 000 i netto fortjeneste etter å ha tatt hensyn til alle utgifter, inkludert verditap.*",
     "calculation": "1-års beregning:",
     "totalcard": "Totale årlige kostnader**",
     "amountcard1": "$83,000",
@@ -231,7 +231,7 @@
   },
   "LuxurySec": {
     "title": "Luksusbilleiebransjen er <strong>i rask vekst</strong>",
-    "para": "Luksusbilleie-markedet vokser raskt ettersom <strong>flere ønsker å kjøre høykvalitets biler til spesielle anledninger eller bare for å nyte en premiumopplevelse.</strong> Dreamcars gjør det mulig for brukere å delta i luksusbilleievirksomheten ved å kjøpe aksjer i biler drevet av blokkjedeteknologi. På denne måten kan brukerne tjene inntekter fra utleie uten å eie eller vedlikeholde bilene. Etter hvert som etterspørselen etter luksusbiler øker, <strong>tilbyr Dreamcars en enkel og lønnsom måte å være en del av dette voksende markedet.</strong>"
+    "para": "Markedet for luksusbilleie vokser raskt, med <strong>folk som ønsker å kjøre superbiler til ferier, bryllup eller bare for å oppleve spenningen. For tiden verdsatt til over 20 milliarder dollar,</strong> forventes markedet å nå 30 milliarder dollar innen 2029. Dreamcars lar brukere bli med i denne blomstrende industrien ved å kjøpe aksjer i luksusbiler til leie. På denne måten kan brukerne tjene penger på leie uten bryet med å administrere eller vedlikeholde bilene. Etter hvert som etterspørselen etter luksusbilleie fortsetter å øke, <strong>tilbyr Dreamcars en enkel og lønnsom måte å være en del av dette raskt voksende markedet.</strong>"
   },
   "TheLuxurySec": {
     "title": "Luksusbilleiebransjen er <strong>i rask vekst</strong>",
@@ -288,7 +288,7 @@
   },
     "MostFunSection": {
       "title": "Å eie luksusbiler er den morsomste måten å <span>diversifisere</span> din kryptovaluta-portefølje",
-      "para": "I et svært volatilt marked som krypto, gir det å eie luksusbiler til utleie med Dreamcars en enkel og pålitelig måte å tjene inntekt på. <strong>Mange har sett at deres kryptovalutainvesteringer har falt med over 50% under tidligere bear-markeder</strong> og ser nå etter mer stabile måter å bevare sine eiendeler på. Ikke misforstå oss—vi er alle for krypto og ser det som fremtiden. Men vi mener også at det bør finnes tryggere alternativer innen blokkjedeteknologi, som lar deg beskytte dine eiendeler gjennom en enkel,  høyavkastende forretningsmodell.<br/><br/> <strong>I stedet for å la digitale eiendeler være i lommeboken din, utsatt for markedsvolatilitet eller nedgang</strong> (selv stabile mynter som USDC eller USDT kan tape verdi på grunn av inflasjon og USD-tilknytningen), kan du konvertere dem til aksjer i virkelige luksusbiler gjennom Dreamcars og tjene månedlig leieinntekt, <strong>støttet av virkelige, verdifulle eiendeler.</strong> Dette gir mye mer stabilitet og høyere avkastning enn de fleste andre alternativer. Med Dreamcars kan du beskytte og vokse formuen din, selv når kryptomarkedet sliter.",
+      "para": "Det er viktig å ta ut gevinstene dine i svært volatile markeder som krypto eller aksjer, hvor du kan miste 50 % av verdien din på kort tid. Dreamcars tilbyr en enkel og pålitelig måte å diversifisere og beskytte deler av formuen din på.<br/><br/> I stedet for å la alle de digitale eiendelene dine ligge i lommeboken, utsatt for hacking, markedsvingninger eller potensielle nedgangstider, kan du konvertere dem til andeler i ekte luksusbiler via Dreamcars og tjene månedlig leieinntekt, støttet av verdifulle reelle eiendeler. Dette gir mer stabilitet og jevnere avkastning enn de fleste andre alternativer. Som eksperter sier, bør du aldri legge alle eggene i én kurv.",
       "btn1": "KJØP $DCARS"
     },
     "FeaturesSection": {
@@ -416,15 +416,15 @@
     "WhatMakesSec": {
       "title": "Hva gjør $DCARS<br/> <strong>Spesielt?</strong>",
       "para": "$DCARS-tokenet er den innfødte kryptovalutaen til Dreamcars-plattformen og den eneste måten å eie luksusutleiebiler med kryptovaluta.<br/><br/> Viktig: <strong>Uten $DCARS kan du ikke kjøpe noen bil</strong> på Dreamcars. Du må eie et visst antall $DCARS for å få tilgang til Dreamcars-markedsplassen og fullt delta i økosystemet. Ved å holde $DCARS-tokens vil du få tilgang til eksklusive funksjoner som:",
-      "lisec1": "Kjøpe og selge utleiebiler",
-      "lisec2": "Stemmerett på bilkjøp",
-      "lisec3": "Tjen leieinntekter fra bilene",
-      "lisec4": "Få tilgang til alle Dreamcars markedsplassfunksjoner",
-      "lisec5": "Bruk låneprotokollen for å sikre deg mot en bil"
+      "lisec1": "Kjøp og salg av biler",
+    "lisec2": "Stemmerett ved bilkjøp",
+    "lisec3": "Tjene månedlig inntekt fra leiebiler",
+    "lisec4": "Tilgang til alle funksjoner i Dreamcars-markedsplassen",
+    "lisec5": "Bruk låneprotokollen for å få umiddelbar likviditet"
     },
     "DreamcarsBusinessSec": {
-      "title": "Dreamcars forretningsmodell støtter kontinuerlig <br /> <strong>veksten av $DCARS</strong>",
-      "para": "Vår markedsplass tilbyr luksusutleiebiler globalt, tilgjengelige for kjøp med over 10 forskjellige kryptovalutaer. For å kjøpe og holde aksjer i en bil, må du eie et spesifikt antall $DCARS og låse dem for varigheten av ditt eierskap.<br/><br/> <strong>Denne prosessen sikrer at ettersom flere biler legges til på markedsplassen, øker verdien av $DCARS jevnt over tid.<strong/>",
+      "title": "Dreamcars forretningsmodell støtter kontinuerlig <br /> veksten av $DCARS",
+      "para": "Dreamcars-markedsplassen lar deg kjøpe, selge og handle andeler i luksusbiler fra hvor som helst i verden ved hjelp av kryptovaluta. For å eie bilandeler må du holde en spesifikk mengde $DCARS og låse dem så lenge du ønsker å beholde eierskapet. Denne prosessen sikrer at verdien av $DCARS øker jevnt over tid ettersom flere biler legges til på markedet.",
       "difftext": "3 forskjellige bilkategorier",
       "cardtitle1": "Inngangsbil",
       "cardtitle2": "Premium Biler",
