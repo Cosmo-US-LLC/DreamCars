@@ -22,7 +22,8 @@ import Link3 from "../../assects/svgs/linkss (2).svg";
 import Link4 from "../../assects/svgs/linkss (1).svg";
 import cardsvg1 from "../../assects/svgs/cardsvg (1).svg";
 import cardsvg2 from "../../assects/svgs/cardsvg (2).svg";
-
+import { FaLink, FaTwitter, FaInstagram } from "react-icons/fa";
+import { BsFillSendFill } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 
 const options = [
@@ -149,13 +150,13 @@ const OnlyAvaibel = () => {
 
   useEffect(() => {
     gtag("event", "purchase", {
-      value: 0.0, 
-      currency: "USD", 
+      value: 0.0,
+      currency: "USD",
     });
 
     fbq("track", "Purchase", {
       value: 0.0,
-      currency: "USD", 
+      currency: "USD",
     });
   }, []);
 
@@ -447,7 +448,7 @@ const OnlyAvaibel = () => {
           <div className="flex justify-center space-x-[10px] xs:space-x-[5px] !mr-[35px]">
             <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] relative z-[9] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
               <a
-                href=""
+                href="#"
                 target=""
                 rel="noopener noreferrer"
                 className="relative z-[20]"
@@ -456,54 +457,38 @@ const OnlyAvaibel = () => {
                   copyUrlToClipboard();
                 }}
               >
-                <img
-                  className="h-[22px] xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
-                  src={Link1}
-                  alt=""
-                />
+                <FaLink className="h-[22px] xs:h-[15px] w-[22px] xs:w-[20px] text-white cursor-pointer" />
               </a>
             </div>
             <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
               <a
                 href="https://twitter.com/dreamcars_bsc"
                 target="_blank"
-                className="cursor-pointer relative z-[20] "
+                className="cursor-pointer relative z-[20]"
                 rel="noopener noreferrer"
               >
-                <img
-                  className="h-[22px]  xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
-                  src={Link2}
-                  alt=""
-                />
+                <FaTwitter className="h-[22px] xs:h-[15px] w-[22px] xs:w-[20px] text-white cursor-pointer" />
               </a>
             </div>
             <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
               <a
                 href="https://t.me/Dreamcars_bsc"
                 target="_blank"
-                className="relative z-[20]  cursor-pointer"
+                className="relative z-[20] cursor-pointer"
                 rel="noopener noreferrer"
               >
-                <img
-                  className="h-[22px]  xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
-                  src={Link3}
-                  alt=""
-                />
+                <BsFillSendFill className="h-[22px] xs:h-[15px] w-[22px] xs:w-[20px] text-white cursor-pointer" />
               </a>
             </div>
 
             <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
               <a
                 href="https://www.instagram.com/dreamcars_bsc/"
-                className="relative z-[20]  cursor-pointer"
+                className="relative z-[20] cursor-pointer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  className="h-[22px]  xs:h-[15px] cursor-pointer w-[22px] xs:w-[20px]"
-                  src={Link4}
-                  alt=""
-                />
+                <FaInstagram className="h-[22px] xs:h-[15px] w-[22px] xs:w-[20px] text-white cursor-pointer" />
               </a>
             </div>
           </div>
