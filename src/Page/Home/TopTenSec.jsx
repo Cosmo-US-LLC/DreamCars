@@ -130,7 +130,7 @@ const TopTenSec = () => {
                 <SwiperSlide>
                 <div className="w-[100%] !overflow-hidden">
                 <div className="min-h-[621px] xs:min-h-[400px] xs:max-h-[520px] pt-[15px] px-[2rem] xs:px-[1rem] backdrop-blur-md xs:!backdrop-blur-none bg-[#d1d5db1f] xs:!bg-[transparent] rounded-[38px] max-w-[1102px] mx-auto h-[auto] w-[100%]">
-                  <div className="relative backdrop-blur-md flex judtigy-between items-center border rounded-[38px] py-[4rem] xs:px-[2rem]">
+                  <div className="relative gradient-border-mask-no-blur flex judtigy-between items-center border rounded-[38px] py-[4rem] xs:px-[2rem]">
                        <img className="absolute top-[5%] left-[1%] h-[100px] xs:h-[40px]" src={topcrdicn1} alt="" />
                        <p className="text-[36px] xs:text-[22px] text-[#fff] font-[400] text-center max-w-[792px] w-[100%] mx-auto leading-[118%]">{t(item.para)}</p>
                        <img className="absolute bottom-[5%] right-[2%] h-[57.643px] xs:h-[30px]" src={topcrdicn2} alt="" />

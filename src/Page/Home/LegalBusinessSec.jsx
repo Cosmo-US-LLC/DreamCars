@@ -19,17 +19,17 @@ const LegalBusinessSec = () => {
                     <img src={lesimg} className="2xl:w-[80%] xl:w-[80%] lg:w-[80%] md:w-[80%] sm:w-[80%] w-[90%]" alt="" />
                 </div>
                 <div className="2xl:w-[100%] xs:relative xs:z-[3] xl:w-[100%] lg:w-[100%] max-w-[571px] md:w-[100%] sm:w-[100%] w-[100%] xs:mx-auto py-[2rem] xs:py-0 xs:text-center sm:text-center  space-y-[25px]">
-                    <div className="2xl:block xl:block lg:block md:block sm:hidden hidden backdrop-blur-md m-0 max-w-[530px]  bg-[#d1d5db1f] border-r border-t p-2 rounded-[5px]">
+                    <div className="2xl:block xl:block lg:block md:block sm:hidden hidden gradient-border-mask-no-blur m-0 max-w-[530px]  p-2 rounded-[5px]">
                         <p className="text-[#FFD02F] text-center text-[26px] font-[700]">{t('LegalBusinessSec.toppara')}</p>
                     </div>
                     <h3 className="text-[46px] xs:text-[24px] xs:max-w-[300px] xs:w-[100%] xs:mx-auto font-[700] leading-[130%] text-[#fff]" dangerouslySetInnerHTML={{ __html: `${t('LegalBusinessSec.title')}` }}></h3>
                    <p className="2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[16px] font-[400] text-[#fff]" dangerouslySetInnerHTML={{ __html: `${t('LegalBusinessSec.para')}` }}>
                    </p>
                    <div className="xs:flex xs:space-x-[10px] xs:justify-between">
-                   <div className="backdrop-blur-md m-0 bg-[#d1d5db1f] max-w-[530px] border-r border-t 2xl:p-2 xl:p-2 lg:p-2 md:p-2 sm:p-4 p-4 xs:border-[#001dad82] rounded-[5px]">
+                   <div className="gradient-border-mask-no-blur m-0  max-w-[530px] 2xl:p-2 xl:p-2 lg:p-2 md:p-2 sm:p-4 p-4 xs:border-[#001dad82] rounded-[5px]">
                         <p className="text-[#FFD02F] 2xl:text-[20px] text-center xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[16px] text-[16px] font-[700]">{t('LegalBusinessSec.bottompara')}</p>
                     </div>
-                    <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block backdrop-blur-md m-0 max-w-[530px] bg-[#d1d5db1f] border-r border-t 2xl:p-2 xl:p-2 lg:p-2 md:p-2 sm:p-4 p-4 xs:border-[#001dad82] rounded-[5px]">
+                    <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block gradient-border-mask-no-blur m-0 max-w-[530px]  2xl:p-2 xl:p-2 lg:p-2 md:p-2 sm:p-4 p-4 xs:border-[#001dad82] rounded-[5px]">
                         <p className="text-[#FFD02F] text-center 2xl:text-[26px] xl:text-[26px] lg:text-[26px] md:text-[26px] sm:text-[16px] text-[16px] font-[700]">{t('LegalBusinessSec.bottompara')}</p>
                     </div>
                    </div>

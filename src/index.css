@@ -28,6 +28,7 @@ html.enter.enter-page body{
 .bgherobtn{
   border-radius: 13px;
 background: var(--yellow, #FFD02F);
+-webkit-backdrop-filter: blur(10px) !important;
 backdrop-filter: blur(11.649999618530273px);
 }
 .avsecbggr{
@@ -47,8 +48,10 @@ backdrop-filter: blur(11.649999618530273px);
 }
 .gradient-border-mask-own-last {
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px);
   border-radius: 13.373px !important;
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
 }
 .gradient-border-mask-own-last::before {
   content: "";
@@ -63,7 +66,10 @@ backdrop-filter: blur(11.649999618530273px);
 }
 .gradient-border-mask-own-hero {
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px);
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+
 }
 .gradient-border-mask-own-hero::before {
   content: "";
@@ -78,9 +84,11 @@ backdrop-filter: blur(11.649999618530273px);
 }
 .gradient-border-mask-own-hero-title {
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(7px);
   background: rgb(3, 53, 145);
   border-radius: 50px !important;
+  
 
 }
 .gradient-border-mask-own-hero-title::before {
@@ -96,8 +104,9 @@ backdrop-filter: blur(11.649999618530273px);
 }
 .gradient-border-mask-own-hero-icn {
   position: relative;
-  /* backdrop-filter: blur(10px); */
-  background: rgba(255, 255, 255, 0.03);
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px);
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
   border-radius: 6px !important;
 
 }
@@ -114,8 +123,9 @@ backdrop-filter: blur(11.649999618530273px);
 }
 .gradient-border-mask-own-hero-cent {
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.03);
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
   border-radius: 13px !important;
 
 }
@@ -132,7 +142,10 @@ backdrop-filter: blur(11.649999618530273px);
 }
 .gradient-border-mask-share {
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px);
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+
 }
 .gradient-border-mask-share::before {
   content: "";
@@ -145,9 +158,29 @@ backdrop-filter: blur(11.649999618530273px);
   mask-composite: exclude;
   overflow: hidden;
 }
+.gradient-border-mask-no-blur{
+  position: relative;
+  -webkit-backdrop-filter: blur(0px) !important;
+  backdrop-filter: blur(0px);
+  background: transparent !important;
+}
+.gradient-border-mask-no-blur::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  border: 1.5px solid transparent;
+  background: linear-gradient(80deg, rgba(95, 95, 95, 0.164), rgba(117, 117, 117, 0.863), #ffffff52, #ffffff57, #ffffff6e, #ffffffd7) border-box;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  overflow: hidden;
+}
 .gradient-border-mask {
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px);
+  background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+
 }
 
 .gradient-border-mask::before {
@@ -163,7 +196,10 @@ backdrop-filter: blur(11.649999618530273px);
 }
 .gradient-border-mask-per-hed {
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px);
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+
 }
 .scrolldc::-webkit-scrollbar-track {
   background: #0018a100 !important; 
@@ -191,7 +227,10 @@ backdrop-filter: blur(11.649999618530273px);
 
 .gradient-border-mask-roadmap {
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px);
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+
 }
 .gradient-border-mask-roadmap::before {
   content: "";
@@ -299,6 +338,7 @@ mix-blend-mode: screen;
   border-radius: 5px;
 background: linear-gradient(101deg, rgba(255, 255, 255, 0.15) 14.59%, rgba(255, 255, 255, 0.03) 162.35%);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+-webkit-backdrop-filter: blur(10px) !important;
 backdrop-filter: blur(2px);
 }
 .Thingsbggr{
@@ -334,8 +374,11 @@ backdrop-filter: blur(2px);
 }
 .gradient-border-mask-simp{
   /* position: ; */
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(0px);
   border-radius: 54.352px;
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+
 }
 .gradient-border-mask-simp::before {
   content: "";
@@ -351,7 +394,9 @@ backdrop-filter: blur(2px);
 }
 .gradient-border-mask-build-awarded{
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(0px);
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
   border-radius: 16px;
 }
 .gradient-border-mask-build-awarded::before {
@@ -369,7 +414,10 @@ backdrop-filter: blur(2px);
 
   .gradient-border-mask-build{
     position: relative;
+    -webkit-backdrop-filter: blur(10px) !important;
     backdrop-filter: blur(0px);
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+
   }
   .gradient-border-mask-build::before {
     content: "";
@@ -465,6 +513,7 @@ backdrop-filter: blur(2px);
   border-radius: 45.705px;
 border: 1.474px solid #FFF;
 background: rgba(88, 145, 255, 0.13);
+-webkit-backdrop-filter: blur(10px) !important;
 backdrop-filter: blur(10.320512771606445px);
 }
 .spendbg{
@@ -508,6 +557,7 @@ background: linear-gradient(0deg, #1E1E1E 28.68%, #0C3385 69.96%);
 }
 .hovdrobr{
   border: 1px solid #FFF;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(7px);
 }
 
@@ -611,6 +661,7 @@ box-shadow: 1px 1px 15px 0px #3F3F3F;
 
 .bgcolordark {
   background: linear-gradient(90deg, #bb8d219f -3.12%, #f8f07f75 29.71%, #f5c5419c 73.6%, #ffc525b0 102.14%) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(38.5864px) !important;
 
 }
@@ -629,6 +680,7 @@ box-shadow: 1px 1px 15px 0px #3F3F3F;
   border-radius: 32px;
   border: 1px solid var(--billionair-com-1920-x-1080-default-nero, #FFF);
   background: rgba(252, 255, 111, 0.03);
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(8.899999618530273px);
 }
 .mobdailybg{
@@ -638,6 +690,7 @@ box-shadow: 1px 1px 15px 0px #3F3F3F;
 .modelbgclr{
   border-radius: 32px;
 border: 3px solid var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
+-webkit-backdrop-filter: blur(10px) !important;
 backdrop-filter: blur(11.649999618530273px);
 }
 .somegrbg{
@@ -654,6 +707,7 @@ border: 2px solid var(--billionair_com__1920x1080_default-Linear-Malachite, #FFD
   border-radius: 41.976px;
 border: 3.293px solid var(--billionair_com__1920x1080_default-Caribbean-Green, #FFD770);
 background: linear-gradient(142deg, rgba(254, 248, 255, 0.13) 1.8%, rgba(254, 248, 255, 0.00) 99.75%);
+-webkit-backdrop-filter: blur(10px) !important;
 backdrop-filter: blur(45.80482864379883px);
 }
 
@@ -816,6 +870,7 @@ background: rgba(252, 255, 111, 0.11);
   border-radius: 18px;
   border: 2px solid var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
   background: #1a1a1ab7;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(11.649999618530273px);
 }
 
@@ -896,12 +951,14 @@ background: rgba(252, 255, 111, 0.11);
 
 .LicensedCard {
   background: linear-gradient(94deg, rgba(108, 90, 42, 0.00) 0.01%, rgba(77, 74, 42, 0.62) 100%);
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(31.74250030517578px);
 }
 
 .stepsbg {
   border-radius: 47px;
   background: linear-gradient(94deg, rgba(108, 90, 42, 0.00) 0.01%, rgba(77, 74, 42, 0.62) 100%), linear-gradient(221deg, rgba(255, 248, 156, 0.16) 9.66%, rgba(249, 195, 52, 0.16) 105.88%);
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(4.449999809265137px);
 }
 
@@ -1062,18 +1119,21 @@ background-repeat: no-repeat;
   border-radius: 16px;
 border: 1px solid #fff;
 background: var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
+-webkit-backdrop-filter: blur(10px) !important;
 backdrop-filter: blur(16.75px);
 }
 .buybackbg2{
   border-radius: 16px;
   border: 1px solid #fff;
 background: var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
+-webkit-backdrop-filter: blur(10px) !important;
 backdrop-filter: blur(16.75px);
 }
 .buybackbg3{
   border-radius: 16px;
   border: 1px solid #fff;
 background: var(--billionair-com-1920-x-1080-default-nero-10, rgba(255, 255, 255, 0.10));
+-webkit-backdrop-filter: blur(10px) !important;
 backdrop-filter: blur(16.75px);
 }
 .textbuycolor{
@@ -1185,8 +1245,11 @@ background: var(--billionair-com-1920-x-1080-default-shark, #1C1D22);
 @media screen and (max-width: 600px) {
   .gradient-border-mask-simp{
     /* position: ; */
+    -webkit-backdrop-filter: blur(10px) !important;
     backdrop-filter: unset !important;
     border-radius: 0px;
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+
   }
   .gradient-border-mask-simp::before {
     content: "";
@@ -1204,6 +1267,7 @@ background: var(--billionair-com-1920-x-1080-default-shark, #1C1D22);
   }
   /* .gradient-border-mask-build-mobpara{
     position: relative;
+    -webkit-backdrop-filter: blur(10px) !important;
     backdrop-filter: blur(0px);
     border-radius: 8px;
   }
@@ -1224,6 +1288,7 @@ background: var(--billionair-com-1920-x-1080-default-shark, #1C1D22);
     border: none;
     background: none;
   
+    -webkit-backdrop-filter: blur(10px) !important;
     backdrop-filter:none;
   }
   .spotbgmob{
@@ -1234,7 +1299,10 @@ background: var(--billionair-com-1920-x-1080-default-shark, #1C1D22);
 }
 .gradient-border-mask-own {
   position: relative;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px);
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+
 }
 
 .gradient-border-mask-own::before {
@@ -1323,6 +1391,8 @@ background: var(--billionair-com-1920-x-1080-default-shark, #1C1D22);
 }
 .gradient-border-mask-build{
   position: relative;
+ background: linear-gradient(rgba(119, 119, 119, 0.1), rgba(119, 119, 119, 0.1)) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
 }
 }

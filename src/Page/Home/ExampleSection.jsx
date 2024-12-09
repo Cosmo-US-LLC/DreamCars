@@ -25,15 +25,15 @@ const ExampleSection = () => {
                     <img src={emampimg} alt="" />
                 </div>
                 <div className="2xl:flex xl:flex lg:flex md:flex sm:block block xs:space-y-[1rem] justify-between xs:w-[300px] xs:mx-auto">
-                    <div className="max-w-[390px] w-[100%] 2xl:py-[30px] xl:py-[30px] lg:py-[30px] md:py-[30px] sm:py-[50px] py-[50px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] gradient-border-mask rounded-[34px]">
+                    <div className="max-w-[390px] w-[100%] 2xl:py-[30px] xl:py-[30px] lg:py-[30px] md:py-[30px] sm:py-[50px] py-[50px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] gradient-border-mask-no-blur rounded-[34px]">
                         <h4 className="text-[#FFC83D] 2xl:text-[36px] xl:text-[36px] lg:text-[36px] md:text-[36px] sm:text-[36px] text-[24px] font-[700] leading-[119.994%] text-center">{t('SimpleExampleSec.totalcard')}</h4>
                         <h5 className="2xl:text-[45px] xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[45px] text-[24px] text-center font-[700] tracking-[-0.45px] text-[#fff]">{t('SimpleExampleSec.amountcard1')}</h5>
                     </div>
-                    <div className="max-w-[390px] w-[100%] 2xl:py-[30px] xl:py-[30px] lg:py-[30px] md:py-[30px] sm:py-[50px] py-[50px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] gradient-border-mask rounded-[34px]">
+                    <div className="max-w-[390px] w-[100%] 2xl:py-[30px] xl:py-[30px] lg:py-[30px] md:py-[30px] sm:py-[50px] py-[50px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] gradient-border-mask-no-blur rounded-[34px]">
                         <h4 className="text-[#FFC83D] 2xl:text-[36px] xl:text-[36px] lg:text-[36px] md:text-[36px] sm:text-[36px] text-[24px] font-[700] leading-[119.994%] text-center">{t('SimpleExampleSec.yearlycard')}</h4>
                         <h5 className="2xl:text-[45px] xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[45px] text-[24px] text-center font-[700] tracking-[-0.45px] text-[#fff]">{t('SimpleExampleSec.amountcard2')}</h5>
                     </div>
-                    <div className="max-w-[390px] w-[100%] 2xl:py-[30px] xl:py-[30px] lg:py-[30px] md:py-[30px] sm:py-[50px] py-[50px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] gradient-border-mask rounded-[34px]">
+                    <div className="max-w-[390px] w-[100%] 2xl:py-[30px] xl:py-[30px] lg:py-[30px] md:py-[30px] sm:py-[50px] py-[50px] px-[30px] backdrop-blur-md m-0 bg-[#d1d5db1f] gradient-border-mask-no-blur rounded-[34px]">
                         <h4 className="text-[#FFC83D] 2xl:text-[36px] xl:text-[36px] lg:text-[36px] md:text-[36px] sm:text-[36px] text-[24px] font-[700] leading-[119.994%] text-center">{t('SimpleExampleSec.apycard3')}</h4>
                         <h5 className="2xl:text-[45px] xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[45px] text-[24px] text-center font-[700] tracking-[-0.45px] text-[#fff]">{t('SimpleExampleSec.amountcard3')}</h5>
                     </div>

@@ -91,13 +91,13 @@ const ProductDetailsSection = () => {
             <div className="px-[23px] xs:px-[8px] py-[13px] relative z-[9] gradient-border-mask-own-hero-cent backdrop-blur-md bg-[#ffffff08] xs:space-x-2 flex justify-between max-w-[705px] mx-auto items-center">
               <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[12px] font-[800] text-[#fff]">{t("ProductDetails.livetext")}</h4>
               <div className="flex justify-center space-x-[10px] xs:space-x-[4px] ">
-                <div className="w-[58px] h-[41px] xs:w-[35px] xs:h-[29px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+                <div className="w-[58px] h-[41px] xs:w-[35px] xs:h-[29px] flex justify-center items-center gradient-border-mask-no-blur">
                 <img className="w-[22px] h-[22px]  xs:w-[20px] xs:h-[20px]" src={eth} alt="" />
                 </div>
-                <div className="w-[58px] h-[41px] xs:w-[35px] xs:h-[29px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+                <div className="w-[58px] h-[41px] xs:w-[35px] xs:h-[29px] flex justify-center items-center gradient-border-mask-no-blur">
                   <img className="w-[22px] h-[22px]  xs:w-[20px] xs:h-[20px]" src={USDT} alt="" />
                 </div>
-                <div className="w-[58px] h-[41px] xs:w-[35px] xs:h-[29px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+                <div className="w-[58px] h-[41px] xs:w-[35px] xs:h-[29px] flex justify-center items-center gradient-border-mask-no-blur">
                   <div className="w-[22px] h-[22px]  xs:w-[20px] xs:h-[20px] p-[4px] bg-[#212121] rounded-full flex items-center justify-center">
                   <img src={BNB} alt="" />
                   </div>
@@ -111,17 +111,17 @@ const ProductDetailsSection = () => {
                        <h4 className="text-[#fff] text-[16.099px] max-w-[200px] w-[100%] text-center w-[100%]  font-[800] leading-[110%] pb-[13px] " dangerouslySetInnerHTML={{ __html: `${t("ProductDetails.card1")}` }} />
                        <img className="opacity-[0.6] max-h-[35px]" src={icns1} alt="" />
                    </div>
-                   <div className="max-w-[270px] h-[112px] w-[100%] flex flex-col items-center justify-center py-[20px] px-[15px] backdrop-blur-md m-0 bg-[#d1d5db1f] gradient-border-mask-own-hero rounded-[13.827px]">
+                   <div className="max-w-[270px] h-[112px] w-[100%] flex flex-col items-center justify-center py-[20px] px-[15px] backdrop-blur-md m-0 gradient-border-mask-no-blur rounded-[13.827px]">
                        <h4 className="text-[#fff] text-[16.099px] text-center max-w-[220px] w-[100%]  font-[800] leading-[110%]">{t("ProductDetails.card2")}</h4>
                    <img className="opacity-[0.6] max-h-[35px]" src={icns4} alt="" />
                    </div>
              </div>
               <div className="w-[50%] space-y-[10px] ">
-                   <div className="max-w-[270px] h-[112px] w-[100%] flex flex-col items-center justify-center py-[20px] px-[15px] backdrop-blur-md m-0 bg-[#d1d5db1f] gradient-border-mask-own-hero rounded-[13.827px]">
+                   <div className="max-w-[270px] h-[112px] w-[100%] flex flex-col items-center justify-center py-[20px] px-[15px] backdrop-blur-md m-0 gradient-border-mask-no-blur rounded-[13.827px]">
                        <h4 className="text-[#fff] text-[16.099px] text-center max-w-[220px] text-center w-[100%]  font-[800] leading-[110%] pb-[8px]  ">{t("ProductDetails.card3")}</h4>
                    <img className="opacity-[0.6] max-h-[35px]" src={icns6} alt="" />
                    </div>
-                   <div className="max-w-[270px] h-[112px] w-[100%] flex flex-col items-center justify-center py-[20px] px-[15px] backdrop-blur-md m-0 bg-[#d1d5db1f] gradient-border-mask-own-hero rounded-[13.827px]">
+                   <div className="max-w-[270px] h-[112px] w-[100%] flex flex-col items-center justify-center py-[20px] px-[15px] backdrop-blur-md m-0 gradient-border-mask-no-blur rounded-[13.827px]">
                        <h4 className="text-[#fff] text-[16.099px]  w-[100%]  font-[800] leading-[110%] text-center pb-[10px] ">{t("ProductDetails.card5formob")}</h4>
                    <img className="opacity-[0.6] max-h-[24px]" src={icns2} alt="" />
                    </div>

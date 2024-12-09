@@ -446,7 +446,7 @@ const OnlyAvaibel = () => {
             {t("ProductDetails.sharetext")}
           </h4>
           <div className="flex justify-center space-x-[10px] xs:space-x-[5px] !mr-[35px]">
-            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] relative z-[9] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] relative z-[9] flex justify-center items-center gradient-border-mask-no-blur">
               <a
                 href="#"
                 target=""
@@ -460,7 +460,7 @@ const OnlyAvaibel = () => {
                 <FaLink className="h-[22px] xs:h-[15px] w-[22px] xs:w-[20px] text-white cursor-pointer" />
               </a>
             </div>
-            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-no-blur">
               <a
                 href="https://twitter.com/dreamcars_bsc"
                 target="_blank"
@@ -470,7 +470,7 @@ const OnlyAvaibel = () => {
                 <FaTwitter className="h-[22px] xs:h-[15px] w-[22px] xs:w-[20px] text-white cursor-pointer" />
               </a>
             </div>
-            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-no-blur">
               <a
                 href="https://t.me/Dreamcars_bsc"
                 target="_blank"
@@ -481,7 +481,7 @@ const OnlyAvaibel = () => {
               </a>
             </div>
 
-            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-own-hero-icn backdrop-blur-md bg-[#ffffff08]">
+            <div className="w-[58px] h-[41px] xs:w-[24px] xs:h-[24px] flex justify-center items-center gradient-border-mask-no-blur">
               <a
                 href="https://www.instagram.com/dreamcars_bsc/"
                 className="relative z-[20] cursor-pointer"

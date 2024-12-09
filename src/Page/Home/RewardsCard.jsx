@@ -13,7 +13,7 @@ const RewardCard = ({ item, index, amountRange, handleRange, handleImageClick })
     handleImageClick(message);
   };
   return (
-    <div className="py-6 xs:py-3 2xl:px-5 xl:px-5 lg:px-5 md:px-5 sm:px-2 px-2 backdrop-blur-md gradient-border-mask rounded-[34px] bg-[#d1d5db1f]">
+    <div className="py-6 xs:py-3 2xl:px-5 xl:px-5 lg:px-5 md:px-5 sm:px-2 px-2  rounded-[34px] gradient-border-mask-no-blur ">
       <div className=" flex justify-between w-[100%] sm:w-[100%] xs:w-[100%]  ">
         {
           <>
