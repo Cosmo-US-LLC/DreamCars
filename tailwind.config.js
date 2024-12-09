@@ -22,6 +22,14 @@ module.exports = {
       '3xl': { 'min': '1836px' },
       // => @media (min-width: 1536px) { ... }
     },
+    corePlugins: {
+      backdropOpacity: false,
+      backgroundOpacity: false,
+      borderOpacity: false,
+      divideOpacity: false,
+      ringOpacity: false,
+      textOpacity: false
+  },
     extend: {},
   },
   plugins: [],

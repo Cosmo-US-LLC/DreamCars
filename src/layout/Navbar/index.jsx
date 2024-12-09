@@ -127,7 +127,7 @@ const Navbar = ({ handelClick }) => {
   return (
     <div className="relative bg-[#0D0904]">
       <nav className="relative 2xl:w-[100%] xl:w-[100%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] max-w-[1300px] mx-auto py-1 xs:py-1">
-        <header className="flex justify-between items-center">
+        <header className="flex justify-between items-center 2xl:space-x-[50px] xl:space-x-[50px] lg:space-x-[50px] md:space-x-[50px] sm:space-x-[0px] space-x-[0px]">
         <button
               type="button"
               onClick={handleNavbarMenu}
@@ -162,8 +162,8 @@ const Navbar = ({ handelClick }) => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-between xs:justify-start space-x-[38px] xs:space-x-0 ">
-            <div className="flex justify-between  items-center space-x-[3.5rem]  xs:hidden sm:hidden md:hidden ">
+          <div className="flex items-center justify-between xs:justify-start space-x-[28px] xs:space-x-0 ">
+            <div className="flex justify-between  items-center space-x-[2.5rem]  xs:hidden sm:hidden md:hidden ">
               <h4 className="text-white  text-[16px] lg:text-[10px] xl:text-[14px] font-[500] hover:text-[#a0a0a0]">
                 {" "}
                 <a
@@ -207,11 +207,11 @@ const Navbar = ({ handelClick }) => {
                   onClick={handleLangDropdown}
                   id="dropdownDefaultButton"
                   data-dropdown-toggle="dropdown"
-                  class="text-white font-medium rounded-lg text-sm w-[full] h-[41px]  py-2.5 text-center inline-flex items-center px-2"
+                  class="text-white font-medium rounded-lg text-sm w-[full] min-w-[130px] h-[41px]  py-2.5 text-center inline-flex items-center justify-center px-2"
                   style={{}}
                   type="button"
                 >
-                  <img src={selectedLang.img} width={20} className="mr-2" />
+                  <img src={selectedLang.img} width={20} className="mr-2 !w-[20px]" />
                   {selectedLang.title}
 
                   <svg

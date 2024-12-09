@@ -105,8 +105,8 @@
     "OwnCarSection": {
       "mainTitle": "高級車を所有し、",
       "mainTitle2": "レンタル収入を得る",
-      "para1": "Dreamcarsは暗号通貨を使用して高級レンタカーから収入を得るのを簡単にします。$DCARSトークンを使用して、<strong>メルセデス・ベンツ、ポルシェ、ベントレー、ロールスロイス、フェラーリ、ランボルギーニ</strong>などのトップブランドの高級レンタカーの株式を購入できます。",
-      "para2": "各車両は株式に分割され、NFTに変換されます。<strong>車両のシリアル番号、所有権情報</strong>、購入契約などの重要な詳細を安全に保存します。",
+      "para1": "Dreamcarsは暗号通貨を使用して高級レンタカーから収入を得るのを簡単にします。$DCARSトークンを使用して、メルセデス・ベンツ、ポルシェ、ベントレー、ロールスロイス、フェラーリ、ランボルギーニなどのトップブランドの高級レンタカーの株式を購入できます。",
+      "para2": "各車両は株式に分割され、NFTに変換されます。車両のシリアル番号、所有権情報 、購入契約などの重要な詳細を安全に保存します。",
       "para3": "すべての車両は第三者の保険会社によって完全にカバーされ、ドバイ、マイアミ、またはマルベーリャのDreamcarsショールームに保管されています。当社のチームはそれらを毎日、毎週、または毎月貸し出します。賃貸収入は毎月1日にUSDTで車両所有者に支払われます。",
       "para4": "スーパーカーに何十万ドルも費やしたり、その価値が下がることを心配する必要はありません。Dreamcarsでは、車両の株式が安定した月収をもたらす価値のある資産になります。"
     },
@@ -199,41 +199,39 @@
     "btn": "$SCORPを購入",
     "cardLastPara": "($SCORPを購入すると、メンバーシップNFTが自動的に届きます)"
 },
- "SomeQuestionsSec":{
-    "title": "Some Questions You Might Have",
-    "question1":"When will I get my NFT?",
-    "question2":"When will I get my Bonuses?",
-    "question3":"Can I get an NFT with multiple purchases?",
-    "question4":"Can I upgrade my NFT?",
-    "answer1":"You'll get your NFT automatically after buying the required amount of $DCARS. It will show up in your personal dashboard and can be claimed once the pre-sale ends.",
-    "answer2":"Your bonuses will be added to your account right away. Most of them will be available when you claim your NFT after the pre-sale ends. These bonuses are only available during the pre-sale and won't be offered afterward.",
-    "answer3": "Yes, you can buy $DCARS in smaller amounts to reach the total needed. For example, if you buy $200 worth of $DCARS five times, you’ll get the Mercedes NFT (worth $1,000). You can also upgrade your NFT by buying more tokens to reach the next level.",
-    "answer4":"Yes, you can upgrade your NFT as long as the pre-sale is still going on. For example, if you spend $1,000 on $DCARS, you’ll get the Mercedes NFT. To upgrade to the Porsche NFT, you’ll need to buy another $4000 worth of $DCARS. You’ll get the rewards and NFT for the highest level you reach. After the pre-sale ends, you won’t be able to upgrade your NFT"
-  },
-  "LamborghiniSec": {
-    "title": "Lamborghini Huracan  Shares For ",
-    "titlespan": "Only $10",
-    "para": "新品のランボルギーニ・ウラカンを所有し、指一本動かさずにレンタルで何千ものUSDTを稼ぐことを想像してみてください。旅行中でも、ビーチでリラックスしていても、自宅にいても、毎月1日に自動的にレンタル収入を受け取ることができます。Dreamcarsは、世界中の暗号通貨ユーザーに高級レンタル市場を開放することでこれを可能にします。<br /><br /> これまでなら、贅沢なレンタル事業を始めるには莫大な資金を費やしたり、大規模な銀行ローンを組む必要がありました。また、スペースの賃貸、保険の購入、広告の作成も必要です。今では、Dreamcarsがすべてを引き受けます。最初の車を選ぶだけで、毎月のレンタル収入を得ることができます。",
-    
-    "paralats":"*This calculation is based on the assumption that you own all the shares of the car"
-
-  },
-  "SimpleExampleSec":{
-    "title": "Here's A Simple <strong>Example</strong>",
-    "para": "2024年式ランボルギーニ・ウラカン・スパイダーは、280,000ドルで購入され、減価償却を含むすべての費用を差し引いた後、約97,000ドルの純利益を生む可能性があります。*",
-    "calculation": "1-Year Calculation:",
-    "totalcard": "Total Annual Costs**",
-    "amountcard1": "$83,000",
-    "yearlycard": "Yearly Profit",
-    "amountcard2": "$97,000",
-    "apycard3": "Yearly Profit",
-    "amountcard3": "34.6%",
-    "paralast":"*(This calculation is an estimation based on historical data) <br /><br /> **(including depreciation, insurance, maintenance, advertising, parking, and miscellaneous)"
-  },
-  "LuxurySec":{
-    "title": "The Luxury Car Rental  Industry Is <strong>Growing Fast</strong>",
-    "para": "高級車レンタル市場は急速に拡大しており、<strong>休暇、結婚式、または単にスリルを体験するためにスーパーカーを運転したい人々が増えています。現在2,000億ドル以上の価値がある</strong>この市場は、2029年までに3,000億ドルに達すると予測されています。Dreamcarsは、高級車レンタル業界への参入を可能にし、車を管理または維持する手間をかけずに収益を得ることができます。高級車レンタルの需要が増加する中で、<strong>Dreamcarsは、この急成長する市場の一部になるための簡単で収益性の高い方法を提供します。</strong>"
-  },
+"SomeQuestionsSec": {
+  "title": "よくある質問",
+  "question1": "NFTはいつ受け取れますか？",
+  "question2": "ボーナスはいつ受け取れますか？",
+  "question3": "複数回の購入でNFTを取得できますか？",
+  "question4": "NFTをアップグレードできますか？",
+  "answer1": "必要な量の$DCARSを購入すると、NFTが自動的に付与されます。個人用ダッシュボードに表示され、プレセールが終了した後に請求できます。",
+  "answer2": "ボーナスはすぐにアカウントに追加されます。そのほとんどは、プレセール終了後にNFTを請求する際に利用可能となります。これらのボーナスはプレセール期間中のみ提供され、それ以降は利用できません。",
+  "answer3": "はい、必要な総額に達するまで小額ずつ$DCARSを購入できます。例えば、$200分の$DCARSを5回購入すると、メルセデスNFT（$1,000相当）を取得できます。また、より多くのトークンを購入して次のレベルに到達することでNFTをアップグレードすることも可能です。",
+  "answer4": "はい、プレセールが続いている限り、NFTをアップグレードできます。例えば、$1,000分の$DCARSを購入するとメルセデスNFTを取得できます。ポルシェNFTにアップグレードするには、さらに$4,000分の$DCARSを購入する必要があります。到達した最高レベルの報酬とNFTを受け取れます。プレセール終了後はNFTをアップグレードすることはできません。"
+},
+"LamborghiniSec": {
+  "title": "ランボルギーニ・ウラカンのシェア ",
+  "titlespan": "たった$10で",
+  "para": "新品のランボルギーニ・ウラカンを所有し、指一本動かさずにレンタル収入で何千ものUSDTを稼ぐことを想像してみてください。旅行中でも、ビーチでリラックスしていても、自宅にいても、毎月1日に自動的にレンタル収入を受け取ることができます。Dreamcarsは、世界中の暗号通貨ユーザーに高級レンタル市場を開放することでこれを可能にします。<br /><br /> これまでは、贅沢なレンタル事業を始めるには莫大な資金が必要で、大規模な銀行ローンを組む必要がありました。また、スペースの賃貸、保険の購入、広告の作成も必要でした。今では、Dreamcarsがすべてを引き受けます。最初の車を選ぶだけで、毎月のレンタル収入を得ることができます。",
+  "paralats": "*この計算は、車のすべてのシェアを所有していると仮定した場合のものです"
+},
+"SimpleExampleSec": {
+  "title": "シンプルな<strong>例</strong>",
+  "para": "2024年式ランボルギーニ・ウラカン・スパイダーは、280,000ドルで購入され、減価償却を含むすべての費用を差し引いた後、約97,000ドルの純利益を生む可能性があります。*",
+  "calculation": "1年間の計算:",
+  "totalcard": "年間総費用**",
+  "amountcard1": "$83,000",
+  "yearlycard": "年間利益",
+  "amountcard2": "$97,000",
+  "apycard3": "年間利益",
+  "amountcard3": "34.6%",
+  "paralast": "*(この計算は過去のデータに基づく推定値です)<br /><br /> **(減価償却、保険、メンテナンス、広告、駐車、その他を含む)"
+},
+"LuxurySec": {
+  "title": "高級車レンタル業界は <strong>急成長中</strong>",
+  "para": "高級車レンタル市場は急速に拡大しており、<strong>休暇、結婚式、またはスリルを体験するためにスーパーカーを運転したい人々が増えています。現在2,000億ドル以上の価値がある</strong>この市場は、2029年までに3,000億ドルに達すると予測されています。Dreamcarsは、高級車レンタル業界への参入を可能にし、車を管理または維持する手間をかけずに収益を得ることができます。高級車レンタルの需要が増加する中で、<strong>Dreamcarsは、この急成長する市場の一部になるための簡単で収益性の高い方法を提供します。</strong>"
+},
     "TheLuxurySec": {
       "title": "ラグジュアリーカーのレンタル業界は<strong>急速に成長しています</strong>",
       "para": "ラグジュアリーカーのレンタル市場は急速に成長しており、<strong>より多くの人々が特別な機会やプレミアム体験を楽しむために高級車を運転したいと考えています。</strong> Dreamcarsは、ブロックチェーン技術を活用して車のシェアを購入することにより、ユーザーがラグジュアリーなレンタルビジネスに参加できるようにします。この方法で、ユーザーは車を所有したり維持したりすることなく、レンタルから収入を得ることができます。ラグジュアリーカーのレンタル需要が増加する中で、<strong>Dreamcarsはこの成長市場に参加するための簡単で利益のある方法を提供します。</strong>"
