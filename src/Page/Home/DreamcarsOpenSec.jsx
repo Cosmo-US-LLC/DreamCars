@@ -94,7 +94,7 @@ const DreamcarsOpenSec = () => {
           <h4 className="text-[36px] font-[700] text-[#fff] textshad max-w-[200px] w-[100%] leading-[130%]">{item.city}</h4>
         <div className="flex justify-center">
         <div className="px-[13px] backdrop-blur-md rounded-[7px] bg-[#d1d5db1f] py-[14px] mx-auto ">
-            <p className="text-[18px] text-[#fff] font-[500]">{item.status}</p>
+            <p className="text-[18px] text-[#fff] font-[500]">{t(item.status)}</p>
           </div>
         </div>
         </div>
