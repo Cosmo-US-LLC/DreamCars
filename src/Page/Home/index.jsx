@@ -47,6 +47,7 @@ import SpotForCryptoSec from "./SpotForCryptoSec";
 import OnlyAvaibel from "./OnlyAvaibel";
 import SpecialSection from "./SpecialSection";
 import MultipleSec from "./MultipleSec";
+import OfficialSponsor from "./OfficialSponsor";
 
 const Home = () => {
   return (
@@ -57,6 +58,9 @@ const Home = () => {
       <div>
         <MultipleSec />
       </div>
+      <div>
+      <OfficialSponsor />
+      </div> 
       {/* <div>
       <SpecialSection />
       </div> */}
