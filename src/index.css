@@ -82,6 +82,9 @@ backdrop-filter: blur(11.649999618530273px);
   mask-composite: exclude;
   overflow: hidden;
 }
+.bgdccars{
+  background: linear-gradient(0deg, #043798 38.31%, #043798 76.63%);
+}
 .gradient-border-mask-own-hero-title {
   position: relative;
   -webkit-backdrop-filter: blur(10px) !important;
