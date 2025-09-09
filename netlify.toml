@@ -1,3 +1,2 @@
-[build]
-  command = "npm install magic-sdk @walletconnect/ethereum-provider @web3auth/web3auth --legacy-peer-deps && npm run build"
-  publish = "build"
+[build.environment]
+  NPM_FLAGS = "--legacy-peer-deps"
