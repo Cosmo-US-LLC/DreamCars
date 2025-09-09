@@ -7,6 +7,8 @@ import Iicon from "../../assects/images/i.png";
 import Loinp from "../../assects/images/dtoken.png";
 // import eth1 from "../../assects/images/loinppre (1).png";
 import eth from "../../assects/svgs/ethsv.svg";
+import Sol from "../../assects/images/tokens_11.svg";
+import USDC from "../../assects/images/tokens (9).svg";
 import USDT from "../../assects/images/USDT.png";
 import BNB from "../../assects/images/loinppre (2).png";
 import BNB2 from "../../assects/svgs/bbbn.svg";
@@ -27,9 +29,11 @@ import { BsFillSendFill } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 
 const options = [
-  { id: 1, label: "USDT", image: downeth },
-  { id: 2, label: "BNB", image: BNB },
-  { id: 3, label: "ETH", image: eth },
+{ id: 1, label: "ETH", image: eth },
+  { id: 2, label: "USDT", image: downeth },
+  { id: 3, label: "BNB", image: BNB },
+  { id: 4, label: "SOL", image: Sol },
+  { id: 5, label: "USDC", image: USDC },
 ];
 
 const cardData = [
@@ -74,21 +78,38 @@ const OnlyAvaibel = () => {
   const buttons = [
     { id: 1, label: "ETH", imgSrc: eth },
     { id: 2, label: "USDT", imgSrc: USDT },
-    { id: 3, label: "BNB", imgSrc: BNB2 },
+    { id: 3, label: "BNB", imgSrc: BNB },
+    { id: 4, label: "SOL", imgSrc: Sol },
+    { id: 5, label: "USDC", imgSrc: USDC },
+    { id: 6, label: "MORE" },
   ];
 
-  const handleClickButton = (id) => {
-    setActiveButton(id);
-  };
+  // const handleClickButton = (id) => {
+  //   setActiveButton(id);
+  // };
 
   const handleButtonClick = () => {
     setShowDropdown(!showDropdown);
   };
 
-  const handleOptionClick = (option) => {
-    setSelectedOption(option);
-    setShowDropdown(false);
-  };
+  const handleClickButton = (id) => {
+  const matchedOption = options.find((opt) => opt.id === id);
+  if (matchedOption) {
+    setSelectedOption(matchedOption);
+    setActiveButton(id);
+  }
+};
+
+const handleOptionClick = (option) => {
+  setSelectedOption(option);
+  setActiveButton(option.id);
+  setShowDropdown(false);
+};
+
+  // const handleOptionClick = (option) => {
+  //   setSelectedOption(option);
+  //   setShowDropdown(false);
+  // };
 
   const handleClick = () => {
     setIsOPen(!isOPen);
@@ -130,35 +151,35 @@ const OnlyAvaibel = () => {
       });
   }
 
-  const handleWalletClick = () => {
-    if (typeof gtag === "function") {
-      gtag("event", "wallet");
-      console.log("Google Analytics 'wallet' event triggered");
-    } else {
-      console.warn("gtag is not defined. Ensure GA is correctly initialized.");
-    }
+  // const handleWalletClick = () => {
+  //   if (typeof gtag === "function") {
+  //     gtag("event", "wallet");
+  //     console.log("Google Analytics 'wallet' event triggered");
+  //   } else {
+  //     console.warn("gtag is not defined. Ensure GA is correctly initialized.");
+  //   }
 
-    if (typeof fbq === "function") {
-      fbq("track", "Lead");
-      console.log("Facebook Pixel 'Lead' event triggered");
-    } else {
-      console.warn(
-        "fbq is not defined. Ensure FB Pixel is correctly initialized."
-      );
-    }
-  };
+  //   if (typeof fbq === "function") {
+  //     fbq("track", "Lead");
+  //     console.log("Facebook Pixel 'Lead' event triggered");
+  //   } else {
+  //     console.warn(
+  //       "fbq is not defined. Ensure FB Pixel is correctly initialized."
+  //     );
+  //   }
+  // };
 
-  useEffect(() => {
-    gtag("event", "purchase", {
-      value: 0.0,
-      currency: "USD",
-    });
+  // useEffect(() => {
+  //   gtag("event", "purchase", {
+  //     value: 0.0,
+  //     currency: "USD",
+  //   });
 
-    fbq("track", "Purchase", {
-      value: 0.0,
-      currency: "USD",
-    });
-  }, []);
+  //   fbq("track", "Purchase", {
+  //     value: 0.0,
+  //     currency: "USD",
+  //   });
+  // }, []);
 
   return (
     <div
@@ -228,9 +249,9 @@ const OnlyAvaibel = () => {
                         {t("ProductDetails.card-participants")}
                       </h5>
                       <div></div>
-                      <h5 className="font-[Lato] text-center text-[15px] xs:text-[14px]  font-[500] space-x-1 text-[#929292]">
+                      {/* <h5 className="font-[Lato] text-center text-[15px] xs:text-[14px]  font-[500] space-x-1 text-[#929292]">
                         {t("ProductDetails.card-listingPrice")}
-                      </h5>
+                      </h5> */}
                     </div>
                   </div>
                   <div className="bg-[#3F3F3F] rounded-b-[10px] px-[50px] pt-4 pb-[30px] xs:pb-5 sm:pb-5 md:pb-8  xs:px-[15px] sm:px-14 md:px-10 ">
@@ -238,29 +259,29 @@ const OnlyAvaibel = () => {
                     <div className="py-1 space-y-3 xs:space-y-3">
                       <div className="flex backdrop-blur-md bg-[#ffffff40] border-r border-t rounded-[60px]  w-[100%] mx-auto py-[5px]  items-center justify-center">
                         <p className="text-[16px] text-[#fff] text-center font-[700]">
-                          Current Price = $0.0105{" "}
-                          <span className="text-[#19D548] font-[700]">
-                            (+500%)
-                          </span>
+                          Presale Price = $0.0105 | Launch Price = $0.03
                         </p>
                       </div>
-                      <div className="2xl:flex justify-between xl:flex lg:flex md:flex flex sm:flex 2xl:space-x-[11px] xl:space-x-[11px] lg:space-x-[11px] md:space-x-[11px] sm:space-x-0 space-x-1">
+                      <div className="grid grid-cols-3 gap-3">
                         {buttons.map((button) => (
                           <button
                             key={button.id}
                             onClick={() => handleClickButton(button.id)}
-                            className={`flex items-center xs:h-[40px] sm:h-[40px] h-[48px] 2xl:w-[100%] xl:w-[1000%] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] justify-center max-w-[212px] xs:text-[14px] rounded-[14px] xs:py-1 py-[8px] backdrop-blur transition-all duration-300 ${
+                            className={`flex items-center xs:h-[40px] sm:h-[40px] h-[48px] w-[100%] justify-center  xs:text-[14px] rounded-[14px] xs:py-1 py-[8px] backdrop-blur transition-all duration-300 ${
                               activeButton === button.id
                                 ? "bg-white text-black shadow-inner"
                                 : "bg-[#ffffff17] text-white"
                             }`}
                           >
                             <div className="flex flex-col items-center justify-center">
-                              <img
+                              {
+                                 button.imgSrc &&
+                                 <img
                                 src={button.imgSrc}
                                 className="h-[17px]"
                                 alt={button.label}
                               />
+                              }
                               <p className="text-[14px] xs:text-[10px] font-[Lato] font-[400] mt-[2px] w-[30px]">
                                 {button.label}
                               </p>
@@ -359,7 +380,6 @@ const OnlyAvaibel = () => {
                       </div>
                       <div className="w-[100%] relative z-[1] pt-[15px] xs:pt-[20px]">
                         <Button
-                          onClick={handleWalletClick}
                           id="wallet"
                           classes="bgcolor ftbutton2 font-[700] font-[Lato] w-[100%] h-[44px] rounded-[13px] text-[18px]"
                           text={`${t("ProductDetails.card-body-walletBtn")}`}
